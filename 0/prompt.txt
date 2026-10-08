@@ -1,7 +1,3 @@
-Run entire status --detailed and entire session list. Check whether this current Codex session is being recorded. Do not change files or start implementation yet.
-
----
-
 Create docs/setup-check.md with the actual Codex and Entire versions, current session ID, and observed capture status.
 
 Commit only that file with the message "Verify Project B session capture".
