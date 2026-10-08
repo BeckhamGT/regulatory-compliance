@@ -1,0 +1,11 @@
+Run entire status --detailed and entire session list. Check whether this current Codex session is being recorded. Do not change files or start implementation yet.
+
+---
+
+Create docs/setup-check.md with the actual Codex and Entire versions, current session ID, and observed capture status.
+
+Commit only that file with the message "Verify Project B session capture".
+
+Inspect the resulting Entire checkpoint. Verify that it contains this session's transcript and nonzero token usage. Use entire agent-help if needed to find the correct inspection commands.
+
+Report the commit SHA, checkpoint ID, and verification results. Do not start implementation or push yet.
