@@ -1,13 +1,3 @@
-Create docs/setup-check.md with the actual Codex and Entire versions, current session ID, and observed capture status.
-
-Commit only that file with the message "Verify Project B session capture".
-
-Inspect the resulting Entire checkpoint. Verify that it contains this session's transcript and nonzero token usage. Use entire agent-help if needed to find the correct inspection commands.
-
-Report the commit SHA, checkpoint ID, and verification results. Do not start implementation or push yet.
-
----
-
 # Files mentioned by the user:
 
 ## project-b-regulatory-compliance-20261008-1603.md: /Users/user/Downloads/project-b-regulatory-compliance-20261008-1603.md
