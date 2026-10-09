@@ -1,5 +1,5 @@
 Timeline for the Implementation of the EU AI Act | AI Act Service Desk (https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
-citeturn47view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline","lineno":null}); Total lines: 72
+citeturn49view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline","lineno":null}); Total lines: 72
 L0: Search[Input]
 L1: 
 L2: Search[Input][Input]

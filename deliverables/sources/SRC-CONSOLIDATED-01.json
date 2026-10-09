@@ -1,0 +1,9 @@
+{
+  "capture_kind": "RECOVERY-RUN-LEGAL",
+  "label": "CONSOLIDATED",
+  "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "request_started_at": "2026-10-09T02:39:26.486Z",
+  "retrieved_at": "2026-10-09T02:39:26.685Z",
+  "observed_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "text": "Browser tab: 6, Title: \"eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727\", URL: \"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727\".\n1 AXWebArea eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727\n\nThe focused UI element is 1 AXWebArea eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727"
+}

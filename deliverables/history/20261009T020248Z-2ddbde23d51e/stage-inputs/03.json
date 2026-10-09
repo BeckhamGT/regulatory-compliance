@@ -1,0 +1,183 @@
+{
+  "run_id": "20261009T020248Z-2ddbde23d51e",
+  "manifest_sha256": "sha256:3c7ec05e797b75da61cf99f58a6b56204a3c8146fe2fdcfcac6af35c7eb1cc97",
+  "status": "blocked",
+  "scope": {
+    "systems_in_scope": [],
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "approval_gates": [
+      "Legal interpretation and exceptions",
+      "Operations activation, dates and closure"
+    ],
+    "review_type": "Article 50 retrospective draft review"
+  },
+  "binding_rules": [],
+  "timing_rules": [],
+  "guidance_context": [
+    {
+      "id": "GUIDE-LAW",
+      "summary": "Fresh Service Desk page says its displayed text uses the July 27 consolidation and marks amendments. Its summaries are expressly nonbinding. The original act, amendment operations and dated consolidation cannot be compared in this run.",
+      "evidence_ids": [
+        "SRC-LAW-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-LAW-01",
+          "locator": "About this text",
+          "quote": "The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' ."
+        },
+        {
+          "source_id": "SRC-LAW-01",
+          "locator": "Summary disclaimer",
+          "quote": "The summaries are meant to provide helpful explanation but are not legal binding."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-CONFLICT",
+      "summary": "The current FAQ overview names paragraph 50(2) for direct interaction, while its later interaction answer names 50(1). Preserve both advisory references; no binding paragraph choice is confirmed in this run.",
+      "evidence_ids": [
+        "SRC-FAQ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "Provider overview",
+          "quote": "According to Article 50(2) of the AI Act, providers must design"
+        },
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "Interaction answer",
+          "quote": "According to cite1†Article 50(1) of the AI Act†ai-act-service-desk.ec.europa.eu , Providers of AI systems that directly interact with people must design and develop those systems in such a way that the individuals concerned are informed that they are interacting with an AI system, unless this is obvious."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-TIME",
+      "summary": "The undated current timeline describes an August 2 transparency milestone and a limited December 2 provider marking transition. These are advisory site claims, not verified operative timing or an internal-policy postponement.",
+      "evidence_ids": [
+        "SRC-TIME-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-TIME-01",
+          "locator": "August 2 milestone",
+          "quote": "     * Transparency rules (Article 50) start to apply."
+        },
+        {
+          "source_id": "SRC-TIME-01",
+          "locator": "December 2 milestone",
+          "quote": "     * Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2)."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-DATE",
+      "summary": "FAQ displays July 24, 2026 as its update date. A current retrieval and displayed date cannot establish its exact August 26 historical page state.",
+      "evidence_ids": [
+        "SRC-FAQ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "Last update",
+          "quote": "24 July 2026"
+        }
+      ]
+    }
+  ],
+  "authority_blockers": [
+    {
+      "id": "BLOCK-OJ",
+      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Retrieve the original act freshly through the disclosed route and verify identity and suitability before legal interpretation."
+    },
+    {
+      "id": "BLOCK-AMEND",
+      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "evidence_ids": [
+        "SRC-AMEND-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Restore fresh access to the exact amendment and inspect its operations, entry into force and review-date effect."
+    },
+    {
+      "id": "BLOCK-CONSOLIDATED",
+      "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
+      "evidence_ids": [
+        "SRC-CONSOLIDATED-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Retrieve the dated documentary text and compare it against the original act and amendment; retain its authority limits."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-AUTHORITY",
+      "summary": "Required legal identity and historical basis cannot be verified from the returned live content.",
+      "evidence_ids": [
+        "BLOCK-OJ",
+        "BLOCK-AMEND",
+        "BLOCK-CONSOLIDATED",
+        "GUIDE-LAW",
+        "GUIDE-FAQ-CONFLICT"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Required legal identity and historical basis cannot be verified from the returned live content.",
+      "options": [
+        "Use guidance or previous captures as binding evidence",
+        "Withhold dependent conclusions and retain a blocked current draft"
+      ],
+      "chosen_behavior": "Blocked current draft with unresolved statutory rows; retain advisory comparisons without reconstructing binding rules.",
+      "rationale": "All three EUR-Lex attempts lack the requested documents; the fresh guidance conflict reinforces the need to inspect the acts.",
+      "tradeoffs": [
+        "The current draft cannot supply statutory applicability or timing decisions; a fresh successful source run is required."
+      ],
+      "downstream_effect": "No statute-dependent supported determination or deadline; internal policy and fact collection may still support pending proposals."
+    },
+    {
+      "id": "DEC-RUNTIME",
+      "summary": "Native credentials are held by the connected agent, not the shell helper.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Native credentials are held by the connected agent, not the shell helper.",
+      "options": [
+        "Connected agent native reads plus deterministic Python",
+        "Separately provision shell API credentials"
+      ],
+      "chosen_behavior": "Connected agent retrieves; isolated Python validates and renders.",
+      "rationale": "Actual native Sheets and Notion UI responses are captured with their identity, times and access limitations.",
+      "tradeoffs": [
+        "Requires an Agent Skills host with native live connectors; shell helpers alone cannot perform a fresh review."
+      ],
+      "downstream_effect": "The working agent invocation includes live retrieval; the deterministic helper alone is not an end-to-end live collector."
+    }
+  ],
+  "limitations": [
+    "Required original legislation and amendment were not retrieved in this run. The consolidation also failed. Statutory applicability, actor duties, exceptions and operative timing are withheld; no prior-run content or advisory summary replaces them.",
+    "Every route was attempted freshly after this run began. Source records separate actual retrieval times from the fixed August 26, 2026 review date and Dublin as-of time.",
+    "Notion connector URL and UUID reads failed 404. A separate fresh native read of the original published Notion page supplied policy and context; integration access remains unresolved.",
+    "August AI-POL-2026-08-15 is distinct from September 12-authored RC-CONTEXT-2026-09-12-R1 describing August 26 observations. Retrospective owner context is not contemporaneous deployment proof.",
+    "Native Sheets were modified August 28 and returned empty revision lists. Dated rows support bounded retrospective proposals, not verified exact August 26 workbook versions.",
+    "Referenced screenshots, publication metadata, release notices and exception records were not independently retrieved. Register labels and owner reports cannot establish compliance or approval.",
+    "Current advisory page versions are not independently established as exact August 26 versions. The FAQ retains conflicting paragraph references.",
+    "Legal owns interpretation and exceptions; Operations owns activation, approved dates and closure. All requests remain pending and unsent. No verified feedback channel or facilitator pre-work approval was supplied.",
+    "Recorded September and October 2 proposed dates were future to the assigned review date but elapsed at actual October 8 local retrieval. Preserve the retrospective proposals without invented rescheduling.",
+    "Earlier real runs, including failed artifacts and a validated partial review, are retained under history. Their captures are not source evidence for this run."
+  ]
+}

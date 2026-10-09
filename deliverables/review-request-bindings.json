@@ -1,13 +1,13 @@
 {
-  "run_id": "20261009T020248Z-2ddbde23d51e",
-  "manifest_sha256": "sha256:3c7ec05e797b75da61cf99f58a6b56204a3c8146fe2fdcfcac6af35c7eb1cc97",
-  "created_at": "2026-10-09T02:06:37.410823Z",
+  "run_id": "20261009T023909Z-2f738d94e1e1",
+  "manifest_sha256": "sha256:606af63f9967b59d3bbefd16574de0dbb2212a68d79f89692a9f61df1fb89655",
+  "created_at": "2026-10-09T02:45:33.324448Z",
   "status": "draft-unsent",
   "requests": [
     {
       "request_id": "REQ-AI-001-LEGAL",
       "record_id": "REQ-AI-001-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-001",
         "subject_impact": "IMP-AI-001-AUTHORITY",
@@ -15,13 +15,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-001-AUTHORITY",
@@ -40,18 +40,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-002-LEGAL",
       "record_id": "REQ-AI-002-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-002",
         "subject_impact": "IMP-AI-002-AUTHORITY",
@@ -59,13 +59,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-002-AUTHORITY",
@@ -84,18 +84,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-003-LEGAL",
       "record_id": "REQ-AI-003-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-003",
         "subject_impact": "IMP-AI-003-AUTHORITY",
@@ -103,13 +103,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-003-AUTHORITY",
@@ -128,18 +128,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-004-LEGAL",
       "record_id": "REQ-AI-004-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-004",
         "subject_impact": "IMP-AI-004-AUTHORITY",
@@ -147,13 +147,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-004-AUTHORITY",
@@ -172,18 +172,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-005-LEGAL",
       "record_id": "REQ-AI-005-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-005",
         "subject_impact": "IMP-AI-005-AUTHORITY",
@@ -191,13 +191,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-005-AUTHORITY",
@@ -216,18 +216,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-006-LEGAL",
       "record_id": "REQ-AI-006-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-006",
         "subject_impact": "IMP-AI-006-AUTHORITY",
@@ -235,13 +235,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-006-AUTHORITY",
@@ -259,18 +259,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-007-LEGAL",
       "record_id": "REQ-AI-007-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-007",
         "subject_impact": "IMP-AI-007-AUTHORITY",
@@ -278,13 +278,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-007-AUTHORITY",
@@ -303,18 +303,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AI-008-LEGAL",
       "record_id": "REQ-AI-008-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-008",
         "subject_impact": "IMP-AI-008-AUTHORITY",
@@ -322,13 +322,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "IMP-AI-008-AUTHORITY",
@@ -348,18 +348,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-001-OPS",
       "record_id": "REQ-ACT-001-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-004",
         "subject_impact": null,
@@ -367,13 +367,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-001",
@@ -389,18 +389,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-002-OPS",
       "record_id": "REQ-ACT-002-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-007",
         "subject_impact": null,
@@ -408,13 +408,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-002",
@@ -430,18 +430,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-003-OPS",
       "record_id": "REQ-ACT-003-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-002",
         "subject_impact": null,
@@ -449,13 +449,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-003",
@@ -471,18 +471,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-003-LEGAL",
       "record_id": "REQ-ACT-003-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-002",
         "subject_impact": null,
@@ -490,13 +490,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-003",
@@ -513,18 +513,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-004-OPS",
       "record_id": "REQ-ACT-004-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-003",
         "subject_impact": null,
@@ -532,13 +532,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-004",
@@ -554,18 +554,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-005-OPS",
       "record_id": "REQ-ACT-005-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-005",
         "subject_impact": null,
@@ -573,13 +573,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-005",
@@ -595,18 +595,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-005-LEGAL",
       "record_id": "REQ-ACT-005-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-005",
         "subject_impact": null,
@@ -614,13 +614,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-005",
@@ -637,18 +637,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-006-OPS",
       "record_id": "REQ-ACT-006-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-008",
         "subject_impact": null,
@@ -656,13 +656,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-006",
@@ -678,18 +678,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-007-OPS",
       "record_id": "REQ-ACT-007-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-008",
         "subject_impact": null,
@@ -697,13 +697,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-007",
@@ -719,18 +719,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-007-LEGAL",
       "record_id": "REQ-ACT-007-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "AI-008",
         "subject_impact": null,
@@ -738,13 +738,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-007",
@@ -761,18 +761,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-ACT-008-OPS",
       "record_id": "REQ-ACT-008-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "ALL",
         "subject_impact": null,
@@ -780,13 +780,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "ACT-008",
@@ -802,18 +802,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-PROP-RESTORE-AUTHORITY-OPS",
       "record_id": "REQ-PROP-RESTORE-AUTHORITY-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "ALL",
         "subject_impact": null,
@@ -821,13 +821,13 @@
       },
       "required_reviewer": "Operations",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "PROP-RESTORE-AUTHORITY",
@@ -843,18 +843,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
       "record_id": "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "ALL",
         "subject_impact": null,
@@ -862,13 +862,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "PROP-RESTORE-AUTHORITY",
@@ -885,18 +885,18 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     },
     {
       "request_id": "REQ-AUTHORITY-LEGAL",
       "record_id": "REQ-AUTHORITY-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "subject": {
         "subject_system": "ALL",
         "subject_impact": null,
@@ -904,13 +904,13 @@
       },
       "required_reviewer": "Legal",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "evidence_ids": [
         "BLOCK-OJ",
@@ -931,11 +931,11 @@
         },
         {
           "path": "deliverables/compliance-brief.md",
-          "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+          "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67"
         },
         {
           "path": "deliverables/action-calendar.ics",
-          "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+          "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b"
         }
       ]
     }

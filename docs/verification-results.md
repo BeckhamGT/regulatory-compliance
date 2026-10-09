@@ -1,5 +1,7 @@
 # Project B verification results
 
+The latest fresh source-access recovery is recorded in [source-access-recovery.md](source-access-recovery.md). The implementation report below preserves observations from the earlier run, now archived unchanged.
+
 Observed October 9, 2026 UTC (October 8 in America/New_York).
 
 ## Actual final live run

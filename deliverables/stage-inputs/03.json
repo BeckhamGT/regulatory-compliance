@@ -1,6 +1,6 @@
 {
-  "run_id": "20261009T020248Z-2ddbde23d51e",
-  "manifest_sha256": "sha256:3c7ec05e797b75da61cf99f58a6b56204a3c8146fe2fdcfcac6af35c7eb1cc97",
+  "run_id": "20261009T023909Z-2f738d94e1e1",
+  "manifest_sha256": "sha256:606af63f9967b59d3bbefd16574de0dbb2212a68d79f89692a9f61df1fb89655",
   "status": "blocked",
   "scope": {
     "systems_in_scope": [],
@@ -19,20 +19,15 @@
   "guidance_context": [
     {
       "id": "GUIDE-LAW",
-      "summary": "Fresh Service Desk page says its displayed text uses the July 27 consolidation and marks amendments. Its summaries are expressly nonbinding. The original act, amendment operations and dated consolidation cannot be compared in this run.",
+      "summary": "Fresh Service Desk page says its displayed text uses the July 27 consolidation and marks amendments. It reproduces Article 50 paragraph text, including AMENDED paragraph 7; the summary panel was collapsed and was not used. This route is retained as advisory/context rather than a substitute for the original acts. The original act, amendment operations and dated consolidation cannot be compared in this run.",
       "evidence_ids": [
-        "SRC-LAW-01"
+        "SRC-LAW-02"
       ],
       "citations": [
         {
-          "source_id": "SRC-LAW-01",
+          "source_id": "SRC-LAW-02",
           "locator": "About this text",
-          "quote": "The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' ."
-        },
-        {
-          "source_id": "SRC-LAW-01",
-          "locator": "Summary disclaimer",
-          "quote": "The summaries are meant to provide helpful explanation but are not legal binding."
+          "quote": "The text displayed here is based on the EUR-Lex consolidated version of the AI Act as at 27 July 2026. Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the original AI Act made by the Digital Omnibus on AI. For more information, refer to the FAQ section under 'Digital Omnibus'."
         }
       ]
     },
@@ -92,9 +87,10 @@
   "authority_blockers": [
     {
       "id": "BLOCK-OJ",
-      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
       "evidence_ids": [
-        "SRC-OJ-01"
+        "SRC-OJ-01",
+        "SRC-OJ-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -102,9 +98,10 @@
     },
     {
       "id": "BLOCK-AMEND",
-      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
       "evidence_ids": [
-        "SRC-AMEND-01"
+        "SRC-AMEND-01",
+        "SRC-AMEND-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -114,7 +111,8 @@
       "id": "BLOCK-CONSOLIDATED",
       "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
       "evidence_ids": [
-        "SRC-CONSOLIDATED-01"
+        "SRC-CONSOLIDATED-01",
+        "SRC-CONSOLIDATED-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -176,8 +174,10 @@
     "Native Sheets were modified August 28 and returned empty revision lists. Dated rows support bounded retrospective proposals, not verified exact August 26 workbook versions.",
     "Referenced screenshots, publication metadata, release notices and exception records were not independently retrieved. Register labels and owner reports cannot establish compliance or approval.",
     "Current advisory page versions are not independently established as exact August 26 versions. The FAQ retains conflicting paragraph references.",
-    "Legal owns interpretation and exceptions; Operations owns activation, approved dates and closure. All requests remain pending and unsent. No verified feedback channel or facilitator pre-work approval was supplied.",
+    "Legal owns interpretation and exceptions; Operations owns activation, approved dates and closure. All requests remain pending and unsent. No verified feedback channel or facilitator pre-work verification was supplied.",
     "Recorded September and October 2 proposed dates were future to the assigned review date but elapsed at actual October 8 local retrieval. Preserve the retrospective proposals without invented rescheduling.",
+    "This run also retains the LAW reader HTTP 429 failure and its fresh complete browser recovery. Three incomplete navigation observations were retained as diagnostic-only failures before the loaded wrong-document checks. No human-verification prompt appeared.",
+    "Pinned Cisco AI Skill Scanner 2.0.13 and pipx remain absent; installation method requires user choice under installed scanner guidance. Automated security scanning remains unperformed.",
     "Earlier real runs, including failed artifacts and a validated partial review, are retained under history. Their captures are not source evidence for this run."
   ]
 }

@@ -1,15 +1,15 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "20261009T020248Z-2ddbde23d51e:stage-07",
-  "run_id": "20261009T020248Z-2ddbde23d51e",
+  "snapshot_id": "20261009T023909Z-2f738d94e1e1:stage-07",
+  "run_id": "20261009T023909Z-2f738d94e1e1",
   "stage": "publication-validation",
   "sequence": 7,
-  "created_at": "2026-10-09T02:06:37.411679Z",
+  "created_at": "2026-10-09T02:45:33.325428Z",
   "status": "blocked",
   "predecessor": {
-    "snapshot_id": "20261009T020248Z-2ddbde23d51e:stage-06",
+    "snapshot_id": "20261009T023909Z-2f738d94e1e1:stage-06",
     "path": "deliverables/snapshots/06-actions-and-approvals.json",
-    "sha256": "sha256:fbdcde826a34571ec2ae1be15da0e1fcdec1e0b390ba7abee878a0c64efe742c"
+    "sha256": "sha256:a9d10c539c700337c472b6668c2ded95e83116f0b62423892cf7481627589607"
   },
   "consumed_record_ids": [
     "ACT-001",
@@ -111,12 +111,16 @@
     "REQ-PROP-RESTORE-AUTHORITY-OPS",
     "SCOPE",
     "SRC-AMEND-01",
+    "SRC-AMEND-02",
     "SRC-CALENDAR-01",
     "SRC-CONSOLIDATED-01",
+    "SRC-CONSOLIDATED-02",
     "SRC-EVIDENCE-01",
     "SRC-FAQ-01",
     "SRC-LAW-01",
+    "SRC-LAW-02",
     "SRC-OJ-01",
+    "SRC-OJ-02",
     "SRC-POLICY-01",
     "SRC-POLICY-02",
     "SRC-POLICY-03",
@@ -260,12 +264,16 @@
           "REQ-PROP-RESTORE-AUTHORITY-OPS",
           "SCOPE",
           "SRC-AMEND-01",
+          "SRC-AMEND-02",
           "SRC-CALENDAR-01",
           "SRC-CONSOLIDATED-01",
+          "SRC-CONSOLIDATED-02",
           "SRC-EVIDENCE-01",
           "SRC-FAQ-01",
           "SRC-LAW-01",
+          "SRC-LAW-02",
           "SRC-OJ-01",
+          "SRC-OJ-02",
           "SRC-POLICY-01",
           "SRC-POLICY-02",
           "SRC-POLICY-03",
@@ -273,7 +281,7 @@
           "SRC-TIME-01"
         ],
         "path": "deliverables/compliance-brief.md",
-        "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125",
+        "sha256": "sha256:8109e7669fceda23d6e399b9eb14c69e04530f2f8b2b86a3fff4b75408425a67",
         "validation_status": "valid"
       },
       {
@@ -291,7 +299,7 @@
           "PROP-RESTORE-AUTHORITY"
         ],
         "path": "deliverables/action-calendar.ics",
-        "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb",
+        "sha256": "sha256:a081ecaa572b45c2f151cab5d2fdfeda31a36f2dc5488c477130c24fad5dc89b",
         "validation_status": "valid"
       },
       {
@@ -325,7 +333,7 @@
           "ART-action-calendar"
         ],
         "path": "deliverables/review-request-bindings.json",
-        "sha256": "sha256:a61a566d739fa8dcf024c12104287b571e3dccbb03ba82e57b32d7f2e36daf28",
+        "sha256": "sha256:c4157bd3289369efb7fa554a26d5f936176f61940d951720c69e8be99ddec143",
         "validation_status": "valid"
       }
     ],
@@ -433,12 +441,16 @@
           "REQ-PROP-RESTORE-AUTHORITY-OPS",
           "SCOPE",
           "SRC-AMEND-01",
+          "SRC-AMEND-02",
           "SRC-CALENDAR-01",
           "SRC-CONSOLIDATED-01",
+          "SRC-CONSOLIDATED-02",
           "SRC-EVIDENCE-01",
           "SRC-FAQ-01",
           "SRC-LAW-01",
+          "SRC-LAW-02",
           "SRC-OJ-01",
+          "SRC-OJ-02",
           "SRC-POLICY-01",
           "SRC-POLICY-02",
           "SRC-POLICY-03",
@@ -450,7 +462,7 @@
           "ART-review-request-bindings"
         ],
         "result": "pass",
-        "checked_at": "2026-10-09T02:06:37.436961Z"
+        "checked_at": "2026-10-09T02:45:33.353962Z"
       }
     ],
     "publication_status": "blocked",

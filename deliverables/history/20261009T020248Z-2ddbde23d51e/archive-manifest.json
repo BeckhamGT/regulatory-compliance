@@ -1,0 +1,192 @@
+{
+  "generated_by": "regulatory-change-impact-brief/1",
+  "run_id": "20261009T020248Z-2ddbde23d51e",
+  "archived_at": "2026-10-09T02:39:09.425822Z",
+  "archive_reason": "Recover latest blocked source access with original EUR-Lex JavaScript browser attempts; freshly retrieve all ten routes and preserve service outage failures.",
+  "original_logical_root": "deliverables/",
+  "physical_root": "deliverables/history/20261009T020248Z-2ddbde23d51e",
+  "original_bytes_preserved": true,
+  "pre_archive_validation": {
+    "valid": true,
+    "checked_at": "2026-10-09T02:39:09.419212Z",
+    "errors": [],
+    "checks": [
+      "stage-01: schema and chain checked",
+      "stage-02: schema and chain checked",
+      "stage-03: schema and chain checked",
+      "stage-04: schema and chain checked",
+      "stage-05: schema and chain checked",
+      "stage-06: schema and chain checked",
+      "stage-07: schema and chain checked",
+      "ten fresh source routes and capture hashes checked",
+      "exact captured citations checked",
+      "CSV/brief/calendar agree with bound analysis",
+      "RFC5545 pending events checked",
+      "detached review-request hashes checked"
+    ],
+    "approval_status": "pending"
+  },
+  "inventory": [
+    {
+      "logical_path": "deliverables/action-calendar.ics",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/action-calendar.ics",
+      "sha256": "sha256:8f0dd5aca4bb87543cbb4cbe1763dc5659c9861544d00a07a0ee0b16b59232fb"
+    },
+    {
+      "logical_path": "deliverables/analysis.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/analysis.json",
+      "sha256": "sha256:5f11d2b8afbd56f7f9f8b7227aff9cabc06c0557cb14ca1a986880a67b8b6515"
+    },
+    {
+      "logical_path": "deliverables/compliance-brief.md",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/compliance-brief.md",
+      "sha256": "sha256:f627a8658e0002ae1a6f70f1b043b3a0ce81d9e87f1de654361c249105b17125"
+    },
+    {
+      "logical_path": "deliverables/impact-register.csv",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/impact-register.csv",
+      "sha256": "sha256:102a0994e6bf3e4bcc6413bd9a954f6800fe98964ce89d08a1b3e77410f5129a"
+    },
+    {
+      "logical_path": "deliverables/publication-attempt.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/publication-attempt.json",
+      "sha256": "sha256:00a091f75e2dd71b8362ac0c925b49dca7d4ddcc5c4133bca85e1032d057dfa7"
+    },
+    {
+      "logical_path": "deliverables/review-request-bindings.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/review-request-bindings.json",
+      "sha256": "sha256:a61a566d739fa8dcf024c12104287b571e3dccbb03ba82e57b32d7f2e36daf28"
+    },
+    {
+      "logical_path": "deliverables/run.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/run.json",
+      "sha256": "sha256:9147a15dcaea5d44bf95aab1127c84f5302c298574c053e14edd88d912d8fafc"
+    },
+    {
+      "logical_path": "deliverables/snapshots/01-scope.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/01-scope.json",
+      "sha256": "sha256:b905cdaf05d9901b5d837da5c4223523bab43fd6973eba9e7d57b3dbfef02d6c"
+    },
+    {
+      "logical_path": "deliverables/snapshots/02-source-capture.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/02-source-capture.json",
+      "sha256": "sha256:d18e0203bc363cd38bea1a9bc7962c2af5a90e3eb662ac2b2c8d1114b409342c"
+    },
+    {
+      "logical_path": "deliverables/snapshots/03-authority-and-timing.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/03-authority-and-timing.json",
+      "sha256": "sha256:479154ce407ab350401fb16d5521aaf0156bc35e011681ee744435d070137dee"
+    },
+    {
+      "logical_path": "deliverables/snapshots/04-evidence-reconciliation.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/04-evidence-reconciliation.json",
+      "sha256": "sha256:abe509f6a140b7538d7bf48492a126c23122c9b610857009c80914ec55b43d87"
+    },
+    {
+      "logical_path": "deliverables/snapshots/05-impact-analysis.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/05-impact-analysis.json",
+      "sha256": "sha256:631fc4801cc3b66c7048b658eabb2637064c36373baa72e6599f627c321a7bc6"
+    },
+    {
+      "logical_path": "deliverables/snapshots/06-actions-and-approvals.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/06-actions-and-approvals.json",
+      "sha256": "sha256:fbdcde826a34571ec2ae1be15da0e1fcdec1e0b390ba7abee878a0c64efe742c"
+    },
+    {
+      "logical_path": "deliverables/snapshots/07-publication-validation.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/snapshots/07-publication-validation.json",
+      "sha256": "sha256:8b06027412f4d21a315e0b7f687b618825c20138da4eb9129748854343d8ca11"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-AMEND-01.diagnostic.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-AMEND-01.diagnostic.txt",
+      "sha256": "sha256:ac6bea7834e598352b9c3d84b0614166f961ad67897de781894fae3c9ef061aa"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-CALENDAR-01.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-CALENDAR-01.json",
+      "sha256": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-CONSOLIDATED-01.diagnostic.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-CONSOLIDATED-01.diagnostic.txt",
+      "sha256": "sha256:ad519f0d0b3f54060d1ae7723bdfa9b3f024c6f31b36f2f28768d2aa87e86949"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-EVIDENCE-01.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-EVIDENCE-01.json",
+      "sha256": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-FAQ-01.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-FAQ-01.txt",
+      "sha256": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-LAW-01.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-LAW-01.txt",
+      "sha256": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-OJ-01.diagnostic.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-OJ-01.diagnostic.txt",
+      "sha256": "sha256:ba3d7a5b5f816f145d8a6c1cc0183f487c368c62fc815336d69195bebc23b910"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-POLICY-01.diagnostic.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-POLICY-01.diagnostic.txt",
+      "sha256": "sha256:4e41f9e388c56d47e8e70a59831c1d0499608dbcc4c72e4d93dca39de521f74e"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-POLICY-02.diagnostic.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-POLICY-02.diagnostic.txt",
+      "sha256": "sha256:54ea2de6db281a1e6baefe2e503f7c29b7ee03f2d324963d2738f1b6adae2d3c"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-POLICY-03.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-POLICY-03.txt",
+      "sha256": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-SYSTEMS-01.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-SYSTEMS-01.json",
+      "sha256": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97"
+    },
+    {
+      "logical_path": "deliverables/sources/SRC-TIME-01.txt",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/SRC-TIME-01.txt",
+      "sha256": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1"
+    },
+    {
+      "logical_path": "deliverables/sources/manifest.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/sources/manifest.json",
+      "sha256": "sha256:3c7ec05e797b75da61cf99f58a6b56204a3c8146fe2fdcfcac6af35c7eb1cc97"
+    },
+    {
+      "logical_path": "deliverables/stage-inputs/03.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/stage-inputs/03.json",
+      "sha256": "sha256:881f9682cb566687dc362d384cda185810eb28b392a8c1f0e5483a17a5fbf6cd"
+    },
+    {
+      "logical_path": "deliverables/stage-inputs/04.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/stage-inputs/04.json",
+      "sha256": "sha256:6c7918e3ae924b8234d285e61284ac1d7cbaeb865ba08b25b1730e797614a768"
+    },
+    {
+      "logical_path": "deliverables/stage-inputs/05.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/stage-inputs/05.json",
+      "sha256": "sha256:838063d54ea5063d10a8fecf5539cf84e057c1f6ffc599bc2fd3ec12c2d851ef"
+    },
+    {
+      "logical_path": "deliverables/stage-inputs/06.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/stage-inputs/06.json",
+      "sha256": "sha256:5f11d2b8afbd56f7f9f8b7227aff9cabc06c0557cb14ca1a986880a67b8b6515"
+    },
+    {
+      "logical_path": "deliverables/validation-report.json",
+      "archived_path": "deliverables/history/20261009T020248Z-2ddbde23d51e/validation-report.json",
+      "sha256": "sha256:bd0b50b3ee15c77450413462cad49cc6bfc7db0016553012765e23bd15730349"
+    }
+  ],
+  "path_resolution": "Original snapshot/source/binding paths remain unchanged. Resolve each original deliverables/... path under this archive's physical_root; validate --history applies that mapping in an isolated temporary view."
+}

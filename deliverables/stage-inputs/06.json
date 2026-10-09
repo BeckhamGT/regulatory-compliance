@@ -1,6 +1,6 @@
 {
-  "run_id": "20261009T020248Z-2ddbde23d51e",
-  "manifest_sha256": "sha256:3c7ec05e797b75da61cf99f58a6b56204a3c8146fe2fdcfcac6af35c7eb1cc97",
+  "run_id": "20261009T023909Z-2f738d94e1e1",
+  "manifest_sha256": "sha256:606af63f9967b59d3bbefd16574de0dbb2212a68d79f89692a9f61df1fb89655",
   "status": "blocked",
   "scope": {
     "systems_in_scope": [
@@ -28,20 +28,15 @@
   "guidance_context": [
     {
       "id": "GUIDE-LAW",
-      "summary": "Fresh Service Desk page says its displayed text uses the July 27 consolidation and marks amendments. Its summaries are expressly nonbinding. The original act, amendment operations and dated consolidation cannot be compared in this run.",
+      "summary": "Fresh Service Desk page says its displayed text uses the July 27 consolidation and marks amendments. It reproduces Article 50 paragraph text, including AMENDED paragraph 7; the summary panel was collapsed and was not used. This route is retained as advisory/context rather than a substitute for the original acts. The original act, amendment operations and dated consolidation cannot be compared in this run.",
       "evidence_ids": [
-        "SRC-LAW-01"
+        "SRC-LAW-02"
       ],
       "citations": [
         {
-          "source_id": "SRC-LAW-01",
+          "source_id": "SRC-LAW-02",
           "locator": "About this text",
-          "quote": "The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' ."
-        },
-        {
-          "source_id": "SRC-LAW-01",
-          "locator": "Summary disclaimer",
-          "quote": "The summaries are meant to provide helpful explanation but are not legal binding."
+          "quote": "The text displayed here is based on the EUR-Lex consolidated version of the AI Act as at 27 July 2026. Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the original AI Act made by the Digital Omnibus on AI. For more information, refer to the FAQ section under 'Digital Omnibus'."
         }
       ]
     },
@@ -101,9 +96,10 @@
   "authority_blockers": [
     {
       "id": "BLOCK-OJ",
-      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
       "evidence_ids": [
-        "SRC-OJ-01"
+        "SRC-OJ-01",
+        "SRC-OJ-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -111,9 +107,10 @@
     },
     {
       "id": "BLOCK-AMEND",
-      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
       "evidence_ids": [
-        "SRC-AMEND-01"
+        "SRC-AMEND-01",
+        "SRC-AMEND-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -123,7 +120,8 @@
       "id": "BLOCK-CONSOLIDATED",
       "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
       "evidence_ids": [
-        "SRC-CONSOLIDATED-01"
+        "SRC-CONSOLIDATED-01",
+        "SRC-CONSOLIDATED-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -261,8 +259,10 @@
     "Native Sheets were modified August 28 and returned empty revision lists. Dated rows support bounded retrospective proposals, not verified exact August 26 workbook versions.",
     "Referenced screenshots, publication metadata, release notices and exception records were not independently retrieved. Register labels and owner reports cannot establish compliance or approval.",
     "Current advisory page versions are not independently established as exact August 26 versions. The FAQ retains conflicting paragraph references.",
-    "Legal owns interpretation and exceptions; Operations owns activation, approved dates and closure. All requests remain pending and unsent. No verified feedback channel or facilitator pre-work approval was supplied.",
+    "Legal owns interpretation and exceptions; Operations owns activation, approved dates and closure. All requests remain pending and unsent. No verified feedback channel or facilitator pre-work verification was supplied.",
     "Recorded September and October 2 proposed dates were future to the assigned review date but elapsed at actual October 8 local retrieval. Preserve the retrospective proposals without invented rescheduling.",
+    "This run also retains the LAW reader HTTP 429 failure and its fresh complete browser recovery. Three incomplete navigation observations were retained as diagnostic-only failures before the loaded wrong-document checks. No human-verification prompt appeared.",
+    "Pinned Cisco AI Skill Scanner 2.0.13 and pipx remain absent; installation method requires user choice under installed scanner guidance. Automated security scanning remains unperformed.",
     "Earlier real runs, including failed artifacts and a validated partial review, are retained under history. Their captures are not source evidence for this run."
   ],
   "system_facts": [
@@ -1534,9 +1534,10 @@
   "unresolved_items": [
     {
       "id": "BLOCK-OJ",
-      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
       "evidence_ids": [
-        "SRC-OJ-01"
+        "SRC-OJ-01",
+        "SRC-OJ-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -1544,9 +1545,10 @@
     },
     {
       "id": "BLOCK-AMEND",
-      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
       "evidence_ids": [
-        "SRC-AMEND-01"
+        "SRC-AMEND-01",
+        "SRC-AMEND-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -1556,7 +1558,8 @@
       "id": "BLOCK-CONSOLIDATED",
       "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
       "evidence_ids": [
-        "SRC-CONSOLIDATED-01"
+        "SRC-CONSOLIDATED-01",
+        "SRC-CONSOLIDATED-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -1991,15 +1994,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-001-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2021,15 +2024,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-002-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2051,15 +2054,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-003-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2081,15 +2084,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-004-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2111,15 +2114,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-005-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2140,15 +2143,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-006-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2170,15 +2173,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-007-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2201,15 +2204,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AI-008-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
       "required_reviewer": "Legal",
@@ -2228,15 +2231,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-001-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2255,15 +2258,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-002-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2282,15 +2285,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-003-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2310,15 +2313,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-003-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
       "required_reviewer": "Legal",
@@ -2337,15 +2340,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-004-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2364,15 +2367,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-005-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2392,15 +2395,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-005-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
       "required_reviewer": "Legal",
@@ -2419,15 +2422,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-006-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2446,15 +2449,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-007-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2474,15 +2477,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-007-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
       "required_reviewer": "Legal",
@@ -2501,15 +2504,15 @@
       ],
       "citations": [],
       "request_id": "REQ-ACT-008-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2528,15 +2531,15 @@
       ],
       "citations": [],
       "request_id": "REQ-PROP-RESTORE-AUTHORITY-OPS",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
       "required_reviewer": "Operations",
@@ -2556,15 +2559,15 @@
       ],
       "citations": [],
       "request_id": "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
       "required_reviewer": "Legal",
@@ -2588,15 +2591,15 @@
       ],
       "citations": [],
       "request_id": "REQ-AUTHORITY-LEGAL",
-      "run_id": "20261009T020248Z-2ddbde23d51e",
+      "run_id": "20261009T023909Z-2f738d94e1e1",
       "source_versions": {
-        "SRC-SYSTEMS-01": "sha256:ad78a6bc853b2d756a0e5950cdce22ad88cf339136c8bf6072063a8b8da2aa97",
-        "SRC-EVIDENCE-01": "sha256:278b60b02fc17ae148fb481ba404b6489e2f0ff85e21a40d4d47ef5f4ee91653",
-        "SRC-CALENDAR-01": "sha256:396f2b36bfb0592e3cef2f1b3e44426eafe96fd1208b3570d31e43887f8ff917",
-        "SRC-LAW-01": "sha256:0fb22b1ad3ccd3c6f8b60fea1e66cf15be0f241ac7ba747aec090f38ad41f0d8",
-        "SRC-TIME-01": "sha256:5ac9c59e8ca8a535c19262e4833a27040285fee0e2942982bf0c3b7d3ff6deb1",
-        "SRC-FAQ-01": "sha256:fa430e50b4e3f01eb5285afa8eee19ae1ad5a19aa284aad469d5085f00dda5ed",
-        "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        "SRC-SYSTEMS-01": "sha256:a101eb6436b216050d6ef04a8d8f11f695be36ad24272c2020465c2c2d558517",
+        "SRC-EVIDENCE-01": "sha256:130b1590a268d080e08b2ab07573dcd1bfce998f1b5daa492ffb262df4300c3b",
+        "SRC-CALENDAR-01": "sha256:0777e1d0c95732dd6667e046c198ffcc9202dde027d9b04461c0a01d3eca8c22",
+        "SRC-TIME-01": "sha256:0c56281b251fd07a5ab5514ef7df663e1fa1cd0ac91b8df8df6015aeb74b16ed",
+        "SRC-FAQ-01": "sha256:eef30433c368675ea3b095dbe8f1213b9096f11fcce1c910db9281e0d910c668",
+        "SRC-POLICY-03": "sha256:e23ffbd1db68487db7e32185c96ed8bddce6789606fb6f1725fc18b14f22cd47",
+        "SRC-LAW-02": "sha256:4f2baefc378233bf3c98cd6f918c17e57ab1ac265b87629725010f66e61363a4"
       },
       "question": "After fresh original-act, amendment and dated-consolidation access succeeds, verify paragraph operations, operative dates and any actor-specific transition. Resolve the conflicting FAQ references against those acts. Neither old captures nor current guidance can approve this blocked run.",
       "required_reviewer": "Legal",
@@ -2610,9 +2613,10 @@
   "escalations": [
     {
       "id": "BLOCK-OJ",
-      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
       "evidence_ids": [
-        "SRC-OJ-01"
+        "SRC-OJ-01",
+        "SRC-OJ-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -2620,9 +2624,10 @@
     },
     {
       "id": "BLOCK-AMEND",
-      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
       "evidence_ids": [
-        "SRC-AMEND-01"
+        "SRC-AMEND-01",
+        "SRC-AMEND-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -2632,7 +2637,8 @@
       "id": "BLOCK-CONSOLIDATED",
       "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
       "evidence_ids": [
-        "SRC-CONSOLIDATED-01"
+        "SRC-CONSOLIDATED-01",
+        "SRC-CONSOLIDATED-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",

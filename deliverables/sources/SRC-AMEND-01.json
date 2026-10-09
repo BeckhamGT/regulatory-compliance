@@ -1,0 +1,9 @@
+{
+  "capture_kind": "RECOVERY-RUN-LEGAL",
+  "label": "AMEND",
+  "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "request_started_at": "2026-10-09T02:39:26.283Z",
+  "retrieved_at": "2026-10-09T02:39:26.485Z",
+  "observed_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "text": "Browser tab: 6, Title: \"eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744\", URL: \"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744\".\n1 AXWebArea eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744\n\nThe focused UI element is 1 AXWebArea eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744"
+}

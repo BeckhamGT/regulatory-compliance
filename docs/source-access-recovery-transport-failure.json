@@ -1,0 +1,10 @@
+{
+  "run_id": "20261009T023909Z-2f738d94e1e1",
+  "stage": "source-capture",
+  "affected_path": "/tmp/project-b-recovery-ui-capture.py",
+  "error": "JSONDecodeError: Extra data: line 1 column 2996 (char 2995)",
+  "cause": "A current browser tool output contains multiple adjacent JSON receipts. A single-object decoder rejected it before any source ingestion.",
+  "recovery": "Parse each actual adjacent current tool response using JSONDecoder.raw_decode; retain original browser response content and actual times.",
+  "owner": "Workflow operator",
+  "source_receipts_mutated_before_failure": false
+}

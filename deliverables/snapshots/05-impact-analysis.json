@@ -1,15 +1,15 @@
 {
   "schema_version": "regulatory-compliance-stage-snapshot/2",
-  "snapshot_id": "20261009T020248Z-2ddbde23d51e:stage-05",
-  "run_id": "20261009T020248Z-2ddbde23d51e",
+  "snapshot_id": "20261009T023909Z-2f738d94e1e1:stage-05",
+  "run_id": "20261009T023909Z-2f738d94e1e1",
   "stage": "impact-analysis",
   "sequence": 5,
-  "created_at": "2026-10-09T02:05:58.738164Z",
+  "created_at": "2026-10-09T02:44:49.828452Z",
   "status": "blocked",
   "predecessor": {
-    "snapshot_id": "20261009T020248Z-2ddbde23d51e:stage-04",
+    "snapshot_id": "20261009T023909Z-2f738d94e1e1:stage-04",
     "path": "deliverables/snapshots/04-evidence-reconciliation.json",
-    "sha256": "sha256:abe509f6a140b7538d7bf48492a126c23122c9b610857009c80914ec55b43d87"
+    "sha256": "sha256:e157bfd77fdb3a5f35907b8090e6dfd4ab8a570fbfa87e3e34eef927c231c99b"
   },
   "consumed_record_ids": [
     "BLOCK-AMEND",
@@ -49,10 +49,13 @@
     "REC-009",
     "REC-010",
     "SRC-AMEND-01",
+    "SRC-AMEND-02",
     "SRC-CALENDAR-01",
     "SRC-CONSOLIDATED-01",
+    "SRC-CONSOLIDATED-02",
     "SRC-EVIDENCE-01",
     "SRC-OJ-01",
+    "SRC-OJ-02",
     "SRC-POLICY-01",
     "SRC-POLICY-02",
     "SRC-POLICY-03",
@@ -506,9 +509,10 @@
     "unresolved_items": [
       {
         "id": "BLOCK-OJ",
-        "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+        "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
         "evidence_ids": [
-          "SRC-OJ-01"
+          "SRC-OJ-01",
+          "SRC-OJ-02"
         ],
         "citations": [],
         "owner": "Workflow operator / Legal",
@@ -516,9 +520,10 @@
       },
       {
         "id": "BLOCK-AMEND",
-        "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+        "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
         "evidence_ids": [
-          "SRC-AMEND-01"
+          "SRC-AMEND-01",
+          "SRC-AMEND-02"
         ],
         "citations": [],
         "owner": "Workflow operator / Legal",
@@ -528,7 +533,8 @@
         "id": "BLOCK-CONSOLIDATED",
         "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
         "evidence_ids": [
-          "SRC-CONSOLIDATED-01"
+          "SRC-CONSOLIDATED-01",
+          "SRC-CONSOLIDATED-02"
         ],
         "citations": [],
         "owner": "Workflow operator / Legal",
@@ -639,9 +645,10 @@
   "unresolved": [
     {
       "id": "BLOCK-OJ",
-      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "summary": "Original Regulation 2024/1689 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; requested legislative content was absent.",
       "evidence_ids": [
-        "SRC-OJ-01"
+        "SRC-OJ-01",
+        "SRC-OJ-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -649,9 +656,10 @@
     },
     {
       "id": "BLOCK-AMEND",
-      "summary": "Amending act OJ L 2026/1744 route returned a JavaScript bot-check page; the requested act was absent.",
+      "summary": "Amending act OJ L 2026/1744 route redirected in the JavaScript-capable browser to TodayOJ during a displayed EUR-Lex service outage; the requested act was absent.",
       "evidence_ids": [
-        "SRC-AMEND-01"
+        "SRC-AMEND-01",
+        "SRC-AMEND-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",
@@ -661,7 +669,8 @@
       "id": "BLOCK-CONSOLIDATED",
       "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
       "evidence_ids": [
-        "SRC-CONSOLIDATED-01"
+        "SRC-CONSOLIDATED-01",
+        "SRC-CONSOLIDATED-02"
       ],
       "citations": [],
       "owner": "Workflow operator / Legal",

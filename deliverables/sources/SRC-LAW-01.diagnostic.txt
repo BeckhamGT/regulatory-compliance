@@ -1,0 +1,6 @@
+{
+  "label": "LAW",
+  "request_started_at": "2026-10-09T02:39:16.879Z",
+  "retrieved_at": "2026-10-09T02:39:17.998Z",
+  "response": "Internal Error ()\nciteturn48view0 [wordlim: 200] Source: open({\"ref_id\":\"https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50: (429) Too Many Requests\n"
+}

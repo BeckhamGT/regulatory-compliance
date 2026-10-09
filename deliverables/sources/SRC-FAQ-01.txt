@@ -1,5 +1,5 @@
 Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future (https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act)
-citeturn42view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act","lineno":null}); Total lines: 156
+citeturn50view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act","lineno":null}); Total lines: 156
 L0: Search[Input]
 L1: 
 L2: Search

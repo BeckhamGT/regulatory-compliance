@@ -4,12 +4,18 @@ Policy version:  AI-POL-2026-08-15
 Purpose
 Quillhaven Academy uses AI only when the responsible owner can explain the use, preserve evidence, and route consequential decisions to an authorized human.
 Learner and public transparency
+•
 A person directly interacting with an AI system must receive a clear notice before or at the first interaction unless the AI nature is obvious from the context.
+•
 Public synthetic images, audio, or video must retain machine-readable provenance when the tool supports it. The Communications owner also requires a visible label unless Legal approves a documented exception.
+•
 Staff-only drafting tools are not automatically treated as public interactions. The owner must still record how generated material reaches learners or the public.
 Evidence and exceptions
+•
 Each registered system must have a current owner, use description, exposed group, disclosure status, human-review path, and evidence reference.
+•
 missing ,  stale ,  conflicting , and  not-applicable  are different evidence states. Missing evidence must not be converted to compliance or non-compliance.
+•
 An exception requires a named owner, rationale, expiry date, and Legal approval. The automation may draft an exception request but may not approve it.
 Approval boundary
 Legal owns final interpretation of the EU AI Act. Operations owns policy activation and operational deadlines. System owners correct evidence. The automation may prepare a draft impact package and proposed actions; it may not give final legal advice, activate policy, change a production deadline, close an incident, or submit an official response.

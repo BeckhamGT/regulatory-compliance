@@ -1,5 +1,39 @@
 {
-  "request_started_at": "2026-10-09T02:02:48.256Z",
+  "label": "EVIDENCE",
+  "request_started_at": "2026-10-09T02:39:16.879Z",
+  "retrieved_at": "2026-10-09T02:39:44.380Z",
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "spreadsheetId": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+      "spreadsheetUrl": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+      "properties": {
+        "title": "Project B — Incident and Evidence Register",
+        "locale": "zh_TW",
+        "timeZone": "Asia/Taipei"
+      },
+      "sheets": [
+        {
+          "properties": {
+            "sheetId": 0,
+            "title": "Incident Evidence Register",
+            "index": 0,
+            "sheetType": "GRID",
+            "gridProperties": {
+              "rowCount": 1000,
+              "columnCount": 26
+            }
+          }
+        }
+      ]
+    },
+    "isError": false
+  },
   "metadata": {
     "content": [
       {
@@ -32,8 +66,7 @@
     },
     "isError": false
   },
-  "retrieved_at": "2026-10-09T02:02:59.209Z",
-  "reads": [
+  "responses": [
     {
       "status": "fulfilled",
       "value": {
@@ -223,4 +256,3 @@
     }
   ]
 }
-

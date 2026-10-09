@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "checked_at": "2026-10-09T02:06:37.464850Z",
+  "errors": [],
+  "checks": [
+    "stage-01: schema and chain checked",
+    "stage-02: schema and chain checked",
+    "stage-03: schema and chain checked",
+    "stage-04: schema and chain checked",
+    "stage-05: schema and chain checked",
+    "stage-06: schema and chain checked",
+    "stage-07: schema and chain checked",
+    "ten fresh source routes and capture hashes checked",
+    "exact captured citations checked",
+    "CSV/brief/calendar agree with bound analysis",
+    "RFC5545 pending events checked",
+    "detached review-request hashes checked"
+  ],
+  "approval_status": "pending"
+}
