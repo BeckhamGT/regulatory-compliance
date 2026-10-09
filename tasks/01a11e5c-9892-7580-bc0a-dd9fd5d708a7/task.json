@@ -1,0 +1,18 @@
+{
+  "tool_use_id": "01a11e5c-9892-7580-bc0a-dd9fd5d708a7",
+  "agent_id": "01a11e5c-9892-7580-bc0a-dd9fd5d708a7",
+  "subagent_type": "default",
+  "files": [
+    "regulatory-change-impact-brief/scripts/engine.py",
+    "regulatory-change-impact-brief/scripts/test_engine.py"
+  ],
+  "token_usage": {
+    "input_tokens": 98193,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 2079744,
+    "output_tokens": 21113,
+    "api_call_count": 25
+  },
+  "started_at": "2026-10-08T21:52:28.675791-04:00",
+  "completed_at": "2026-10-08T22:16:25.385088-04:00"
+}
