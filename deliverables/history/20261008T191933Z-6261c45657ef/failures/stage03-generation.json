@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-08T19:22:51Z",
+  "affected_stage": "authority-and-timing",
+  "affected_source": "OJ Article3(60)",
+  "affected_output": "deliverables/analysis.json (not written)",
+  "error": "Source quotation check rejected missing deepfake definition in selected bounded extracts",
+  "recovery_action": "Recorded original successful current-run find response with actual tool-envelope times; retained later bot-check and browser-outage failures",
+  "recovery_owner": "Workflow operator"
+}

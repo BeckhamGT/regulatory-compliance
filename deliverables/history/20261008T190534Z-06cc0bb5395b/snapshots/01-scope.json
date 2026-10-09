@@ -1,0 +1,39 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "20261008T190534Z-06cc0bb5395b:stage-01",
+  "run_id": "20261008T190534Z-06cc0bb5395b",
+  "stage": "scope",
+  "sequence": 1,
+  "created_at": "2026-10-08T19:05:34.608206Z",
+  "status": "partial",
+  "predecessor": null,
+  "consumed_record_ids": [],
+  "produced_record_ids": [
+    "SCOPE"
+  ],
+  "state": {
+    "as_of": "2026-08-26T23:59:59+01:00",
+    "review_type": "Draft Article 50 change-impact review",
+    "systems_in_scope": [
+      "Registered EU programme uses (live register identity pending)"
+    ],
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "approval_gates": [
+      "Legal interpretation and exceptions",
+      "Operations activation, dates and closure"
+    ],
+    "supersedes_run_id": "20261008T185408Z-0941a19cba08",
+    "supersession_reason": "Recover failed analysis generation and incomplete evidence-reconciliation boundary; fresh all-route retry",
+    "scope_record": {
+      "id": "SCOPE",
+      "summary": "Review intent is fixed to 26 August 2026; operational facts require fresh source retrieval.",
+      "evidence_ids": [],
+      "interview_sha256": "sha256:02a8e16ff1f8492fdb9ae5a9bbf7e5728e80aff621cd96a4697f472b1e12d4e2"
+    }
+  },
+  "unresolved": [],
+  "decisions": []
+}

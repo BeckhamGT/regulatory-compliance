@@ -1,0 +1,2595 @@
+{
+  "run_id": "20261008T190534Z-06cc0bb5395b",
+  "manifest_sha256": "sha256:10d26126b00bc6b869b029635056a8d674263f4c17885deebe2edf7115822d0b",
+  "status": "partial",
+  "scope": {
+    "systems_in_scope": [
+      "AI-001",
+      "AI-002",
+      "AI-003",
+      "AI-004",
+      "AI-005",
+      "AI-006",
+      "AI-007",
+      "AI-008"
+    ],
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "approval_gates": [
+      "Legal interpretation and exceptions",
+      "Operations activation, dates and closure"
+    ],
+    "review_type": "Article 50 retrospective draft review"
+  },
+  "binding_rules": [
+    {
+      "id": "RULE-SCOPE",
+      "summary": "Article2(1)(b) includes Union-established deployers; Article2 exclusions must be assessed against actual professional use.",
+      "evidence_ids": [
+        "SRC-OJ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-02",
+          "locator": "Article2(1)(b)",
+          "quote": "(b)  | deployers of AI systems that have their place of establishment or are located within the Union;"
+        }
+      ],
+      "legal_ref": "Article2(1)(b)",
+      "actor": "Union deployer"
+    },
+    {
+      "id": "RULE-ROLE",
+      "summary": "Provider requires development/commissioning and market/service under own name; an inventory label alone is insufficient. Deployer is use under own authority except personal non-professional use.",
+      "evidence_ids": [
+        "SRC-OJ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-02",
+          "locator": "Article3(3)-(4)",
+          "quote": "(3)  | ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge;"
+        }
+      ],
+      "legal_ref": "Article3(3)-(4)",
+      "deployer_citation": {
+        "source_id": "SRC-OJ-02",
+        "locator": "Article3(4)",
+        "quote": "(4)  | ‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity;"
+      }
+    },
+    {
+      "id": "RULE-50-1",
+      "summary": "Provider duty for direct AI interaction; context-dependent obviousness exception is not assumed from an avatar graphic. Criminal-use exception does not match reported professional education uses.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(1)",
+          "quote": "1.   Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use."
+        }
+      ],
+      "legal_ref": "Article50(1)",
+      "actor": "provider",
+      "condition": "AI intended to interact directly with natural persons",
+      "exceptions": [
+        "obvious to reasonably well-informed observant circumspect person in context",
+        "specified lawful criminal-use exception"
+      ]
+    },
+    {
+      "id": "RULE-50-2",
+      "summary": "Provider duty for machine-readable detectable synthetic outputs; technical feasibility matters. Standard editing/no substantial alteration exception is conditional, not inferred from a visible label.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(2)",
+          "quote": "2.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated."
+        }
+      ],
+      "legal_ref": "Article50(2)",
+      "actor": "provider",
+      "condition": "synthetic audio/image/video/text generation",
+      "exceptions": [
+        "standard editing or no substantial alteration of input/semantics",
+        "specified lawful criminal-use exception"
+      ]
+    },
+    {
+      "id": "RULE-50-3",
+      "summary": "Deployer notice duty for emotion recognition or biometric categorisation requires actual biometric/emotion/category facts; human adjudication does not settle applicability.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(3)",
+          "quote": "3.   Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable."
+        }
+      ],
+      "legal_ref": "Article50(3)",
+      "actor": "deployer",
+      "condition": "emotion recognition or biometric categorisation"
+    },
+    {
+      "id": "RULE-DEEPFAKE",
+      "summary": "Deepfake requires resemblance to existing persons/objects/places/entities/events and false apparent authenticity or truthfulness. Synthetic media is not automatically a deepfake.",
+      "evidence_ids": [
+        "SRC-OJ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-02",
+          "locator": "Article3(60)",
+          "quote": "(60)  | ‘deep fake’ means AI-generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful;"
+        }
+      ],
+      "legal_ref": "Article3(60)",
+      "condition": "existing-entity resemblance and misleading authenticity"
+    },
+    {
+      "id": "RULE-50-4-MEDIA",
+      "summary": "Deployer must disclose generated/manipulated deepfake media. Evidently artistic/creative/satirical/fictional work receives an adapted manner of disclosure, not blanket approval.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(4), first subparagraph",
+          "quote": "4.   Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offence."
+        }
+      ],
+      "legal_ref": "Article50(4), first subparagraph",
+      "actor": "deployer",
+      "condition": "deepfake image/audio/video",
+      "adapted_disclosure": {
+        "source_id": "SRC-OJ-01",
+        "locator": "Article50(4), artistic-work clause",
+        "quote": "Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work."
+      }
+    },
+    {
+      "id": "RULE-50-4-TEXT",
+      "summary": "Deployer disclosure duty applies to generated/manipulated text published to inform public on public-interest matters. Human/editorial review exception also requires editorial responsibility; individual administrative replies differ from public-interest publication.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(4), second subparagraph",
+          "quote": "Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated."
+        }
+      ],
+      "legal_ref": "Article50(4), second subparagraph",
+      "actor": "deployer",
+      "condition": "public-interest publication",
+      "editorial_exception": {
+        "source_id": "SRC-OJ-01",
+        "locator": "Article50(4), text exception",
+        "quote": "This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content."
+      }
+    },
+    {
+      "id": "RULE-50-5",
+      "summary": "Applicable information must be clear/distinguishable and accessible by first interaction or exposure; visible-label report alone does not establish format/accessibility.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(5)",
+          "quote": "5.   The information referred to in paragraphs 1 to 4 shall be provided to the natural persons concerned in a clear and distinguishable manner at the latest at the time of the first interaction or exposure. The information shall conform to the applicable accessibility requirements."
+        }
+      ],
+      "legal_ref": "Article50(5)"
+    },
+    {
+      "id": "RULE-50-6",
+      "summary": "Article50 does not extinguish ChapterIII or other national/Union transparency requirements. This draft does not decide all AI Act duties.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "Article50(6)",
+          "quote": "6.   Paragraphs 1 to 4 shall not affect the requirements and obligations set out in Chapter III, and shall be without prejudice to other transparency obligations laid down in Union or national law for deployers of AI systems."
+        }
+      ],
+      "legal_ref": "Article50(6)"
+    },
+    {
+      "id": "RULE-50-7",
+      "summary": "July amendment replaces Article50(7) code-assessment mechanism; original wording retained as predecessor, not treated as current approval.",
+      "evidence_ids": [
+        "SRC-AMEND-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-02",
+          "locator": "AMEND Article1(20), replacing Article50(7)",
+          "quote": "(20)  | in Article 50, paragraph 7 is replaced by the following: ‘7.   The Commission shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection, marking and labelling of artificially generated or manipulated content."
+        }
+      ],
+      "legal_ref": "AMEND Article1(20), replacing Article50(7)"
+    }
+  ],
+  "timing_rules": [
+    {
+      "id": "TIME-MAIN",
+      "summary": "Original Article113 general application is August2,2026; July amendment changes specified ChapterIII exceptions, not all Article50 duties. Reviewdate remains August26.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-01",
+          "locator": "OJ Article113",
+          "quote": "It shall apply from 2 August 2026."
+        }
+      ],
+      "legal_ref": "OJ Article113",
+      "application_date": "2026-08-02",
+      "review_date": "2026-08-26"
+    },
+    {
+      "id": "TIME-AMEND",
+      "summary": "Amendment published July24,2026; Article4 third-day rule yields July27, before reviewdate.",
+      "evidence_ids": [
+        "SRC-AMEND-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-01",
+          "locator": "AMEND Article4",
+          "quote": "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union."
+        }
+      ],
+      "legal_ref": "AMEND Article4",
+      "publication_date": "2026-07-24",
+      "effective_date": "2026-07-27",
+      "derivation": "July24 + three calendar days",
+      "publication_citation": {
+        "source_id": "SRC-AMEND-01",
+        "locator": "OJ header",
+        "quote": "OJ L, 2026/1744, 24.7.2026, ELI: cite58†http://data.europa.eu/eli/reg/2026/1744/oj†data.europa.eu (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV)"
+      }
+    },
+    {
+      "id": "TIME-MARKING",
+      "summary": "Added Article111(4) provides December2,2026 compliance date only for Article50(2) providers whose relevant system was placed on market before August2,2026; not a deployer50(4) or internal-policy postponement.",
+      "evidence_ids": [
+        "SRC-AMEND-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-01",
+          "locator": "AMEND Article1(39)(b), Article111(4)",
+          "quote": "(b) the following paragraph is added: ‘4.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.’ ;"
+        }
+      ],
+      "legal_ref": "AMEND Article1(39)(b), Article111(4)",
+      "application_date": "2026-12-02",
+      "market_entry_cutoff": "2026-08-02",
+      "actor": "provider"
+    },
+    {
+      "id": "TIME-CONSOLIDATION",
+      "summary": "Dated July27 consolidation includes M1; its documentary-only disclaimer means original OJ plus amendment remain binding basis.",
+      "evidence_ids": [
+        "SRC-CONSOLIDATED-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-CONSOLIDATED-01",
+          "locator": "CONSOLIDATED disclaimer and version header",
+          "quote": "This text is meant purely as a documentation tool and has no legal effect. The Union's institutions do not assume any liability for its contents. The authentic versions of the relevant acts, including their preambles, are those published in the Official Journal of the European Union and available in EUR-Lex. Those official texts are directly accessible through the links embedded in this document"
+        }
+      ],
+      "legal_ref": "CONSOLIDATED disclaimer and version header",
+      "version": "27.07.2026 — 001.001",
+      "authority": "documentary-no-legal-effect"
+    }
+  ],
+  "guidance_context": [
+    {
+      "id": "GUIDE-LAW",
+      "summary": "Service Desk paragraph reference explicitly uses July27 consolidation; its summary is nonbinding and is narrower/less precise than full conditional paragraphs.",
+      "evidence_ids": [
+        "SRC-LAW-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-LAW-01",
+          "locator": "Article50 Summary disclaimer",
+          "quote": "The summaries are meant to provide helpful explanation but are not legal binding."
+        },
+        {
+          "source_id": "SRC-LAW-01",
+          "locator": "About this text",
+          "quote": "The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' ."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-CONFLICT",
+      "summary": "FAQ overview attributes direct-interaction duty to50(2); its later interaction answer and binding OJ50(1) disagree with that reference. Retain error and use binding paragraph for draft mapping.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "SRC-FAQ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "FAQ provider overview",
+          "quote": "According to Article 50(2) of the AI Act, providers must design and develop AI systems that interact directly with natural persons — such as chatbots, AI agents, and avatars — to ensure that people are informed they are interacting with AI. Providers must also ensure that the outputs of their generative AI systems are marked with effective, reliable, robust and interoperable machine-readable marks that enable the outputs to be detected as generated or manipulated by AI systems."
+        },
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "FAQ interaction section",
+          "quote": "When do providers of AI systems have to inform people they are interacting with an AI system?"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-TIME",
+      "summary": "Current undated timeline agrees with generalAugust2 and limitedDecember2 transition; exact historical page state unknown. Advisory, not binding timing evidence.",
+      "evidence_ids": [
+        "SRC-TIME-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-TIME-01",
+          "locator": "Timeline August2 milestone",
+          "quote": "     * Transparency rules (Article 50) start to apply."
+        },
+        {
+          "source_id": "SRC-TIME-01",
+          "locator": "Timeline December2 milestone",
+          "quote": "     * Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2)."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-DATE",
+      "summary": "FAQ displays lastupdate July24,2026, but remains current retrieved guidance with an overview paragraph error and no independently retrieved historical revision.",
+      "evidence_ids": [
+        "SRC-FAQ-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-01",
+          "locator": "FAQ Last update",
+          "quote": "24 July 2026"
+        }
+      ]
+    }
+  ],
+  "authority_blockers": [],
+  "decisions": [
+    {
+      "id": "DEC-RUNTIME",
+      "summary": "Native authentication is available in connected agent but not inherited by shell",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Native authentication is available in connected agent but not inherited by shell",
+      "options": [
+        "agent-native reads plus deterministicPython",
+        "shell-only collector with separatelyprovisioned APIs"
+      ],
+      "chosen_behavior": "agent-native reads plus Python schema/calendar/hash validation",
+      "rationale": "Preserves required native routes and explicit human authority without credential plumbing",
+      "tradeoffs": [
+        "Requires connected Agent Skills host; helperalone not freshcollector"
+      ],
+      "downstream_effect": "Portable skill documents honest one-command agentinvocation and localhelpers."
+    },
+    {
+      "id": "DEC-AUTHORITY",
+      "summary": "Original law differs from Julyamendment and advisoryoverview",
+      "evidence_ids": [
+        "RULE-50-7",
+        "TIME-AMEND",
+        "TIME-CONSOLIDATION",
+        "GUIDE-FAQ-CONFLICT"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Original law differs from Julyamendment and advisoryoverview",
+      "options": [
+        "useoriginalonly",
+        "trustguidance",
+        "reconcilebindingactswithdatedreference"
+      ],
+      "chosen_behavior": "originalOJ plus AMEND, consolidation asdocumentarycrosscheck",
+      "rationale": "Bindingacts precedereview and resolve applicable paragraph/timing basis",
+      "tradeoffs": [
+        "More captures; preserveoriginal and amendedversions"
+      ],
+      "downstream_effect": "No broadDecember2 postponement; correctprovider/deployer paragraphmapping."
+    },
+    {
+      "id": "DEC-HISTORY",
+      "summary": "Current access does not prove exact historical source versions.",
+      "evidence_ids": [
+        "GAP-HISTORY",
+        "GAP-PROOF",
+        "FACT-SCOPE"
+      ],
+      "citations": [],
+      "stage": 4,
+      "concern": "Can useful draft work proceed without exact August workbook history?",
+      "options": [
+        "Defer the entire review",
+        "Treat current sources as verified August evidence",
+        "Prepare a bounded partial retrospective draft"
+      ],
+      "chosen_behavior": "Prepare a bounded partial draft using reported facts and explicit historical limits.",
+      "rationale": "Binding legislation predates the review and live company reports support conditional proposals; missing underlying proof remains unresolved.",
+      "tradeoffs": [
+        "No verified historical compliance finding; system-owner and Legal review are still required."
+      ],
+      "downstream_effect": "Keep the run partial, preserve all gaps and dates, and leave decisions pending."
+    },
+    {
+      "id": "DEC-IMPACT",
+      "summary": "Separate statutory actor duties from internal controls and unresolved proof.",
+      "evidence_ids": [
+        "RULE-ROLE",
+        "TIME-MARKING",
+        "POL-NOTICE",
+        "POL-SYNTHETIC",
+        "GAP-005"
+      ],
+      "citations": [],
+      "stage": 5,
+      "concern": "Should missing evidence or supplier transition become a company compliance conclusion?",
+      "options": [
+        "Treat evidence labels as compliance",
+        "Apply a blanket December delay",
+        "Map each actor, behaviour, output and exception with bounded evidence"
+      ],
+      "chosen_behavior": "Use paragraph-specific record-supported proposals and preserve unresolved company facts.",
+      "rationale": "Current binding text and reported operating facts distinguish provider duties, deployer disclosure and August policy. Missing proof cannot become approval.",
+      "tradeoffs": [
+        "More register rows and human review; supported-no-impact is limited to reported use and is not global compliance."
+      ],
+      "downstream_effect": "Retain all calendar commitments, keep conflicted notice/provenance evidence, add an undated publication-scope question for Marketing/Legal."
+    }
+  ],
+  "limitations": [
+    "Draft only: Legal owns statutory interpretations and exceptions; Operations owns activation, approved deadlines and closure. No requests sent or feedback supplied.",
+    "Current Notion connector URL and UUID reads failed404. A separate fresh native Notion UI read supplied actual page content, not pasted policy text.",
+    "August AI-POL-2026-08-15 is distinct from September12-authored RC-CONTEXT-2026-09-12-R1 reporting August26 observations; owner-supplied retrospective context is not contemporaneous proof.",
+    "Native Sheets were modified August28 and expose no revision history. Date-labeled rows support bounded retrospective proposals, not verified exact August26 workbook versions.",
+    "Underlying screenshots, publication metadata, release notices and exception records referenced by registers were not disclosed as live routes; their source reports do not replace proof.",
+    "The undated current timeline cannot be independently established as the exact August26 page version; binding timing is separately available.",
+    "Facilitator pre-work identity/interview/capture/runtime/destination verification is not supplied; Entire stale exitedprocess metadata is retained though real transcript grows.",
+    "Proposed source calendar dates were future to August26 but are elapsed at actual October8 retrieval; they are preserved as retrospective proposals, not silently rescheduled."
+  ],
+  "system_facts": [
+    {
+      "id": "FACT-SCOPE",
+      "summary": "All eight registered professional uses are operated by the EU programme team in Dublin. The September-authored owner context describes observations for August 26.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope",
+          "quote": "This review concerns Quillhaven Academy's EU programme team operating from Dublin, Ireland. That team administers all eight registered uses for its professional work; the learners, applicants and staff concerned include people in Ireland, and the public campaign and programme outputs are used there. None of these uses is personal, military, national-security or law-enforcement activity. The systems are operating services, not research-only prototypes."
+        }
+      ],
+      "observation_date": "2026-08-26",
+      "authored_date": "2026-09-12"
+    },
+    {
+      "id": "FACT-AI-001",
+      "summary": "Learner Support Chat: Answers routine learner questions. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 2",
+          "quote": "Learner Support Chat"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-001",
+          "quote": "Learners exchange questions and generated replies directly with the licensed support chat. It does not classify biometric data or infer emotions or intentions. The existing notice and evidence reports remain the source for disclosure practice."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-001",
+      "system_name": "Learner Support Chat",
+      "use_case": "Answers routine learner questions",
+      "owner": "Learner Operations",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "direct_interaction",
+      "current_notice": "yes",
+      "human_review": "staff escalation",
+      "evidence_status": "complete",
+      "evidence_updated_at": "2026-08-20",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 2",
+      "operating_description": "Learners exchange questions and generated replies directly with the licensed support chat. It does not classify biometric data or infer emotions or intentions. The existing notice and evidence reports remain the source for disclosure practice.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-002",
+      "summary": "Admissions Draft Assistant: Drafts applicant email replies. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 3",
+          "quote": "Admissions Draft Assistant"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-002",
+          "quote": "Staff use the drafting product privately. An admissions advisor reviews and edits a draft before personally sending an individual applicant email; applicants do not converse with the AI product. These are individual administrative replies, not material published to inform the public about matters of public interest."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-002",
+      "system_name": "Admissions Draft Assistant",
+      "use_case": "Drafts applicant email replies",
+      "owner": "Admissions",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "applicants",
+      "output_type": "text",
+      "current_notice": "unknown",
+      "human_review": "advisor approval",
+      "evidence_status": "partial",
+      "evidence_updated_at": "2026-07-01",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 3",
+      "operating_description": "Staff use the drafting product privately. An admissions advisor reviews and edits a draft before personally sending an individual applicant email; applicants do not converse with the AI product. These are individual administrative replies, not material published to inform the public about matters of public interest.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-003",
+      "summary": "Campaign Image Studio: Creates public campaign images. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 4",
+          "quote": "Campaign Image Studio"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-003",
+          "quote": "The current campaign uses visibly illustrated fictional classroom scenes. They are not depictions of an existing person, campus, object or event presented as an authentic photograph or recording. The supplier's product generates images from prompts; this use is not limited to minor correction of supplied images. The published-copy metadata conflict in REC-003 remains unresolved."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-003",
+      "system_name": "Campaign Image Studio",
+      "use_case": "Creates public campaign images",
+      "owner": "Communications",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "synthetic_image",
+      "current_notice": "visible_label",
+      "human_review": "communications approval",
+      "evidence_status": "complete",
+      "evidence_updated_at": "2026-08-22",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 4",
+      "operating_description": "The current campaign uses visibly illustrated fictional classroom scenes. They are not depictions of an existing person, campus, object or event presented as an authentic photograph or recording. The supplier's product generates images from prompts; this use is not limited to minor correction of supplied images. The published-copy metadata conflict in REC-003 remains unresolved.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-004",
+      "summary": "Pronunciation Coach: Provides spoken practice feedback. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 5",
+          "quote": "Pronunciation Coach"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-004",
+          "quote": "Learners interact directly with the licensed spoken-practice product and receive pronunciation feedback. It evaluates spoken pronunciation; it is not used to identify or infer emotions or intentions or to assign people to categories from biometric data. The missing first-interaction notice remains as reported."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-004",
+      "system_name": "Pronunciation Coach",
+      "use_case": "Provides spoken practice feedback",
+      "owner": "Learning Experience",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "direct_interaction",
+      "current_notice": "no",
+      "human_review": "instructor escalation",
+      "evidence_status": "complete",
+      "evidence_updated_at": "2026-08-18",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 5",
+      "operating_description": "Learners interact directly with the licensed spoken-practice product and receive pronunciation feedback. It evaluates spoken pronunciation; it is not used to identify or infer emotions or intentions or to assign people to categories from biometric data. The missing first-interaction notice remains as reported.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-005",
+      "summary": "Remote Proctor Signal: Flags assessment sessions for review. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 6",
+          "quote": "Remote Proctor Signal"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-005",
+          "quote": "The product flags assessment-session activity for a human reviewer and never makes the final assessment decision. Current-release documentation has not yet established whether the flagging uses biometric data to infer emotions, intentions or personal categories. Assessment Operations must supply those facts together with the current development and release records; a human-review step does not settle them."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-005",
+      "system_name": "Remote Proctor Signal",
+      "use_case": "Flags assessment sessions for review",
+      "owner": "Assessment Operations",
+      "provider_role": "unknown",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "classification",
+      "current_notice": "yes",
+      "human_review": "human adjudication",
+      "evidence_status": "stale",
+      "evidence_updated_at": "2026-04-15",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 6",
+      "operating_description": "The product flags assessment-session activity for a human reviewer and never makes the final assessment decision. Current-release documentation has not yet established whether the flagging uses biometric data to infer emotions, intentions or personal categories. Assessment Operations must supply those facts together with the current development and release records; a human-review step does not settle them.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-006",
+      "summary": "Staff Summary Assistant: Summarizes internal meeting notes. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 7",
+          "quote": "Staff Summary Assistant"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-006",
+          "quote": "Staff generate internal meeting summaries within the restricted staff workspace. The summaries are not published or sent to applicants, learners or the general public. They do not involve generated or manipulated images, audio or video."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-006",
+      "system_name": "Staff Summary Assistant",
+      "use_case": "Summarizes internal meeting notes",
+      "owner": "People Operations",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "staff",
+      "output_type": "text",
+      "current_notice": "not_applicable",
+      "human_review": "author review",
+      "evidence_status": "complete",
+      "evidence_updated_at": "2026-08-14",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 7",
+      "operating_description": "Staff generate internal meeting summaries within the restricted staff workspace. The summaries are not published or sent to applicants, learners or the general public. They do not involve generated or manipulated images, audio or video.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-007",
+      "summary": "Website Guide Avatar: Answers public programme questions. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 8",
+          "quote": "Website Guide Avatar"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-007",
+          "quote": "Visitors converse directly with the licensed website guide. Its visible character is an obviously stylized fictional graphic, not a likeness or recording of an existing person. The graphic alone does not establish what visitors understand about the conversation. The owner/banner and current-capture conflict in REC-008 remains unresolved."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-007",
+      "system_name": "Website Guide Avatar",
+      "use_case": "Answers public programme questions",
+      "owner": "Marketing",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "direct_interaction",
+      "current_notice": "no",
+      "human_review": "marketing escalation",
+      "evidence_status": "conflicting",
+      "evidence_updated_at": "2026-08-21",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 8",
+      "operating_description": "Visitors converse directly with the licensed website guide. Its visible character is an obviously stylized fictional graphic, not a likeness or recording of an existing person. The graphic alone does not establish what visitors understand about the conversation. The owner/banner and current-capture conflict in REC-008 remains unresolved.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-AI-008",
+      "summary": "Video Localisation Tool: Generates dubbed public programme videos. Register values and retrospective owner use description are reports, not independently inspected deployment proof.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-SYSTEMS-01",
+          "locator": "AI System Register!row 9",
+          "quote": "Video Localisation Tool"
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Actual use and content / AI-008",
+          "quote": "Communications uses the supplier's product to create translated speech and adjusted lip movements for recorded programme presenters. The presenters are real people; the altered recording makes them appear to speak words in a language they did not actually record, and a viewer could mistake it for an authentic recording without disclosure. The videos communicate programme information, not an evidently artistic, satirical or fictional performance. The visible-label report, untested provenance and unapproved exception request remain exactly as recorded."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Operating scope / product roles",
+          "quote": "For AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them."
+        }
+      ],
+      "system_id": "AI-008",
+      "system_name": "Video Localisation Tool",
+      "use_case": "Generates dubbed public programme videos",
+      "owner": "Communications",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "synthetic_audio_video",
+      "current_notice": "visible_label",
+      "human_review": "communications approval",
+      "evidence_status": "partial",
+      "evidence_updated_at": "2026-08-19",
+      "record_version": "register-2026-08-26",
+      "_locator": "AI System Register!row 9",
+      "operating_description": "Communications uses the supplier's product to create translated speech and adjusted lip movements for recorded programme presenters. The presenters are real people; the altered recording makes them appear to speak words in a language they did not actually record, and a viewer could mistake it for an authentic recording without disclosure. The videos communicate programme information, not an evidently artistic, satirical or fictional performance. The visible-label report, untested provenance and unapproved exception request remain exactly as recorded.",
+      "context_revision": "RC-CONTEXT-2026-09-12-R1",
+      "context_observation_date": "2026-08-26",
+      "context_authored_date": "2026-09-12",
+      "source_version": "register-2026-08-26"
+    },
+    {
+      "id": "FACT-MARKET-003-008",
+      "summary": "Operations reports that supplier products for AI-003 and AI-008 first entered the EU market on June 1, 2026. This is a product date, not an output publication date or proof that Quillhaven is a provider; release notices were not independently retrieved.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Product timing and evidence limits",
+          "quote": "The suppliers' product-release notices held by Operations report that the currently licensed image-generation product used for AI-003 and audio/video-generation product used for AI-008 were first offered commercially in the EU on 1 June 2026. These are product market-entry dates, not the dates Quillhaven exported or published individual images or videos. They do not identify Quillhaven as the supplier. Current release and market-entry evidence for AI-005 remains unavailable."
+        }
+      ],
+      "market_entry_date": "2026-06-01",
+      "system_ids": [
+        "AI-003",
+        "AI-008"
+      ],
+      "proof_state": "owner-reported-unverified"
+    }
+  ],
+  "policy_controls": [
+    {
+      "id": "POL-NOTICE",
+      "summary": "August policy requires clear notice before or at first direct interaction unless the AI nature is obvious. This company control remains separate from the statutory provider duty.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Learner and public transparency",
+          "quote": "A person directly interacting with an AI system must receive a clear notice before or at the first interaction unless the AI nature is obvious from the context."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    },
+    {
+      "id": "POL-SYNTHETIC",
+      "summary": "August policy requires public synthetic media to retain machine-readable provenance when supported, plus a visible label unless Legal approves a documented exception.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Learner and public transparency",
+          "quote": "Public synthetic images, audio, or video must retain machine-readable provenance when the tool supports it. The Communications owner also requires a visible label unless Legal approves a documented exception."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    },
+    {
+      "id": "POL-DRAFT",
+      "summary": "Staff drafting is not automatically public interaction. The owner must record how generated content reaches recipients.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Learner and public transparency",
+          "quote": "Staff-only drafting tools are not automatically treated as public interactions. The owner must still record how generated material reaches learners or the public."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    },
+    {
+      "id": "POL-EVIDENCE",
+      "summary": "Maintain current owner, use, exposure, disclosure, human-review path and evidence. Missing, stale and conflicting states remain distinct from compliance findings.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Evidence and exceptions",
+          "quote": "Each registered system must have a current owner, use description, exposed group, disclosure status, human-review path, and evidence reference."
+        },
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Evidence and exceptions",
+          "quote": "missing, stale, conflicting, and not-applicable are different evidence states. Missing evidence must not be converted to compliance or non-compliance."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    },
+    {
+      "id": "POL-EXCEPTION",
+      "summary": "Exceptions need an owner, rationale, expiry and Legal approval. Automation may prepare the request and cannot approve it.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Evidence and exceptions",
+          "quote": "An exception requires a named owner, rationale, expiry date, and Legal approval. The automation may draft an exception request but may not approve it."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    },
+    {
+      "id": "POL-AUTHORITY",
+      "summary": "Legal owns interpretations and exceptions; Operations owns activation and approved dates; owners correct evidence. The package remains a pending draft.",
+      "evidence_ids": [
+        "SRC-POLICY-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-POLICY-03",
+          "locator": "Approval boundary",
+          "quote": "Legal owns final interpretation of the EU AI Act. Operations owns policy activation and operational deadlines. System owners correct evidence. The automation may prepare a draft impact package and proposed actions; it may not give final legal advice, activate policy, change a production deadline, close an incident, or submit an official response."
+        }
+      ],
+      "version": "AI-POL-2026-08-15"
+    }
+  ],
+  "incident_evidence": [
+    {
+      "id": "REC-001",
+      "summary": "Notice screenshot and release record agree; reported evidence state complete, source status closed. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 2",
+          "quote": "Notice screenshot and release record agree"
+        }
+      ],
+      "record_id": "REC-001",
+      "system_id": "AI-001",
+      "record_type": "evidence",
+      "reported_at": "2026-08-20",
+      "owner": "Learner Operations",
+      "status": "closed",
+      "evidence_ref": "notice-screen-v3",
+      "evidence_state": "complete",
+      "notes": "Notice screenshot and release record agree",
+      "_locator": "Incident Evidence Register!row 2",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-002",
+      "summary": "No evidence that recipients are told when generated text is used; reported evidence state missing, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 3",
+          "quote": "No evidence that recipients are told when generated text is used"
+        }
+      ],
+      "record_id": "REC-002",
+      "system_id": "AI-002",
+      "record_type": "evidence_gap",
+      "reported_at": "2026-08-23",
+      "owner": "Admissions",
+      "status": "open",
+      "evidence_ref": "applicant-email-sample",
+      "evidence_state": "missing",
+      "notes": "No evidence that recipients are told when generated text is used",
+      "_locator": "Incident Evidence Register!row 3",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-003",
+      "summary": "Visible label exists but exported platform copy may have lost metadata; reported evidence state conflicting, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 4",
+          "quote": "Visible label exists but exported platform copy may have lost metadata"
+        }
+      ],
+      "record_id": "REC-003",
+      "system_id": "AI-003",
+      "record_type": "incident",
+      "reported_at": "2026-08-24",
+      "owner": "Communications",
+      "status": "open",
+      "evidence_ref": "social-post-884",
+      "evidence_state": "conflicting",
+      "notes": "Visible label exists but exported platform copy may have lost metadata",
+      "_locator": "Incident Evidence Register!row 4",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-004",
+      "summary": "First interaction contains no AI notice; reported evidence state complete, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 5",
+          "quote": "First interaction contains no AI notice"
+        }
+      ],
+      "record_id": "REC-004",
+      "system_id": "AI-004",
+      "record_type": "incident",
+      "reported_at": "2026-08-18",
+      "owner": "Learning Experience",
+      "status": "open",
+      "evidence_ref": "coach-onboarding-v2",
+      "evidence_state": "complete",
+      "notes": "First interaction contains no AI notice",
+      "_locator": "Incident Evidence Register!row 5",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-005",
+      "summary": "Provider role questionnaire predates the current release; reported evidence state stale, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 6",
+          "quote": "Provider role questionnaire predates the current release"
+        }
+      ],
+      "record_id": "REC-005",
+      "system_id": "AI-005",
+      "record_type": "evidence_gap",
+      "reported_at": "2026-08-25",
+      "owner": "Assessment Operations",
+      "status": "open",
+      "evidence_ref": "provider-role-questionnaire",
+      "evidence_state": "stale",
+      "notes": "Provider role questionnaire predates the current release",
+      "_locator": "Incident Evidence Register!row 6",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-006",
+      "summary": "Flag never makes the final assessment decision; reported evidence state complete, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 7",
+          "quote": "Flag never makes the final assessment decision"
+        }
+      ],
+      "record_id": "REC-006",
+      "system_id": "AI-005",
+      "record_type": "evidence",
+      "reported_at": "2026-08-25",
+      "owner": "Assessment Operations",
+      "status": "open",
+      "evidence_ref": "human-review-sop-v4",
+      "evidence_state": "complete",
+      "notes": "Flag never makes the final assessment decision",
+      "_locator": "Incident Evidence Register!row 7",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-007",
+      "summary": "Tool is restricted to staff workspace; reported evidence state complete, source status closed. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 8",
+          "quote": "Tool is restricted to staff workspace"
+        }
+      ],
+      "record_id": "REC-007",
+      "system_id": "AI-006",
+      "record_type": "evidence",
+      "reported_at": "2026-08-14",
+      "owner": "People Operations",
+      "status": "closed",
+      "evidence_ref": "internal-use-review",
+      "evidence_state": "complete",
+      "notes": "Tool is restricted to staff workspace",
+      "_locator": "Incident Evidence Register!row 8",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-008",
+      "summary": "Owner says a banner exists but the current capture shows none; reported evidence state conflicting, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 9",
+          "quote": "Owner says a banner exists but the current capture shows none"
+        }
+      ],
+      "record_id": "REC-008",
+      "system_id": "AI-007",
+      "record_type": "incident",
+      "reported_at": "2026-08-21",
+      "owner": "Marketing",
+      "status": "open",
+      "evidence_ref": "avatar-page-capture",
+      "evidence_state": "conflicting",
+      "notes": "Owner says a banner exists but the current capture shows none",
+      "_locator": "Incident Evidence Register!row 9",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-009",
+      "summary": "Visible label verified but machine-readable provenance not checked; reported evidence state partial, source status open. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 10",
+          "quote": "Visible label verified but machine-readable provenance not checked"
+        }
+      ],
+      "record_id": "REC-009",
+      "system_id": "AI-008",
+      "record_type": "evidence",
+      "reported_at": "2026-08-19",
+      "owner": "Communications",
+      "status": "open",
+      "evidence_ref": "localisation-export-test",
+      "evidence_state": "partial",
+      "notes": "Visible label verified but machine-readable provenance not checked",
+      "_locator": "Incident Evidence Register!row 10",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    },
+    {
+      "id": "REC-010",
+      "summary": "No Legal approval or expiry date recorded; reported evidence state missing, source status draft. Underlying evidence_ref not independently retrieved.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-EVIDENCE-01",
+          "locator": "Incident Evidence Register!row 11",
+          "quote": "No Legal approval or expiry date recorded"
+        }
+      ],
+      "record_id": "REC-010",
+      "system_id": "AI-008",
+      "record_type": "exception_request",
+      "reported_at": "2026-08-26",
+      "owner": "Communications",
+      "status": "draft",
+      "evidence_ref": "exception-draft-008",
+      "evidence_state": "missing",
+      "notes": "No Legal approval or expiry date recorded",
+      "_locator": "Incident Evidence Register!row 11",
+      "proof_limit": "Register report only; referenced artifact not captured"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONFLICT-003",
+      "summary": "SYSTEMS reports complete evidence and a visible label, while REC-003 reports conflicting published-copy provenance. Retain both records; a visible label does not prove metadata survived.",
+      "evidence_ids": [
+        "FACT-AI-003",
+        "REC-003",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must inspect publication metadata and reconcile the complete/conflicting reports.",
+      "system_id": "AI-003"
+    },
+    {
+      "id": "CONFLICT-007",
+      "summary": "The register reports no notice. REC-008 reports an owner claim that a banner exists and a capture showing none. The fictional graphic alone does not establish that the conversation is obviously AI.",
+      "evidence_ids": [
+        "FACT-AI-007",
+        "REC-008",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Marketing",
+      "resolution_need": "Marketing must obtain actual first-interaction evidence and reconcile both accounts.",
+      "system_id": "AI-007"
+    },
+    {
+      "id": "CONFLICT-FAQ",
+      "summary": "The FAQ overview cites Article 50(2) for direct interaction, whereas the binding text and later FAQ answer use Article 50(1). Preserve the conflict and map the draft to binding text.",
+      "evidence_ids": [
+        "GUIDE-FAQ-CONFLICT",
+        "RULE-50-1"
+      ],
+      "citations": [],
+      "owner": "Legal",
+      "resolution_need": "Legal must confirm the statutory paragraph mapping while retaining the guidance error."
+    }
+  ],
+  "evidence_gaps": [
+    {
+      "id": "GAP-HISTORY",
+      "summary": "The live Sheets were modified August 28 and expose no revision history. Their exact August 26 workbook versions remain unverified.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-EVIDENCE-01",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations must supply verified historical revisions or confirm dated rows as retrospective case facts."
+    },
+    {
+      "id": "GAP-005",
+      "summary": "Current provider role, development, branding, biometric processing and release timing are unknown. Human adjudication does not resolve those facts.",
+      "evidence_ids": [
+        "FACT-AI-005",
+        "REC-005",
+        "REC-006"
+      ],
+      "citations": [],
+      "owner": "Assessment Operations",
+      "resolution_need": "Assessment Operations must refresh current-release, provider-role, biometric and market-entry evidence for Legal.",
+      "system_id": "AI-005"
+    },
+    {
+      "id": "GAP-008-PROVENANCE",
+      "summary": "A visible label is reported, but machine-readable provenance is untested. Supplier market entry is owner-reported without the release notice.",
+      "evidence_ids": [
+        "FACT-AI-008",
+        "REC-009",
+        "FACT-MARKET-003-008",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must test the published output and supply supplier release proof.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-008-EXCEPTION",
+      "summary": "REC-010 has no Legal approval or expiry. Translation and human review do not themselves establish a deepfake-media exception.",
+      "evidence_ids": [
+        "REC-010",
+        "POL-EXCEPTION",
+        "FACT-AI-008"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must propose rationale and expiry for Legal to decide.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-002",
+      "summary": "Recipient disclosure evidence is missing. Private human-edited individual replies do not automatically establish direct applicant interaction or public-interest publication.",
+      "evidence_ids": [
+        "FACT-AI-002",
+        "REC-002",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "owner": "Admissions",
+      "resolution_need": "Admissions must confirm recipient practice, editing and editorial responsibility.",
+      "system_id": "AI-002"
+    },
+    {
+      "id": "GAP-004",
+      "summary": "A missing first-interaction notice is reported. The actual onboarding screen and accessibility evidence were not independently captured.",
+      "evidence_ids": [
+        "FACT-AI-004",
+        "REC-004",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Learning Experience",
+      "resolution_need": "Learning Experience must verify notice or substantiate obviousness; Operations retains closure.",
+      "system_id": "AI-004"
+    },
+    {
+      "id": "GAP-PROOF",
+      "summary": "Register labels and owner reports do not independently prove screenshots, surviving provenance, release dates, exceptions or historical deployment.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations and system owners must provide the referenced proof before final findings."
+    },
+    {
+      "id": "GAP-NOTION",
+      "summary": "Both native connector reads returned 404. A separate fresh read of the original Notion page supplied evidence; connector workspace or page permission remains unresolved.",
+      "evidence_ids": [
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Workflow operator",
+      "resolution_need": "Workflow operator must restore Notion integration access and preserve the failed attempts."
+    }
+  ],
+  "impacts": [
+    {
+      "id": "IMP-AI-001-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-001-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-001-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-001-50-4-MEDIA",
+      "summary": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-001-50-4-TEXT",
+      "summary": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-001-NOTICE",
+      "summary": "The register reports a notice and REC-001 reports matching screenshot and release evidence. No additional notice remediation is supported on these reports; underlying proof and accessibility remain subject to owner review.",
+      "evidence_ids": [
+        "POL-NOTICE",
+        "FACT-AI-001",
+        "SRC-CALENDAR-01",
+        "REC-001"
+      ],
+      "citations": [],
+      "system_id": "AI-001",
+      "rule_ref": "POL-NOTICE",
+      "state": "supported-no-impact",
+      "reason": "The register reports a notice and REC-001 reports matching screenshot and release evidence. No additional notice remediation is supported on these reports; underlying proof and accessibility remain subject to owner review.",
+      "owner": "Learner Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-002-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-002",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-002",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Admissions",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-002-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-002",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-002",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Admissions",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-002-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-002",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-002",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Admissions",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-002-50-4-MEDIA",
+      "summary": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-002",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-002",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "owner": "Admissions",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-002-50-4-TEXT",
+      "summary": "Owner context describes private staff drafts, individually reviewed and edited administrative emails, not public-interest publication. Missing recipient notice evidence remains an operational gap; human review alone is not a blanket exemption.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-002",
+        "SRC-CALENDAR-01",
+        "REC-002",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "system_id": "AI-002",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "Owner context describes private staff drafts, individually reviewed and edited administrative emails, not public-interest publication. Missing recipient notice evidence remains an operational gap; human review alone is not a blanket exemption.",
+      "owner": "Admissions",
+      "proposed_action": "ACT-003: Confirm recipient disclosure practice",
+      "proposed_due_date": "2026-09-08",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-003"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING",
+        "FACT-MARKET-003-008"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending. June1 supplier product entry supports a conditional supplier-only December2 transition; it does not postpone deployer disclosure or August policy.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING",
+        "FACT-MARKET-003-008"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending. June1 supplier product entry supports a conditional supplier-only December2 transition; it does not postpone deployer disclosure or August policy.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-50-4-MEDIA",
+      "summary": "Reported fictional classroom illustrations or stylized fictional character do not depict an existing entity as an authentic recording. No deepfake-media trigger is supported for this described content; provenance and interaction controls remain separate.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "Reported fictional classroom illustrations or stylized fictional character do not depict an existing entity as an authentic recording. No deepfake-media trigger is supported for this described content; provenance and interaction controls remain separate.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-50-4-TEXT",
+      "summary": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-003-SYNTHETIC",
+      "summary": "SYSTEMS complete/visible-label status conflicts with REC-003 possible loss of published-copy metadata. Synthetic fictional images still fall within the August internal provenance control; supplier-only marking transition does not waive it.",
+      "evidence_ids": [
+        "POL-SYNTHETIC",
+        "FACT-AI-003",
+        "SRC-CALENDAR-01",
+        "REC-003",
+        "CONFLICT-003",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-003",
+      "rule_ref": "POL-SYNTHETIC",
+      "state": "conflicting",
+      "reason": "SYSTEMS complete/visible-label status conflicts with REC-003 possible loss of published-copy metadata. Synthetic fictional images still fall within the August internal provenance control; supplier-only marking transition does not waive it.",
+      "owner": "Communications",
+      "proposed_action": "ACT-004: Verify machine-readable provenance after publishing",
+      "proposed_due_date": "2026-09-10",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-004"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Learning Experience",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Learning Experience",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Learning Experience",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-50-4-MEDIA",
+      "summary": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "owner": "Learning Experience",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-50-4-TEXT",
+      "summary": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "owner": "Learning Experience",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-004-NOTICE",
+      "summary": "Both the register and REC-004 report no first-interaction notice for direct spoken AI interaction. Internal notice remediation is supported; no obviousness exception is evidenced and incident closure remains pending.",
+      "evidence_ids": [
+        "POL-NOTICE",
+        "FACT-AI-004",
+        "SRC-CALENDAR-01",
+        "REC-004",
+        "RULE-50-1",
+        "RULE-50-5"
+      ],
+      "citations": [],
+      "system_id": "AI-004",
+      "rule_ref": "POL-NOTICE",
+      "state": "supported-impact",
+      "reason": "Both the register and REC-004 report no first-interaction notice for direct spoken AI interaction. Internal notice remediation is supported; no obviousness exception is evidenced and incident closure remains pending.",
+      "owner": "Learning Experience",
+      "proposed_action": "ACT-001: Add and verify first-interaction AI notice",
+      "proposed_due_date": "2026-09-04",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-001"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-50-1",
+      "summary": "Current development, commissioning and branding facts are missing. The stale provider questionnaire cannot establish the actor or current-release scope; human adjudication does not repair this gap.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01",
+        "GAP-005",
+        "REC-005",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "RULE-50-1",
+      "state": "unresolved",
+      "reason": "Current development, commissioning and branding facts are missing. The stale provider questionnaire cannot establish the actor or current-release scope; human adjudication does not repair this gap.",
+      "owner": "Assessment Operations",
+      "proposed_action": "ACT-005: Refresh provider-role and release evidence",
+      "proposed_due_date": "2026-09-12",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-005"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-50-2",
+      "summary": "Current development, commissioning and branding facts are missing. The stale provider questionnaire cannot establish the actor or current-release scope; human adjudication does not repair this gap.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01",
+        "GAP-005",
+        "REC-005",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "RULE-50-2",
+      "state": "unresolved",
+      "reason": "Current development, commissioning and branding facts are missing. The stale provider questionnaire cannot establish the actor or current-release scope; human adjudication does not repair this gap.",
+      "owner": "Assessment Operations",
+      "proposed_action": "ACT-005: Refresh provider-role and release evidence",
+      "proposed_due_date": "2026-09-12",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-005"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-50-3",
+      "summary": "Whether current flagging infers emotions or personal categories from biometric data is unknown. Human review is not an Article50(3) exemption. Legal needs refreshed technical facts.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01",
+        "GAP-005",
+        "REC-006"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "RULE-50-3",
+      "state": "unresolved",
+      "reason": "Whether current flagging infers emotions or personal categories from biometric data is unknown. Human review is not an Article50(3) exemption. Legal needs refreshed technical facts.",
+      "owner": "Assessment Operations",
+      "proposed_action": "ACT-005: Refresh provider-role and release evidence",
+      "proposed_due_date": "2026-09-12",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-005"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-50-4-MEDIA",
+      "summary": "The reported use flags sessions for human review, rather than generating or manipulating deepfake media. This bounded no-impact proposal does not resolve its provider or biometric questions.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE",
+        "GAP-005"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "The reported use flags sessions for human review, rather than generating or manipulating deepfake media. This bounded no-impact proposal does not resolve its provider or biometric questions.",
+      "owner": "Assessment Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-50-4-TEXT",
+      "summary": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "owner": "Assessment Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-005-EVIDENCE",
+      "summary": "The current release has stale role evidence and missing biometric and timing facts. Refreshing the owner evidence is required by August policy without presupposing statutory applicability.",
+      "evidence_ids": [
+        "POL-EVIDENCE",
+        "FACT-AI-005",
+        "SRC-CALENDAR-01",
+        "REC-005",
+        "REC-006",
+        "GAP-005"
+      ],
+      "citations": [],
+      "system_id": "AI-005",
+      "rule_ref": "POL-EVIDENCE",
+      "state": "supported-impact",
+      "reason": "The current release has stale role evidence and missing biometric and timing facts. Refreshing the owner evidence is required by August policy without presupposing statutory applicability.",
+      "owner": "Assessment Operations",
+      "proposed_action": "ACT-005: Refresh provider-role and release evidence",
+      "proposed_due_date": "2026-09-12",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-005"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-006-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-006",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-006",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "People Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-006-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-006",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-006",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "People Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-006-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-006",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-006",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "People Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-006-50-4-MEDIA",
+      "summary": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-006",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-006",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "No generated or manipulated media resembling an existing entity and falsely appearing authentic is established for this described chat, private drafting, pronunciation or internal-summary use.",
+      "owner": "People Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-006-50-4-TEXT",
+      "summary": "Owner context says summaries remain in the restricted staff workspace and are not published or sent to learners, applicants or public. The public-interest publication trigger is absent on the reported facts.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-006",
+        "SRC-CALENDAR-01",
+        "REC-007"
+      ],
+      "citations": [],
+      "system_id": "AI-006",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "Owner context says summaries remain in the restricted staff workspace and are not published or sent to learners, applicants or public. The public-interest publication trigger is absent on the reported facts.",
+      "owner": "People Operations",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Marketing",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Marketing",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Marketing",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-50-4-MEDIA",
+      "summary": "Reported fictional classroom illustrations or stylized fictional character do not depict an existing entity as an authentic recording. No deepfake-media trigger is supported for this described content; provenance and interaction controls remain separate.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-no-impact",
+      "reason": "Reported fictional classroom illustrations or stylized fictional character do not depict an existing entity as an authentic recording. No deepfake-media trigger is supported for this described content; provenance and interaction controls remain separate.",
+      "owner": "Marketing",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-50-4-TEXT",
+      "summary": "A public programme conversation does not by itself settle public-interest publication purpose or editorial responsibility. Marketing and Legal must establish these facts; no automatic text-disclosure breach or exemption is inferred.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "unresolved",
+      "reason": "A public programme conversation does not by itself settle public-interest publication purpose or editorial responsibility. Marketing and Legal must establish these facts; no automatic text-disclosure breach or exemption is inferred.",
+      "owner": "Marketing",
+      "proposed_action": "PROP-007-TEXT: Confirm publication purpose and editorial responsibility; date pending Operations",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [
+        "PROP-007-TEXT"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-007-NOTICE",
+      "summary": "Register/capture report no notice while the owner reports a banner. A fictional graphic does not prove that visitors understand the AI conversation; preserve both reports and verify first-interaction notice.",
+      "evidence_ids": [
+        "POL-NOTICE",
+        "FACT-AI-007",
+        "SRC-CALENDAR-01",
+        "REC-008",
+        "CONFLICT-007",
+        "RULE-50-1",
+        "RULE-50-5"
+      ],
+      "citations": [],
+      "system_id": "AI-007",
+      "rule_ref": "POL-NOTICE",
+      "state": "conflicting",
+      "reason": "Register/capture report no notice while the owner reports a banner. A fictional graphic does not prove that visitors understand the AI conversation; preserve both reports and verify first-interaction notice.",
+      "owner": "Marketing",
+      "proposed_action": "ACT-002: Resolve disclosure evidence conflict",
+      "proposed_due_date": "2026-09-03",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-002"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-1",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING",
+        "FACT-MARKET-003-008"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-1",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-2",
+      "summary": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending. June1 supplier product entry supports a conditional supplier-only December2 transition; it does not postpone deployer disclosure or August policy.",
+      "evidence_ids": [
+        "RULE-50-2",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE",
+        "TIME-MARKING",
+        "FACT-MARKET-003-008"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-2",
+      "state": "supported-no-impact",
+      "reason": "Reported third-party licensed use supports no additional Quillhaven provider duty under this paragraph; inventory names are not product brands. Supplier duties and company policy remain separate. Final Legal interpretation is pending. June1 supplier product entry supports a conditional supplier-only December2 transition; it does not postpone deployer disclosure or August policy.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-3",
+      "summary": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "evidence_ids": [
+        "RULE-50-3",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "RULE-ROLE"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-3",
+      "state": "supported-no-impact",
+      "reason": "The captured use description concerns conversation, drafting, illustration, pronunciation, summaries or localisation; no emotion recognition or biometric categorisation is established for this described use. This bounded proposal is not a finding on unreported uses.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-4-MEDIA",
+      "summary": "Reported altered speech and lip movement of real presenters could falsely appear authentic. This supports a proposed deployer disclosure obligation; programme information does not establish the artistic-work adaptation. A visible-label report is not verified compliance.",
+      "evidence_ids": [
+        "RULE-50-4-MEDIA",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "RULE-DEEPFAKE",
+        "REC-009",
+        "REC-010",
+        "POL-SYNTHETIC",
+        "GAP-008-PROVENANCE"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-4-MEDIA",
+      "state": "supported-impact",
+      "reason": "Reported altered speech and lip movement of real presenters could falsely appear authentic. This supports a proposed deployer disclosure obligation; programme information does not establish the artistic-work adaptation. A visible-label report is not verified compliance.",
+      "owner": "Communications",
+      "proposed_action": "ACT-006: Complete provenance test; ACT-007: Review exception request",
+      "proposed_due_date": "2026-09-09",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-006",
+        "ACT-007"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-4-TEXT",
+      "summary": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "evidence_ids": [
+        "RULE-50-4-TEXT",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-4-TEXT",
+      "state": "supported-no-impact",
+      "reason": "The captured registered use does not establish generated text published to inform the public on matters of public interest. This proposal is limited to the described use and does not approve any unreported publication.",
+      "owner": "Communications",
+      "proposed_action": "",
+      "proposed_due_date": null,
+      "approval_status": "pending",
+      "action_ids": [],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-SYNTHETIC",
+      "summary": "Visible labelling is reported, but surviving machine-readable provenance and tool capability have not been tested. Retain the August policy control despite any supplier marking transition.",
+      "evidence_ids": [
+        "POL-SYNTHETIC",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "REC-009",
+        "GAP-008-PROVENANCE",
+        "TIME-MARKING"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "POL-SYNTHETIC",
+      "state": "unresolved",
+      "reason": "Visible labelling is reported, but surviving machine-readable provenance and tool capability have not been tested. Retain the August policy control despite any supplier marking transition.",
+      "owner": "Communications",
+      "proposed_action": "ACT-006: Complete provenance test",
+      "proposed_due_date": "2026-09-09",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-006"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-EXCEPTION",
+      "summary": "The draft exception has no recorded Legal approval or expiry. Preserve it as an unapproved proposal; no synthetic-media or legal exception is granted.",
+      "evidence_ids": [
+        "POL-EXCEPTION",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "REC-010",
+        "GAP-008-EXCEPTION"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "POL-EXCEPTION",
+      "state": "unresolved",
+      "reason": "The draft exception has no recorded Legal approval or expiry. Preserve it as an unapproved proposal; no synthetic-media or legal exception is granted.",
+      "owner": "Communications",
+      "proposed_action": "ACT-007: Review exception request",
+      "proposed_due_date": "2026-09-15",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-007"
+      ],
+      "legal_dependency": false,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    },
+    {
+      "id": "IMP-AI-008-50-5",
+      "summary": "A visible label is reported but the actual disclosure, first exposure and applicable accessibility evidence have not been inspected. The paragraph50(4) proposal cannot establish completed50(5) performance.",
+      "evidence_ids": [
+        "RULE-50-5",
+        "FACT-AI-008",
+        "SRC-CALENDAR-01",
+        "RULE-50-4-MEDIA",
+        "REC-009",
+        "GAP-PROOF"
+      ],
+      "citations": [],
+      "system_id": "AI-008",
+      "rule_ref": "RULE-50-5",
+      "state": "unresolved",
+      "reason": "A visible label is reported but the actual disclosure, first exposure and applicable accessibility evidence have not been inspected. The paragraph50(4) proposal cannot establish completed50(5) performance.",
+      "owner": "Communications",
+      "proposed_action": "ACT-006: Complete provenance test",
+      "proposed_due_date": "2026-09-09",
+      "approval_status": "pending",
+      "action_ids": [
+        "ACT-006"
+      ],
+      "legal_dependency": true,
+      "observation_basis": "Current source reports describing August26; historical proof limits retained"
+    }
+  ],
+  "unaffected_items": [],
+  "unresolved_items": [
+    {
+      "id": "GAP-HISTORY",
+      "summary": "The live Sheets were modified August 28 and expose no revision history. Their exact August 26 workbook versions remain unverified.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-EVIDENCE-01",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations must supply verified historical revisions or confirm dated rows as retrospective case facts."
+    },
+    {
+      "id": "GAP-005",
+      "summary": "Current provider role, development, branding, biometric processing and release timing are unknown. Human adjudication does not resolve those facts.",
+      "evidence_ids": [
+        "FACT-AI-005",
+        "REC-005",
+        "REC-006"
+      ],
+      "citations": [],
+      "owner": "Assessment Operations",
+      "resolution_need": "Assessment Operations must refresh current-release, provider-role, biometric and market-entry evidence for Legal.",
+      "system_id": "AI-005"
+    },
+    {
+      "id": "GAP-008-PROVENANCE",
+      "summary": "A visible label is reported, but machine-readable provenance is untested. Supplier market entry is owner-reported without the release notice.",
+      "evidence_ids": [
+        "FACT-AI-008",
+        "REC-009",
+        "FACT-MARKET-003-008",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must test the published output and supply supplier release proof.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-008-EXCEPTION",
+      "summary": "REC-010 has no Legal approval or expiry. Translation and human review do not themselves establish a deepfake-media exception.",
+      "evidence_ids": [
+        "REC-010",
+        "POL-EXCEPTION",
+        "FACT-AI-008"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must propose rationale and expiry for Legal to decide.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-002",
+      "summary": "Recipient disclosure evidence is missing. Private human-edited individual replies do not automatically establish direct applicant interaction or public-interest publication.",
+      "evidence_ids": [
+        "FACT-AI-002",
+        "REC-002",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "owner": "Admissions",
+      "resolution_need": "Admissions must confirm recipient practice, editing and editorial responsibility.",
+      "system_id": "AI-002"
+    },
+    {
+      "id": "GAP-004",
+      "summary": "A missing first-interaction notice is reported. The actual onboarding screen and accessibility evidence were not independently captured.",
+      "evidence_ids": [
+        "FACT-AI-004",
+        "REC-004",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Learning Experience",
+      "resolution_need": "Learning Experience must verify notice or substantiate obviousness; Operations retains closure.",
+      "system_id": "AI-004"
+    },
+    {
+      "id": "GAP-PROOF",
+      "summary": "Register labels and owner reports do not independently prove screenshots, surviving provenance, release dates, exceptions or historical deployment.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations and system owners must provide the referenced proof before final findings."
+    },
+    {
+      "id": "GAP-NOTION",
+      "summary": "Both native connector reads returned 404. A separate fresh read of the original Notion page supplied evidence; connector workspace or page permission remains unresolved.",
+      "evidence_ids": [
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Workflow operator",
+      "resolution_need": "Workflow operator must restore Notion integration access and preserve the failed attempts."
+    }
+  ]
+}

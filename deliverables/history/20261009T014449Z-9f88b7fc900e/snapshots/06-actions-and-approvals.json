@@ -1,0 +1,1418 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "20261009T014449Z-9f88b7fc900e:stage-06",
+  "run_id": "20261009T014449Z-9f88b7fc900e",
+  "stage": "actions-and-approvals",
+  "sequence": 6,
+  "created_at": "2026-10-09T01:58:02.894791Z",
+  "status": "blocked",
+  "predecessor": {
+    "snapshot_id": "20261009T014449Z-9f88b7fc900e:stage-05",
+    "path": "deliverables/snapshots/05-impact-analysis.json",
+    "sha256": "sha256:806e79e12d88320fc5daa542d681a343bf28fbd8dee08dfe827b12e79f782cea"
+  },
+  "consumed_record_ids": [
+    "BLOCK-AMEND",
+    "BLOCK-CONSOLIDATED",
+    "BLOCK-OJ",
+    "FACT-AI-002",
+    "FACT-AI-003",
+    "FACT-AI-004",
+    "FACT-AI-005",
+    "FACT-AI-007",
+    "FACT-AI-008",
+    "FACT-MARKET-003-008",
+    "GAP-HISTORY",
+    "GAP-PROOF",
+    "GUIDE-FAQ-CONFLICT",
+    "GUIDE-FAQ-DATE",
+    "GUIDE-LAW",
+    "GUIDE-TIME",
+    "IMP-AI-001-AUTHORITY",
+    "IMP-AI-001-NOTICE",
+    "IMP-AI-002-AUTHORITY",
+    "IMP-AI-002-DRAFT",
+    "IMP-AI-003-AUTHORITY",
+    "IMP-AI-003-SYNTHETIC",
+    "IMP-AI-004-AUTHORITY",
+    "IMP-AI-004-NOTICE",
+    "IMP-AI-005-AUTHORITY",
+    "IMP-AI-005-EVIDENCE",
+    "IMP-AI-006-AUTHORITY",
+    "IMP-AI-007-AUTHORITY",
+    "IMP-AI-007-NOTICE",
+    "IMP-AI-008-AUTHORITY",
+    "IMP-AI-008-EXCEPTION",
+    "IMP-AI-008-SYNTHETIC",
+    "POL-AUTHORITY",
+    "POL-DRAFT",
+    "POL-EVIDENCE",
+    "POL-EXCEPTION",
+    "POL-NOTICE",
+    "POL-SYNTHETIC",
+    "REC-002",
+    "REC-003",
+    "REC-004",
+    "REC-005",
+    "REC-006",
+    "REC-008",
+    "REC-009",
+    "REC-010",
+    "SRC-AMEND-01",
+    "SRC-CALENDAR-01",
+    "SRC-CONSOLIDATED-01",
+    "SRC-EVIDENCE-01",
+    "SRC-OJ-01",
+    "SRC-POLICY-01",
+    "SRC-POLICY-02",
+    "SRC-POLICY-03",
+    "SRC-SYSTEMS-01"
+  ],
+  "produced_record_ids": [
+    "ACT-001",
+    "ACT-002",
+    "ACT-003",
+    "ACT-004",
+    "ACT-005",
+    "ACT-006",
+    "ACT-007",
+    "ACT-008",
+    "DEC-ACTIONS",
+    "PROP-RESTORE-AUTHORITY",
+    "REQ-ACT-001-OPS",
+    "REQ-ACT-002-OPS",
+    "REQ-ACT-003-LEGAL",
+    "REQ-ACT-003-OPS",
+    "REQ-ACT-004-OPS",
+    "REQ-ACT-005-LEGAL",
+    "REQ-ACT-005-OPS",
+    "REQ-ACT-006-OPS",
+    "REQ-ACT-007-LEGAL",
+    "REQ-ACT-007-OPS",
+    "REQ-ACT-008-OPS",
+    "REQ-AI-001-LEGAL",
+    "REQ-AI-002-LEGAL",
+    "REQ-AI-003-LEGAL",
+    "REQ-AI-004-LEGAL",
+    "REQ-AI-005-LEGAL",
+    "REQ-AI-006-LEGAL",
+    "REQ-AI-007-LEGAL",
+    "REQ-AI-008-LEGAL",
+    "REQ-AUTHORITY-LEGAL",
+    "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
+    "REQ-PROP-RESTORE-AUTHORITY-OPS"
+  ],
+  "state": {
+    "proposed_actions": [
+      {
+        "id": "ACT-001",
+        "summary": "Add and verify first-interaction AI notice; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-004-NOTICE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 2",
+            "quote": "Add and verify first-interaction AI notice"
+          }
+        ],
+        "action_id": "ACT-001",
+        "system_id": "AI-004",
+        "action": "Add and verify first-interaction AI notice",
+        "owner": "Learning Experience",
+        "due_date": "2026-09-04",
+        "status": "planned",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 2",
+        "impact_ids": [
+          "IMP-AI-004-NOTICE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-002",
+        "summary": "Resolve disclosure evidence conflict; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-007-NOTICE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 3",
+            "quote": "Resolve disclosure evidence conflict"
+          }
+        ],
+        "action_id": "ACT-002",
+        "system_id": "AI-007",
+        "action": "Resolve disclosure evidence conflict",
+        "owner": "Marketing",
+        "due_date": "2026-09-03",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 3",
+        "impact_ids": [
+          "IMP-AI-007-NOTICE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-003",
+        "summary": "Confirm recipient disclosure practice; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-002-DRAFT"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 4",
+            "quote": "Confirm recipient disclosure practice"
+          }
+        ],
+        "action_id": "ACT-003",
+        "system_id": "AI-002",
+        "action": "Confirm recipient disclosure practice",
+        "owner": "Admissions",
+        "due_date": "2026-09-08",
+        "status": "open",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 4",
+        "impact_ids": [
+          "IMP-AI-002-DRAFT"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-004",
+        "summary": "Verify machine-readable provenance after publishing; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-003-SYNTHETIC"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 5",
+            "quote": "Verify machine-readable provenance after publishing"
+          }
+        ],
+        "action_id": "ACT-004",
+        "system_id": "AI-003",
+        "action": "Verify machine-readable provenance after publishing",
+        "owner": "Communications",
+        "due_date": "2026-09-10",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 5",
+        "impact_ids": [
+          "IMP-AI-003-SYNTHETIC"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-005",
+        "summary": "Refresh provider-role and release evidence; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-005-EVIDENCE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 6",
+            "quote": "Refresh provider-role and release evidence"
+          }
+        ],
+        "action_id": "ACT-005",
+        "system_id": "AI-005",
+        "action": "Refresh provider-role and release evidence",
+        "owner": "Assessment Operations",
+        "due_date": "2026-09-12",
+        "status": "open",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 6",
+        "impact_ids": [
+          "IMP-AI-005-EVIDENCE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-006",
+        "summary": "Complete provenance test; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-008-SYNTHETIC"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 7",
+            "quote": "Complete provenance test"
+          }
+        ],
+        "action_id": "ACT-006",
+        "system_id": "AI-008",
+        "action": "Complete provenance test",
+        "owner": "Communications",
+        "due_date": "2026-09-09",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 7",
+        "impact_ids": [
+          "IMP-AI-008-SYNTHETIC"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-007",
+        "summary": "Review exception request; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-008-EXCEPTION"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 8",
+            "quote": "Review exception request"
+          }
+        ],
+        "action_id": "ACT-007",
+        "system_id": "AI-008",
+        "action": "Review exception request",
+        "owner": "Legal",
+        "due_date": "2026-09-15",
+        "status": "blocked",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 8",
+        "impact_ids": [
+          "IMP-AI-008-EXCEPTION"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "ACT-008",
+        "summary": "Quarterly AI register evidence review; existing operational proposal preserved, with approval and activation pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "POL-EVIDENCE",
+          "GAP-HISTORY",
+          "GAP-PROOF"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 9",
+            "quote": "Quarterly AI register evidence review"
+          }
+        ],
+        "action_id": "ACT-008",
+        "system_id": "ALL",
+        "action": "Quarterly AI register evidence review",
+        "owner": "Operations",
+        "due_date": "2026-10-02",
+        "status": "scheduled",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 9",
+        "impact_ids": [],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "legal_dependency": false,
+        "nondependent_basis": "Existing sourced commitment for internal controls, fact collection or review preparation; no statutory conclusion, exemption, closure or newly activated legal deadline.",
+        "date_basis": "Existing calendar-2026-08-26 proposal; date requires Operations confirmation",
+        "actual_retrieval_limit": "Date has elapsed at October 8 local retrieval; preserved for fixed August 26 retrospective review"
+      },
+      {
+        "id": "PROP-RESTORE-AUTHORITY",
+        "summary": "Restore exact legislative source access and rerun all ten routes before statutory interpretation; proposed date awaits Operations.",
+        "evidence_ids": [
+          "BLOCK-OJ",
+          "BLOCK-AMEND",
+          "BLOCK-CONSOLIDATED",
+          "POL-AUTHORITY",
+          "IMP-AI-001-AUTHORITY",
+          "IMP-AI-002-AUTHORITY",
+          "IMP-AI-003-AUTHORITY",
+          "IMP-AI-004-AUTHORITY",
+          "IMP-AI-005-AUTHORITY",
+          "IMP-AI-006-AUTHORITY",
+          "IMP-AI-007-AUTHORITY",
+          "IMP-AI-008-AUTHORITY"
+        ],
+        "citations": [],
+        "action_id": "PROP-RESTORE-AUTHORITY",
+        "system_id": "ALL",
+        "action": "Restore binding-source access and perform a new fresh review",
+        "owner": "Workflow operator / Legal",
+        "due_date": null,
+        "status": "draft",
+        "approval_required": "legal",
+        "source_version": "Current-run manifest; failed exact legislative routes",
+        "impact_ids": [
+          "IMP-AI-001-AUTHORITY",
+          "IMP-AI-002-AUTHORITY",
+          "IMP-AI-003-AUTHORITY",
+          "IMP-AI-004-AUTHORITY",
+          "IMP-AI-005-AUTHORITY",
+          "IMP-AI-006-AUTHORITY",
+          "IMP-AI-007-AUTHORITY",
+          "IMP-AI-008-AUTHORITY"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": false,
+        "legal_dependency": true,
+        "date_basis": "No source-supported deadline; Operations must decide"
+      }
+    ],
+    "approval_requirements": [
+      {
+        "id": "REQ-AI-001-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-001.",
+        "evidence_ids": [
+          "IMP-AI-001-AUTHORITY",
+          "IMP-AI-001-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-001-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-001",
+        "subject_impact": "IMP-AI-001-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-002-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-002.",
+        "evidence_ids": [
+          "IMP-AI-002-AUTHORITY",
+          "IMP-AI-002-DRAFT",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-002-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": "IMP-AI-002-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-003-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-003.",
+        "evidence_ids": [
+          "IMP-AI-003-AUTHORITY",
+          "IMP-AI-003-SYNTHETIC",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-003-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-003",
+        "subject_impact": "IMP-AI-003-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-004-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-004.",
+        "evidence_ids": [
+          "IMP-AI-004-AUTHORITY",
+          "IMP-AI-004-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-004-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-004",
+        "subject_impact": "IMP-AI-004-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-005-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-005.",
+        "evidence_ids": [
+          "IMP-AI-005-AUTHORITY",
+          "IMP-AI-005-EVIDENCE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-005-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": "IMP-AI-005-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-006-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-006.",
+        "evidence_ids": [
+          "IMP-AI-006-AUTHORITY",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-006-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-006",
+        "subject_impact": "IMP-AI-006-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-007-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-007.",
+        "evidence_ids": [
+          "IMP-AI-007-AUTHORITY",
+          "IMP-AI-007-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-007-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": "IMP-AI-007-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-008-LEGAL",
+        "summary": "Review the withheld statutory scope and pending internal findings for AI-008.",
+        "evidence_ids": [
+          "IMP-AI-008-AUTHORITY",
+          "IMP-AI-008-SYNTHETIC",
+          "IMP-AI-008-EXCEPTION",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-008-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Identify the missing authority and system facts required to review this August 26 use. Statutory actor, paragraph, exception and timing conclusions are withheld until a new successful source run. Assess the reported internal controls and historical limits without granting approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": "IMP-AI-008-AUTHORITY",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-ACT-001-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-001.",
+        "evidence_ids": [
+          "ACT-001",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-001-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-004",
+        "subject_impact": null,
+        "subject_action": "ACT-001"
+      },
+      {
+        "id": "REQ-ACT-002-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-002.",
+        "evidence_ids": [
+          "ACT-002",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-002-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": null,
+        "subject_action": "ACT-002"
+      },
+      {
+        "id": "REQ-ACT-003-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-003.",
+        "evidence_ids": [
+          "ACT-003",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-003-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": null,
+        "subject_action": "ACT-003"
+      },
+      {
+        "id": "REQ-ACT-003-LEGAL",
+        "summary": "Review the evidence or exception question for ACT-003.",
+        "evidence_ids": [
+          "ACT-003",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-003-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": null,
+        "subject_action": "ACT-003"
+      },
+      {
+        "id": "REQ-ACT-004-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-004.",
+        "evidence_ids": [
+          "ACT-004",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-004-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-003",
+        "subject_impact": null,
+        "subject_action": "ACT-004"
+      },
+      {
+        "id": "REQ-ACT-005-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-005.",
+        "evidence_ids": [
+          "ACT-005",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-005-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": null,
+        "subject_action": "ACT-005"
+      },
+      {
+        "id": "REQ-ACT-005-LEGAL",
+        "summary": "Review the evidence or exception question for ACT-005.",
+        "evidence_ids": [
+          "ACT-005",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-005-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": null,
+        "subject_action": "ACT-005"
+      },
+      {
+        "id": "REQ-ACT-006-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-006.",
+        "evidence_ids": [
+          "ACT-006",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-006-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-006"
+      },
+      {
+        "id": "REQ-ACT-007-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-007.",
+        "evidence_ids": [
+          "ACT-007",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-007-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-007"
+      },
+      {
+        "id": "REQ-ACT-007-LEGAL",
+        "summary": "Review the evidence or exception question for ACT-007.",
+        "evidence_ids": [
+          "ACT-007",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-007-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-007"
+      },
+      {
+        "id": "REQ-ACT-008-OPS",
+        "summary": "Confirm ownership and proposed date for ACT-008.",
+        "evidence_ids": [
+          "ACT-008",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-008-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": "ACT-008"
+      },
+      {
+        "id": "REQ-PROP-RESTORE-AUTHORITY-OPS",
+        "summary": "Confirm ownership and proposed date for PROP-RESTORE-AUTHORITY.",
+        "evidence_ids": [
+          "PROP-RESTORE-AUTHORITY",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-PROP-RESTORE-AUTHORITY-OPS",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Confirm this action owner and recorded proposal date, or supply a supported alternative bound to the reviewed draft. Existing status and elapsed date are not activation or closure. An undated action remains undated until authorized review.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": "PROP-RESTORE-AUTHORITY"
+      },
+      {
+        "id": "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
+        "summary": "Review the evidence or exception question for PROP-RESTORE-AUTHORITY.",
+        "evidence_ids": [
+          "PROP-RESTORE-AUTHORITY",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-PROP-RESTORE-AUTHORITY-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "Review the bound action as fact collection or review preparation. Any statutory conclusion awaits the missing binding acts; an exception requires actual owner, rationale, expiry and authorized approval. This request grants no approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": "PROP-RESTORE-AUTHORITY"
+      },
+      {
+        "id": "REQ-AUTHORITY-LEGAL",
+        "summary": "Confirm the authority recovery and historical review basis.",
+        "evidence_ids": [
+          "BLOCK-OJ",
+          "BLOCK-AMEND",
+          "BLOCK-CONSOLIDATED",
+          "GUIDE-LAW",
+          "GUIDE-FAQ-CONFLICT",
+          "GUIDE-TIME",
+          "GUIDE-FAQ-DATE"
+        ],
+        "citations": [],
+        "request_id": "REQ-AUTHORITY-LEGAL",
+        "run_id": "20261009T014449Z-9f88b7fc900e",
+        "source_versions": {
+          "SRC-SYSTEMS-01": "sha256:cef5e3f4c3734d93d5b2bec0489a7255640504c848135355148b961fb700d8e7",
+          "SRC-EVIDENCE-01": "sha256:454d3e02e3d243f455c7123a16ba02ec31b10d37bd4f1cc3215071368cc5a7cb",
+          "SRC-CALENDAR-01": "sha256:80c9aaff9a7c616033e0391dc2453ce203ca340cbdf3ff5e1cfb03b759f2b762",
+          "SRC-LAW-01": "sha256:9dcba45f2790a0017c4e2c71415a3d8e3ad93333f82b5454c9a32256c994f66e",
+          "SRC-TIME-01": "sha256:27d4795b44294ca804834e56100bf0a32c8fad8ac0b3e0ea390fb6f225350885",
+          "SRC-FAQ-01": "sha256:f204607b1da2cdd94a50786049032491e3756649e2adda3482af7a01629dba73",
+          "SRC-POLICY-03": "sha256:afbc032427ec93bda357c07b0d1d0624a0c5aa72fa7b4457c26d14e7e0951bdb"
+        },
+        "question": "After fresh original-act, amendment and dated-consolidation access succeeds, verify paragraph operations, operative dates and any actor-specific transition. Resolve the conflicting FAQ references against those acts. Neither old captures nor current guidance can approve this blocked run.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": null
+      }
+    ],
+    "escalations": [
+      {
+        "id": "BLOCK-OJ",
+        "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+        "evidence_ids": [
+          "SRC-OJ-01"
+        ],
+        "citations": [],
+        "owner": "Workflow operator / Legal",
+        "resolution_need": "Retrieve the original act freshly through the disclosed route and verify identity and suitability before legal interpretation."
+      },
+      {
+        "id": "BLOCK-AMEND",
+        "summary": "Amending act OJ L 2026/1744 route returned a current Official Journal listing instead of the requested act.",
+        "evidence_ids": [
+          "SRC-AMEND-01"
+        ],
+        "citations": [],
+        "owner": "Workflow operator / Legal",
+        "resolution_need": "Restore fresh access to the exact amendment and inspect its operations, entry into force and review-date effect."
+      },
+      {
+        "id": "BLOCK-CONSOLIDATED",
+        "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
+        "evidence_ids": [
+          "SRC-CONSOLIDATED-01"
+        ],
+        "citations": [],
+        "owner": "Workflow operator / Legal",
+        "resolution_need": "Retrieve the dated documentary text and compare it against the original act and amendment; retain its authority limits."
+      },
+      {
+        "id": "GAP-HISTORY",
+        "summary": "Sheets modified August 28 with empty revision lists do not prove exact August 26 workbook versions.",
+        "evidence_ids": [
+          "SRC-SYSTEMS-01",
+          "SRC-EVIDENCE-01",
+          "SRC-CALENDAR-01"
+        ],
+        "citations": [],
+        "owner": "Operations",
+        "resolution_need": "Supply authorized historical revisions or confirm dated rows as retrospective reports; retain the version limit."
+      },
+      {
+        "id": "GAP-005",
+        "summary": "Current development, branding, release, market entry and biometric/emotion/category facts remain unknown; human adjudication does not establish them.",
+        "evidence_ids": [
+          "FACT-AI-005",
+          "REC-005",
+          "REC-006"
+        ],
+        "citations": [],
+        "owner": "Assessment Operations",
+        "resolution_need": "Refresh current technical and supplier evidence for later Legal review.",
+        "system_id": "AI-005"
+      },
+      {
+        "id": "GAP-008-PROVENANCE",
+        "summary": "Visible label is reported but machine-readable provenance is untested; supplier entry remains an owner report.",
+        "evidence_ids": [
+          "FACT-AI-008",
+          "REC-009",
+          "FACT-MARKET-003-008",
+          "POL-SYNTHETIC"
+        ],
+        "citations": [],
+        "owner": "Communications",
+        "resolution_need": "Test provenance and inspect actual published output and supplier release evidence.",
+        "system_id": "AI-008"
+      },
+      {
+        "id": "GAP-008-EXCEPTION",
+        "summary": "Draft REC-010 has no Legal approval or expiry. It grants no exception.",
+        "evidence_ids": [
+          "REC-010",
+          "POL-EXCEPTION"
+        ],
+        "citations": [],
+        "owner": "Communications / Legal",
+        "resolution_need": "Prepare an owner, rationale and expiry proposal for an actual authorized decision.",
+        "system_id": "AI-008"
+      },
+      {
+        "id": "GAP-002",
+        "summary": "Recipient disclosure evidence is missing despite the reported private staff drafting and individual human-edited email flow. Statutory scope remains withheld.",
+        "evidence_ids": [
+          "FACT-AI-002",
+          "REC-002",
+          "POL-DRAFT"
+        ],
+        "citations": [],
+        "owner": "Admissions",
+        "resolution_need": "Confirm the actual recipient practice and editing responsibility; do not infer compliance from missing evidence.",
+        "system_id": "AI-002"
+      },
+      {
+        "id": "GAP-004",
+        "summary": "No first-interaction notice is reported; actual onboarding and accessibility proof were not captured.",
+        "evidence_ids": [
+          "FACT-AI-004",
+          "REC-004",
+          "POL-NOTICE"
+        ],
+        "citations": [],
+        "owner": "Learning Experience",
+        "resolution_need": "Add and verify a notice or substantiate the contextual exception for Operations review.",
+        "system_id": "AI-004"
+      },
+      {
+        "id": "GAP-PROOF",
+        "summary": "Register labels and owner context do not independently verify screenshots, metadata, releases, exception approval or historical deployment.",
+        "evidence_ids": [
+          "SRC-EVIDENCE-01",
+          "SRC-POLICY-03"
+        ],
+        "citations": [],
+        "owner": "Operations",
+        "resolution_need": "Obtain authorized underlying proof and owner corrections before final findings."
+      },
+      {
+        "id": "GAP-NOTION",
+        "summary": "Native connector URL and UUID reads returned 404; the separate fresh published Notion UI read succeeded. Integration setup remains unresolved.",
+        "evidence_ids": [
+          "SRC-POLICY-01",
+          "SRC-POLICY-02",
+          "SRC-POLICY-03"
+        ],
+        "citations": [],
+        "owner": "Workflow operator",
+        "resolution_need": "Restore the intended Notion integration permissions; preserve both failed attempts and UI evidence."
+      },
+      {
+        "id": "CONFLICT-003",
+        "summary": "SYSTEMS says complete with visible label; REC-003 reports possible published-copy provenance loss. Preserve both reports.",
+        "evidence_ids": [
+          "FACT-AI-003",
+          "REC-003",
+          "POL-SYNTHETIC"
+        ],
+        "citations": [],
+        "owner": "Communications",
+        "resolution_need": "Inspect the final published copy and reconcile provenance evidence.",
+        "system_id": "AI-003"
+      },
+      {
+        "id": "CONFLICT-007",
+        "summary": "Register and reported capture say no notice while the owner says a banner exists. A stylized graphic does not settle what visitors understand.",
+        "evidence_ids": [
+          "FACT-AI-007",
+          "REC-008",
+          "POL-NOTICE"
+        ],
+        "citations": [],
+        "owner": "Marketing",
+        "resolution_need": "Obtain actual first-interaction capture and reconcile both accounts.",
+        "system_id": "AI-007"
+      },
+      {
+        "id": "CONFLICT-FAQ",
+        "summary": "Current FAQ overview refers to 50(2) for interaction; its later answer refers to 50(1). Binding cross-check is unavailable.",
+        "evidence_ids": [
+          "GUIDE-FAQ-CONFLICT",
+          "BLOCK-OJ",
+          "BLOCK-AMEND"
+        ],
+        "citations": [],
+        "owner": "Legal",
+        "resolution_need": "Verify the operative paragraph against freshly retrieved binding acts; retain the advisory disagreement."
+      }
+    ]
+  },
+  "unresolved": [
+    {
+      "id": "BLOCK-OJ",
+      "summary": "Original Regulation 2024/1689 route returned a JavaScript bot-check page; requested legislative content was absent.",
+      "evidence_ids": [
+        "SRC-OJ-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Retrieve the original act freshly through the disclosed route and verify identity and suitability before legal interpretation."
+    },
+    {
+      "id": "BLOCK-AMEND",
+      "summary": "Amending act OJ L 2026/1744 route returned a current Official Journal listing instead of the requested act.",
+      "evidence_ids": [
+        "SRC-AMEND-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Restore fresh access to the exact amendment and inspect its operations, entry into force and review-date effect."
+    },
+    {
+      "id": "BLOCK-CONSOLIDATED",
+      "summary": "Requested July 27 dated consolidation was absent from a redirected Official Journal listing.",
+      "evidence_ids": [
+        "SRC-CONSOLIDATED-01"
+      ],
+      "citations": [],
+      "owner": "Workflow operator / Legal",
+      "resolution_need": "Retrieve the dated documentary text and compare it against the original act and amendment; retain its authority limits."
+    },
+    {
+      "id": "GAP-HISTORY",
+      "summary": "Sheets modified August 28 with empty revision lists do not prove exact August 26 workbook versions.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-EVIDENCE-01",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Supply authorized historical revisions or confirm dated rows as retrospective reports; retain the version limit."
+    },
+    {
+      "id": "GAP-005",
+      "summary": "Current development, branding, release, market entry and biometric/emotion/category facts remain unknown; human adjudication does not establish them.",
+      "evidence_ids": [
+        "FACT-AI-005",
+        "REC-005",
+        "REC-006"
+      ],
+      "citations": [],
+      "owner": "Assessment Operations",
+      "resolution_need": "Refresh current technical and supplier evidence for later Legal review.",
+      "system_id": "AI-005"
+    },
+    {
+      "id": "GAP-008-PROVENANCE",
+      "summary": "Visible label is reported but machine-readable provenance is untested; supplier entry remains an owner report.",
+      "evidence_ids": [
+        "FACT-AI-008",
+        "REC-009",
+        "FACT-MARKET-003-008",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Test provenance and inspect actual published output and supplier release evidence.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-008-EXCEPTION",
+      "summary": "Draft REC-010 has no Legal approval or expiry. It grants no exception.",
+      "evidence_ids": [
+        "REC-010",
+        "POL-EXCEPTION"
+      ],
+      "citations": [],
+      "owner": "Communications / Legal",
+      "resolution_need": "Prepare an owner, rationale and expiry proposal for an actual authorized decision.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-002",
+      "summary": "Recipient disclosure evidence is missing despite the reported private staff drafting and individual human-edited email flow. Statutory scope remains withheld.",
+      "evidence_ids": [
+        "FACT-AI-002",
+        "REC-002",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "owner": "Admissions",
+      "resolution_need": "Confirm the actual recipient practice and editing responsibility; do not infer compliance from missing evidence.",
+      "system_id": "AI-002"
+    },
+    {
+      "id": "GAP-004",
+      "summary": "No first-interaction notice is reported; actual onboarding and accessibility proof were not captured.",
+      "evidence_ids": [
+        "FACT-AI-004",
+        "REC-004",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Learning Experience",
+      "resolution_need": "Add and verify a notice or substantiate the contextual exception for Operations review.",
+      "system_id": "AI-004"
+    },
+    {
+      "id": "GAP-PROOF",
+      "summary": "Register labels and owner context do not independently verify screenshots, metadata, releases, exception approval or historical deployment.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Obtain authorized underlying proof and owner corrections before final findings."
+    },
+    {
+      "id": "GAP-NOTION",
+      "summary": "Native connector URL and UUID reads returned 404; the separate fresh published Notion UI read succeeded. Integration setup remains unresolved.",
+      "evidence_ids": [
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Workflow operator",
+      "resolution_need": "Restore the intended Notion integration permissions; preserve both failed attempts and UI evidence."
+    },
+    {
+      "id": "CONFLICT-003",
+      "summary": "SYSTEMS says complete with visible label; REC-003 reports possible published-copy provenance loss. Preserve both reports.",
+      "evidence_ids": [
+        "FACT-AI-003",
+        "REC-003",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Inspect the final published copy and reconcile provenance evidence.",
+      "system_id": "AI-003"
+    },
+    {
+      "id": "CONFLICT-007",
+      "summary": "Register and reported capture say no notice while the owner says a banner exists. A stylized graphic does not settle what visitors understand.",
+      "evidence_ids": [
+        "FACT-AI-007",
+        "REC-008",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Marketing",
+      "resolution_need": "Obtain actual first-interaction capture and reconcile both accounts.",
+      "system_id": "AI-007"
+    },
+    {
+      "id": "CONFLICT-FAQ",
+      "summary": "Current FAQ overview refers to 50(2) for interaction; its later answer refers to 50(1). Binding cross-check is unavailable.",
+      "evidence_ids": [
+        "GUIDE-FAQ-CONFLICT",
+        "BLOCK-OJ",
+        "BLOCK-AMEND"
+      ],
+      "citations": [],
+      "owner": "Legal",
+      "resolution_need": "Verify the operative paragraph against freshly retrieved binding acts; retain the advisory disagreement."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-ACTIONS",
+      "summary": "Preserve commitments while restricting publication to nondependent pending proposals.",
+      "evidence_ids": [
+        "SRC-CALENDAR-01",
+        "POL-AUTHORITY",
+        "POL-EXCEPTION",
+        "BLOCK-OJ",
+        "BLOCK-AMEND"
+      ],
+      "citations": [],
+      "stage": 6,
+      "concern": "Can source dates become active commitments while legal authority is blocked?",
+      "options": [
+        "Activate all dates",
+        "Invent current dates",
+        "Retain source proposals as tentative internal follow-up and withhold statutory commitments"
+      ],
+      "chosen_behavior": "Eight existing nondependent operational proposals receive tentative events; one undated authority-recovery action has no event. All requests remain pending and unsent.",
+      "rationale": "Calendar actions can collect facts, check internal controls and prepare review without deciding statutory applicability. Policy reserves approval and activation to humans.",
+      "tradeoffs": [
+        "Historical dates remain elapsed at retrieval; the calendar is a retrospective draft, not an active compliance schedule."
+      ],
+      "downstream_effect": "Final CSV, brief, calendar and detached request bindings agree on actions, dates and pending authority."
+    }
+  ]
+}

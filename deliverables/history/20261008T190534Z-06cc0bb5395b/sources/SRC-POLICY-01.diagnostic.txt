@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"APIResponseError\",\"code\":\"object_not_found\",\"status\":404,\"headers\":{},\"body\":\"{\\\"object\\\":\\\"error\\\",\\\"status\\\":404,\\\"code\\\":\\\"object_not_found\\\",\\\"message\\\":\\\"Could not find page with ID: private-pecorino-70e. Check that you have access and that you're authenticated to the correct workspace.\\\",\\\"additional_data\\\":{\\\"integration_id\\\":\\\"1f8d872b-594c-80a4-b2f4-00370af2b13f\\\"},\\\"request_id\\\":\\\"5315d779-d714-4bcc-a469-bc2434b4c9e6\\\"}\",\"additional_data\":{\"integration_id\":\"1f8d872b-594c-80a4-b2f4-00370af2b13f\"},\"request_id\":\"5315d779-d714-4bcc-a469-bc2434b4c9e6\",\"message\":\"Could not find page with ID: private-pecorino-70e. Check that you have access and that you're authenticated to the correct workspace.\"}"
+    }
+  ],
+  "structuredContent": {
+    "error_code": "NOT_FOUND"
+  },
+  "isError": true
+}

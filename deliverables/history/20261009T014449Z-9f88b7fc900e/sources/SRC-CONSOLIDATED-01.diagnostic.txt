@@ -1,0 +1,35 @@
+EUR-Lex - Official Journal of the European Union (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727)
+citeturn41view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727","lineno":270}); Redirected to URL: https://eur-lex.europa.eu/TodayOJ/index.html?uri=CELEX:02024R1689-20260727; Total lines: 33
+L0: # official_journal
+L1: 
+L2: cite0†How to verify the authenticity of the Official Journal†checklex.publications.europa.eu L3: 
+L4: OJ 09/10/2026
+L5: 
+L6: Series L
+L7: 
+L8: Series C
+L9: 
+L10: OJ 08/10/2026
+L11: 
+L12: Series L
+L13: 
+L14: Series C
+L15: 
+L16: OJ 07/10/2026
+L17: 
+L18: Series L
+L19: 
+L20: Series C
+L21: 
+L22: OJ 06/10/2026
+L23: 
+L24: Series L
+L25: 
+L26: Series C
+L27: 
+L28: OJ 05/10/2026
+L29: 
+L30: Series L
+L31: 
+L32: Series C
+

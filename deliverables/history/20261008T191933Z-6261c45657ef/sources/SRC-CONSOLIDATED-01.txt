@@ -1,0 +1,412 @@
+EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727)
+citeturn25view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727","lineno":270}); Redirected to URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727; Total lines: 5976
+L0: [Input] [Input]
+L1: 
+L2: cite0†Skip to main content L3: 
+L4: cite1†My EUR-Lex L5: 
+L6: cite1†English L7: 
+L8: Select your language
+L9: 
+L10: * * *
+L11: 
+L12: Official EU languages:
+L13: 
+L14: [Input]
+L15:   * cite1†bgбългарски L16:   * cite1†esEspañol L17:   * cite1†csČeština L18:   * cite1†daDansk L19:   * cite1†deDeutsch L20:   * cite1†etEesti keel L21:   * cite1†elΕλληνικά L22:   * cite1†enEnglish L23:   * cite1†frFrançais L24:   * cite1†gaGaeilge L25:   * cite1†hrHrvatski L26:   * cite1†itItaliano L27:   * cite1†lvLatviešu valoda L28:   * cite1†ltLietuvių kalba L29:   * cite1†huMagyar L30:   * cite1†mtMalti L31:   * cite1†nlNederlands L32:   * cite1†plPolski L33:   * cite1†ptPortuguês L34:   * cite1†roRomână L35:   * cite1†skSlovenčina L36:   * cite1†slSlovenščina L37:   * cite1†fiSuomi L38:   * cite1†svSvenska L39: [Input]
+L40: 
+L41: cite2†EUR-Lex L42: 
+L43: Access to European Union law
+L44: [Input] [Input]
+L45: 
+L46: cite1†<a href="https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html" target="_blank">More about the experimental features corner</a> [Input]
+L47: 
+L48: [Input]
+L49: 
+L50: [Input] [Input]
+L51: ##### Choose the experimental features you want to try
+L52: 
+L53: * * *
+L54: 
+L55: Do you want to help improving EUR-Lex ? This is a list of experimental features that you can enable. These features are still under development; they are not fully tested, and might reduce EUR-Lex stability. Don't forget to give your feedback!
+L56:   *     * [Input][Input] Replacement of CELEX identifiers by short titles - experimental feature. It replaces clickable CELEX identifiers of treaties and case-law by short titles.
+L57:     * [Input][Input] Visualisation of document relationships. It displays a dynamic graph with relations between the act and related documents. It is currently only available for legal acts.
+L58:   *     * [Input][Input] Deep linking. It enables links to other legal acts referred to within the documents. It is currently only available for documents smaller than 900 KB.
+L59: [Button: Apply ]
+L60: 
+L61: [Input]
+L62: 
+L63: cite3†Image L64: 
+L65: EUR-Lex
+L66: 
+L67: Access to European Union law
+L68: 
+L69: This document is an excerpt from the EUR-Lex website
+L70: 
+L71: EU law
+L72:   * cite1†Treaties L73:     * cite4†Treaties currently in force L74:     * cite5†Founding Treaties L75:     * cite6†Accession Treaties L76:     * cite7†Other treaties and protocols L77:     * cite8†Chronological overview L78:   * cite9†Legal acts L79:   * cite10†Consolidated texts L80:   * cite11†International agreements L81:   * cite12†Preparatory documents L82:   * cite13†EFTA documents L83:   * cite14†Lawmaking procedures L84:   * cite15†Summaries of EU legislation L85:   * cite1†Browse by EU institutions L86:     * cite16†European Parliament L87:     * cite17†European Council L88:     * cite18†Council of the European Union L89:     * cite19†European Commission L90:     * cite20†Court of Justice of the European Union L91:     * cite21†European Central Bank L92:     * cite22†European Court of Auditors L93:     * cite23†European Economic and Social Committee L94:     * cite24†European Committee of the Regions L95:   * cite25†Browse by EuroVoc L96: EU case-law
+L97: 
+L98:   * cite26†Case-law L99:   * cite27†Reports of cases L100:   * cite28†Directory of case-law L101: 
+L102: Official Journal
+L103: 
+L104:   * cite29†Access to the Official Journal L105:   * cite30†Official Journal L series daily view L106:   * cite31†Official Journal C series daily view L107:   * cite32†Browse the Official Journal L108:   * cite33†Legally binding printed editions L109:   * cite34†Special edition L110: 
+L111: National law and case-law
+L112: 
+L113:   * cite35†National transposition L114:   * cite36†National case-law L115:   * cite37†JURE case-law L116: 
+L117: Information
+L118:   * cite38†Themes in focus L119:   * cite39†EUR-Lex developments L120:   * cite40†Statistics L121:   * cite1†ELI register L122:     * cite41†What is ELI? L123:     * cite42†ELI background L124:     * cite43†Why implement ELI? L125:     * cite44†Countries implementing ELI L126:     * cite45†Testimonials L127:     * cite46†How to implement ELI L128:     * cite47†Glossary L129:   * cite48†EU budget online L130: 
+L131: [Input]
+L132: 
+L133: Quick search
+L134: 
+L135: [Input]
+L136: Use quotation marks to search for an "exact phrase". Append an asterisk (* (Asterisk)) to a search term to find variations of it (transp* (Asterisk), 32019R* (Asterisk)). Use a question mark (? (Question mark)) instead of a single character in your search term to find variations of it (ca? (Question mark)e finds case, cane, care).
+L137: 
+L138: cite1†  Search tips L139: 
+L140: Need more search options? Use the cite49†Advanced search L141: 
+L142: Document 02024R1689-20260727
+L143:   *   * cite50†Text [Input]
+L144:   * cite51†Document information [Input]
+L145:   * cite52†Document summary [Input]
+L146: 
+L147:   * cite53†Up-to-date link†data.europa.eu L148:   *   * cite54†Download notice L149:   * cite55†Save to My items L150: 
+L151: cite56†Access current version (27/07/2026) L152: 
+L153:  Hide consolidated versions
+L154: 
+L155:   * cite56†27/07/2026 L156:   * cite57†12/07/2024 L157:   * cite1†Legal act L158: Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance)
+L159: Consolidated text: Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance)
+L160: Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance)
+L161: 
+L162: cite58†Access initial legal act L163: 
+L164: (
+L165: 
+L166: cite59†Image: Legal status of the document In force
+L167: 
+L168: )
+L169: ELI: cite60†http://data.europa.eu/eli/reg/2024/1689/2026-07-27†data.europa.eu L170: 
+L171:  Expand all  Collapse all
+L172: 
+L173:  Languages and formats available
+L174: 
+L175: Language
+L176: 
+L177:   * cite61†BG L178:   * cite62†ES L179:   * cite63†CS L180:   * cite64†DA L181:   * cite65†DE L182:   * cite66†ET L183:   * cite67†EL L184:   * cite50†EN L185:   * cite68†FR L186:   * cite69†GA L187:   * cite70†HR L188:   * cite71†IT L189:   * cite72†LV L190:   * cite73†LT L191:   * cite74†HU L192:   * cite75†MT L193:   * cite76†NL L194:   * cite77†PL L195:   * cite78†PT L196:   * cite79†RO L197:   * cite80†SK L198:   * cite81†SL L199:   * cite82†FI L200:   * cite83†SV L201: 
+L202:   HTML
+L203: 
+L204: EN Toggle Dropdown
+L205:   * cite84†BG L206:   * cite85†ES L207:   * cite86†CS L208:   * cite87†DA L209:   * cite88†DE L210:   * cite89†ET L211:   * cite90†EL L212:   * cite91†EN L213:   * cite92†FR L214:   * cite93†GA L215:   * cite94†HR L216:   * cite95†IT L217:   * cite96†LV L218:   * cite97†LT L219:   * cite98†HU L220:   * cite99†MT L221:   * cite100†NL L222:   * cite101†PL L223:   * cite102†PT L224:   * cite103†RO L225:   * cite104†SK L226:   * cite105†SL L227:   * cite106†FI L228:   * cite107†SV L229: 
+L230:   PDF
+L231: 
+L232: EN Toggle Dropdown
+L233:   * cite108†BG L234:   * cite109†ES L235:   * cite110†CS L236:   * cite111†DA L237:   * cite112†DE L238:   * cite113†ET L239:   * cite114†EL L240:   * cite115†EN L241:   * cite116†FR L242:   * cite117†GA L243:   * cite118†HR L244:   * cite119†IT L245:   * cite120†LV L246:   * cite121†LT L247:   * cite122†HU L248:   * cite123†MT L249:   * cite124†NL L250:   * cite125†PL L251:   * cite126†PT L252:   * cite127†RO L253:   * cite128†SK L254:   * cite129†SL L255:   * cite130†FI L256:   * cite131†SV L257: 
+L258:  Multilingual display
+L259: 
+L260: [Input][Input]
+L261: 
+L262: Language 1 [Select]
+L263: 
+L264: Language 2 [Select]
+L265: 
+L266: Language 3 [Select]
+L267: 
+L268: [Button: Display]
+L269: 
+L270: Text
+L271: 
+L272: 02024R1689 — EN — 27.07.2026 — 001.001
+L273: 
+L274: * * *
+L275: This text is meant purely as a documentation tool and has no legal effect. The Union's institutions do not assume any liability for its contents. The authentic versions of the relevant acts, including their preambles, are those published in the Official Journal of the European Union and available in EUR-Lex. Those official texts are directly accessible through the links embedded in this document
+L276: cite132†►B | REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) cite132†(Text with EEA relevance) (OJ L 1689 12.7.2024, p. 1)
+L277: 
+L278: Amended by:
+L279:    |    | Official Journal
+L280:   No  | page  | date
+L281: cite133†►M1 | cite133†REGULATION (EU) 2026/1744 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL  of 8 July 2026 |   L 1744  | 1  | 24.7.2026
+L282: 
+L283: * * *
+L284: 
+L285: cite132†▼B L286: 
+L287: REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+L288: 
+L289: of 13 June 2024
+L290: laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act)
+L291: 
+L292: (Text with EEA relevance)
+L293: 
+L294: CHAPTER I
+L295: 
+L296: GENERAL PROVISIONS
+L297: 
+L298: Article 1
+L299: 
+L300: Subject matter'
+L301: 
+L302: 1.
+L303: The purpose of this Regulation is to improve the functioning of the internal market and promote the uptake of human-centric and trustworthy artificial intelligence (AI), while ensuring a high level of protection of health, safety, fundamental rights enshrined in the Charter, including democracy, the rule of law and environmental protection, against the harmful effects of AI systems in the Union and supporting innovation.
+L304: 
+L305: 2.
+L306: 
+L307: This Regulation lays down:
+L308: 
+L309: (a)
+L310: harmonised rules for the placing on the market, the putting into service, and the use of AI systems in the Union;
+L311: 
+L312: (b)
+L313: 
+L314: prohibitions of certain AI practices;
+L315: 
+L316: (c)
+L317: 
+L318: specific requirements for high-risk AI systems and obligations for operators of such systems;
+L319: 
+L320: (d)
+L321: 
+L322: harmonised transparency rules for certain AI systems;
+L323: 
+L324: (e)
+L325: 
+L326: harmonised rules for the placing on the market of general-purpose AI models;
+L327: 
+L328: (f)
+L329: 
+L330: rules on market monitoring, market surveillance, governance and enforcement;
+L331: 
+L332: cite133†▼M1 L333: 
+L334: (g)
+L335: measures to support innovation, with a particular focus on small mid-cap enterprises (SMCs) and small and medium-sized enterprises (SMEs), including start-ups.
+L336: 
+L337: cite132†▼B L338: 
+L339: Article 2
+L340: 
+L341: Scope
+L342: 
+L343: 1.
+L344: 
+L345: This Regulation applies to:
+L346: 
+L347: (a)
+L348: 
+L349: providers placing on the market or putting into service AI systems or placing on the market general-purpose AI models in the Union, irrespective of whether those providers are established or located within the Union or in a third country;
+L350: 
+L351: (b)
+L352: deployers of AI systems that have their place of establishment or are located within the Union;
+L353: 
+L354: (c)
+L355: 
+L356: providers and deployers of AI systems that have their place of establishment or are located in a third country, where the output produced by the AI system is used in the Union;
+L357: 
+L358: (d)
+L359: 
+L360: importers and distributors of AI systems;
+L361: 
+L362: (e)
+L363: 
+L364: product manufacturers placing on the market or putting into service an AI system together with their product and under their own name or trademark;
+L365: 
+L366: (f)
+L367: authorised representatives of providers, which are not established in the Union;
+L368: 
+L369: (g)
+L370: 
+L371: affected persons that are located in the Union.
+L372: 
+L373: cite133†▼M1 L374: 
+L375: 2.
+L376: For AI systems classified as high-risk AI systems in accordance with Article 6(1) related to products covered by the Union harmonisation legislation listed in Section B of Annex I, only Article 6(1), Article 60a and Articles 102 to 112 shall apply. Articles 57, 58 and 59 shall apply only in so far as the requirements for high-risk AI systems under this Regulation have been integrated in that Union harmonisation legislation.
+L377: 
+L378: cite132†▼B L379: 
+L380: 3.
+L381: This Regulation does not apply to areas outside the scope of Union law, and shall not, in any event, affect the competences of the Member States concerning national security, regardless of the type of entity entrusted by the Member States with carrying out tasks in relation to those competences.
+L382: This Regulation does not apply to AI systems where and in so far they are placed on the market, put into service, or used with or without modification exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities.
+L383: This Regulation does not apply to AI systems which are not placed on the market or put into service in the Union, where the output is used in the Union exclusively for military, defence or national security purposes, regardless of the type of entity carrying out those activities.
+L384: 
+L385: 4.
+L386: This Regulation applies neither to public authorities in a third country nor to international organisations falling within the scope of this Regulation pursuant to paragraph 1, where those authorities or organisations use AI systems in the framework of international cooperation or agreements for law enforcement and judicial cooperation with the Union or with one or more Member States, provided that such a third country or international organisation provides adequate safeguards with respect to the protection of fundamental rights and freedoms of individuals.
+L387: 5.
+L388: 
+L389: This Regulation shall not affect the application of the provisions on the liability of providers of intermediary services as set out in Chapter II of Regulation (EU) 2022/2065.
+L390: 
+L391: 6.
+L392: 
+L393: This Regulation does not apply to AI systems or AI models, including their output, specifically developed and put into service for the sole purpose of scientific research and development.
+L394: 
+L395: cite133†▼M1 L396: 
+L397: 7.
+L398: Union law on the protection of personal data, privacy and the confidentiality of communications applies to personal data processed in connection with the rights and obligations laid down in this Regulation. Without prejudice to Articles 4a and 59 of this Regulation, this Regulation shall not affect Regulation (EU) 2016/679 or (EU) 2018/1725, or Directive 2002/58/EC or (EU) 2016/680.
+L399: 
+L400: cite132†▼B L401: 
+L402: 8.
+L403: This Regulation does not apply to any research, testing or development activity regarding AI systems or AI models prior to their being placed on the market or put into service. Such activities shall be conducted in accordance with applicable Union law. Testing in real world conditions shall not be covered by that exclusion.
+L404: 
+L405: 9.
+L406: 
+L407: This Regulation is without prejudice to the rules laid down by other Union legal acts related to consumer protection and product safety.
+L408: 
+L409: 10.
+L410: This Regulation does not apply to obligations of deployers who are natural persons using AI systems in the course of a purely personal non-professional activity.
+L411: 
+L412: 11.
+L413: This Regulation does not preclude the Union or Member States from maintaining or introducing laws, regulations or administrative provisions which are more favourable to workers in terms of protecting their rights in respect of the use of AI systems by employers, or from encouraging or allowing the application of collective agreements which are more favourable to workers.
+L414: 
+L415: 12.
+L416: This Regulation does not apply to AI systems released under free and open-source licences, unless they are placed on the market or put into service as high-risk AI systems or as an AI system that falls under Article 5 or 50.
+L417: 
+L418: cite133†▼M1 L419: 
+L420: 13.
+L421: 
+L422: For high-risk AI systems referred to in Article 6(1), the application of specific requirements or obligations laid down in Articles 9 to 15 and 17 to 25 may be limited, where and to the extent that:
+L423: 
+L424: (a)
+L425: Union harmonisation legislation listed in Section A of Annex I lays down requirements or obligations providing an equivalent or higher level of protection of health, safety or fundamental rights as the requirement or obligation concerned; and
+L426: 
+L427: (b)
+L428: 
+L429: such limitation does not reduce the overall level of protection provided for by this Regulation.
+L430: By 2 August 2027, the Commission shall adopt delegated acts in accordance with Article 97 in order to supplement this Regulation by specifying the high-risk AI systems concerned, the requirements or obligations that may be limited, the conditions under which such limitation applies, and the scope of the limitation.
+L431: 
+L432: cite132†▼B L433: 
+L434: Article 3
+L435: 
+L436: Definitions
+L437: 
+L438: For the purposes of this Regulation, the following definitions apply:
+L439: 
+L440: (1)
+L441: ‘AI system’ means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment, and that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments;
+L442: 
+L443: (2)
+L444: 
+L445: ‘risk’ means the combination of the probability of an occurrence of harm and the severity of that harm;
+L446: 
+L447: (3)
+L448: ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge;
+L449: 
+L450: (4)
+L451: ‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity;
+L452: 
+L453: (5)
+L454: ‘authorised representative’ means a natural or legal person located or established in the Union who has received and accepted a written mandate from a provider of an AI system or a general-purpose AI model to, respectively, perform and carry out on its behalf the obligations and procedures established by this Regulation;
+L455: 
+L456: (6)
+L457: ‘importer’ means a natural or legal person located or established in the Union that places on the market an AI system that bears the name or trademark of a natural or legal person established in a third country;
+L458: 
+L459: (7)
+L460: 
+L461: ‘distributor’ means a natural or legal person in the supply chain, other than the provider or the importer, that makes an AI system available on the Union market;
+L462: 
+L463: (8)
+L464: 
+L465: ‘operator’ means a provider, product manufacturer, deployer, authorised representative, importer or distributor;
+L466: 
+L467: (9)
+L468: ‘placing on the market’ means the first making available of an AI system or a general-purpose AI model on the Union market;
+L469: 
+L470: (10)
+L471: 
+L472: ‘making available on the market’ means the supply of an AI system or a general-purpose AI model for distribution or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge;
+L473: 
+L474: (11)
+L475: ‘putting into service’ means the supply of an AI system for first use directly to the deployer or for own use in the Union for its intended purpose;
+L476: 
+L477: (12)
+L478: 
+L479: ‘intended purpose’ means the use for which an AI system is intended by the provider, including the specific context and conditions of use, as specified in the information supplied by the provider in the instructions for use, promotional or sales materials and statements, as well as in the technical documentation;
+L480: 
+L481: (13)
+L482: ‘reasonably foreseeable misuse’ means the use of an AI system in a way that is not in accordance with its intended purpose, but which may result from reasonably foreseeable human behaviour or interaction with other systems, including other AI systems;
+L483: 
+L484: cite133†▼M1 L485: 
+L486: (14)
+L487: ‘safety component’ means a component of a product or of an AI system which fulfils a safety function for that product or AI system, or the failure or malfunctioning of which endangers the health and safety of persons or property; for the purposes of this definition, a component fulfils a safety function where its intended purpose is to prevent or mitigate risks to health and safety of persons or property;
+L488: 
+L489: cite133†▼M1 L490: 
+L491: (14a)
+L492: ‘micro, small and medium-sized enterprise’ or ‘SME’ means a micro, small or medium-sized enterprise as defined in Article 2 of the Annex to Recommendation 2003/361/EC;
+L493: 
+L494: (14b)
+L495: 
+L496: ‘small mid-cap enterprise’ or ‘SMC’ means a small mid-cap enterprise as defined in point (2) of the Annex to Recommendation (EU) 2025/1099;
+L497: 
+L498: cite132†▼B L499: 
+L500: (15)
+L501: 
+L502: ‘instructions for use’ means the information provided by the provider to inform the deployer of, in particular, an AI system’s intended purpose and proper use;
+L503: 
+L504: (16)
+L505: ‘recall of an AI system’ means any measure aiming to achieve the return to the provider or taking out of service or disabling the use of an AI system made available to deployers;
+L506: 
+L507: (17)
+L508: 
+L509: ‘withdrawal of an AI system’ means any measure aiming to prevent an AI system in the supply chain being made available on the market;
+L510: 
+L511: (18)
+L512: 
+L513: ‘performance of an AI system’ means the ability of an AI system to achieve its intended purpose;
+L514: 
+L515: (19)
+L516: ‘notifying authority’ means the national authority responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for their monitoring;
+L517: 
+L518: (20)
+L519: 
+L520: ‘conformity assessment’ means the process of demonstrating whether the requirements set out in Chapter III, Section 2 relating to a high-risk AI system have been fulfilled;
+L521: 
+L522: (21)
+L523: ‘conformity assessment body’ means a body that performs third-party conformity assessment activities, including testing, certification and inspection;
+L524: 
+L525: (22)
+L526: 
+L527: ‘notified body’ means a conformity assessment body notified in accordance with this Regulation and other relevant Union harmonisation legislation;
+L528: 
+L529: (23)
+L530: ‘substantial modification’ means a change to an AI system after its placing on the market or putting into service which is not foreseen or planned in the initial conformity assessment carried out by the provider and as a result of which the compliance of the AI system with the requirements set out in Chapter III, Section 2 is affected or results in a modification to the intended purpose for which the AI system has been assessed;
+L531: 
+L532: (24)
+L533: ‘CE marking’ means a marking by which a provider indicates that an AI system is in conformity with the requirements set out in Chapter III, Section 2 and other applicable Union harmonisation legislation providing for its affixing;
+L534: 
+L535: (25)
+L536: ‘post-market monitoring system’ means all activities carried out by providers of AI systems to collect and review experience gained from the use of AI systems they place on the market or put into service for the purpose of identifying any need to immediately apply any necessary corrective or preventive actions;
+L537: 
+L538: (26)
+L539: 
+L540: ‘market surveillance authority’ means the national authority carrying out the activities and taking the measures pursuant to Regulation (EU) 2019/1020;
+L541: 
+L542: (27)
+L543: ‘harmonised standard’ means a harmonised standard as defined in Article 2(1), point (c), of Regulation (EU) No 1025/2012;
+L544: 
+L545: (28)
+L546: 
+L547: ‘common specification’ means a set of technical specifications as defined in Article 2, point (4) of Regulation (EU) No 1025/2012, providing means to comply with certain requirements established under this Regulation;
+L548: 
+L549: (29)
+L550: 
+L551: ‘training data’ means data used for training an AI system through fitting its learnable parameters;
+L552: 
+L553: (30)
+L554: ‘validation data’ means data used for providing an evaluation of the trained AI system and for tuning its non-learnable parameters and its learning process in order, inter alia, to prevent underfitting or overfitting;
+L555: 
+L556: (31)
+L557: 
+L558: ‘validation data set’ means a separate data set or part of the training data set, either as a fixed or variable split;
+L559: 
+L560: (32)
+L561: ‘testing data’ means data used for providing an independent evaluation of the AI system in order to confirm the expected performance of that system before its placing on the market or putting into service;
+L562: 
+L563: (33)
+L564: 
+L565: ‘input data’ means data provided to or directly acquired by an AI system on the basis of which the system produces an output;
+L566: 
+L567: (34)
+L568: ‘biometric data’ means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, such as facial images or dactyloscopic data;
+L569: 
+L570: (35)
+L571: ‘biometric identification’ means the automated recognition of physical, physiological, behavioural, or psychological human features for the purpose of establishing the identity of a natural person by comparing biometric data of that individual to biometric data of individuals stored in a database;
+L572: 
+L573: (36)
+L574: ‘biometric verification’ means the automated, one-to-one verification, including authentication, of the identity of natural persons by comparing their biometric data to previously provided biometric data;
+L575: 
+L576: (37)
+L577: 
+L578: ‘special categories of personal data’ means the categories of personal data referred to in Article 9(1) of Regulation (EU) 2016/679, Article 10 of Directive (EU) 2016/680 and Article 10(1) of Regulation (EU) 2018/1725;
+L579: 
+L580: (38)
+

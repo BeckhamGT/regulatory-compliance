@@ -1,0 +1,38 @@
+{
+  "observed_at": "2026-10-09T01:38:24.823Z",
+  "affected_stage": "source-capture",
+  "affected_source": "SRC-OJ-04",
+  "affected_output": "deliverables/sources/manifest.json",
+  "error": "Reader returned JavaScript/bot-check challenge, not requested legislation; initial receipt was mistakenly classified retrieved before inspection",
+  "original_receipt": {
+    "id": "SRC-OJ-04",
+    "summary": "OJ attempt 4 via official-web-reader-deepfake-definition: retrieved",
+    "evidence_ids": [],
+    "label": "OJ",
+    "method": "official-web-reader-deepfake-definition",
+    "source_role": "binding-regulation",
+    "authority": "binding",
+    "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "request_started_at": "2026-10-09T01:38:23.702Z",
+    "retrieved_at": "2026-10-09T01:38:24.823Z",
+    "ingested_at": "2026-10-09T01:38:25.128814Z",
+    "retrieval_status": "retrieved",
+    "content_type": "text/plain",
+    "version_metadata": {
+      "identity": "Regulation (EU) 2024/1689",
+      "authored_date": "2024-06-13",
+      "publication_date": "2024-07-12",
+      "suitable_for_review": true,
+      "version": "original OJ English text; must apply captured amendment",
+      "capture_scope": "Article 3(60) deepfake definition and neighbouring provisions"
+    },
+    "content_hash": "sha256:1c4963fdc21764a270cf57deed42fadcc1e1ca506aaf63783e747721ca1c5451",
+    "local_reference": "deliverables/sources/SRC-OJ-04.txt",
+    "run_id": "20261008T191933Z-6261c45657ef",
+    "nonce": "99c6a5d410e54a8c84f2abeeae745edd",
+    "error": null,
+    "time_basis": "actual-tool-attempt"
+  },
+  "recovery_action": "Retain exact returned bytes as diagnostic; correct receipt before any stage03 boundary; retain separate browser outage and earlier same-run successful definition attempt",
+  "recovery_owner": "Workflow operator"
+}

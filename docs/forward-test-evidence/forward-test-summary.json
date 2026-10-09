@@ -1,0 +1,134 @@
+{
+  "test_type": "independent portable offline agent-host forward test",
+  "disposable_root": "/private/tmp/project-b-forward-test-y7puv1lz",
+  "fixture_only": true,
+  "expected_results_blind": true,
+  "not_read": [
+    "eval/baseline-output.md",
+    "scripts/test_engine.py",
+    "production conclusions or deliverables"
+  ],
+  "invocations": [
+    "Read installed regulatory-change-impact-brief/SKILL.md and follow the supplied synthetic interview",
+    "python fixture/forward_host.py 1",
+    "python fixture/forward_host.py 2",
+    "python fixture/forward_host.py 3 missing"
+  ],
+  "renderer_version": 3,
+  "copied_engine_sha256": "sha256:5a1286aa470dfd7a876f37ccce6b411b093b6996f41b586989af490a0cb117a9",
+  "schema_sha256": "sha256:8de9874ded18fa97294e83012796e4c386aa60ccfd30f8eca89cabdf2a267ac3",
+  "schema_unchanged": true,
+  "interview_unchanged": true,
+  "run_results": [
+    {
+      "run_id": "20261009T020744Z-1a2f25b47e64",
+      "run_status": "partial",
+      "publication_status": "validated",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "run_id": "20261009T020824Z-fa43818d72b8",
+      "run_status": "partial",
+      "publication_status": "validated",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "run_id": "20261009T020854Z-a4ac74b37739",
+      "run_status": "blocked",
+      "publication_status": "blocked",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "per_run_source_attempts": 12,
+  "route_labels": 10,
+  "notion_attempts": "unavailable connector double followed by separate policy and operating-context UI doubles",
+  "first_run_finding_counts": {
+    "supported-impact": 1,
+    "supported-no-impact": 2,
+    "conflicting": 1,
+    "unresolved": 0
+  },
+  "second_run_finding_counts": {
+    "supported-impact": 0,
+    "supported-no-impact": 2,
+    "conflicting": 2,
+    "unresolved": 0
+  },
+  "changed_fact": "FIX-002 SYSTEMS current_notice no to yes; September-authored context retained notice no on claimed August 26 observation",
+  "changed_finding": [
+    {
+      "impact_id": "IMP-FIX-002-NOTICE",
+      "old_state": "supported-impact",
+      "new_state": "conflicting"
+    }
+  ],
+  "stable_semantic_impact_ids": true,
+  "normal_calendar_event": {
+    "action_id": "FIX-ACT-001",
+    "date": "2026-09-03",
+    "status": "TENTATIVE",
+    "uid": "FIX-ACT-001@regulatory-change-impact-brief",
+    "dtend": "2026-09-04"
+  },
+  "undated_action_exclusion": "FIX-ACT-002 retained with blank date and no ICS event",
+  "requests_per_run": 4,
+  "requests_status": "pending-unsent",
+  "damage_test": {
+    "receipt": {
+      "prior_run_id": "20261009T020744Z-1a2f25b47e64",
+      "damage_time": "actual between run1 and run2",
+      "original_sha256": "sha256:466423e8c26a3cebb9e343e5606f0cce5f8811aa23ec373e9cfb018b1c3452a2",
+      "damaged_sha256": "sha256:e6f97a69d12ea3078ed962308c28d08927c6817b56bb1f695ca28102b9463b8a",
+      "damaged_bytes_preservation": "test-observations/run1-damaged-brief.md"
+    },
+    "detected_errors": [
+      "Final compliance-brief.md disagrees with bound stage06/analysis",
+      "Review request bound hash no longer matches: REQ-LEGAL-FIX-001",
+      "Review request bound hash no longer matches: REQ-OPS-FIX-001",
+      "Review request bound hash no longer matches: REQ-LEGAL-FIX-002",
+      "Review request bound hash no longer matches: REQ-OPS-FIX-002",
+      "Publication artifact mismatch: ART-compliance-brief"
+    ],
+    "actual_prior_damaged_bytes_preserved": true,
+    "archived_damaged_path": "/private/tmp/project-b-forward-test-y7puv1lz/deliverables/history/20261009T020744Z-1a2f25b47e64/compliance-brief.md",
+    "archive_integrity_valid": true,
+    "prior_package_valid": false
+  },
+  "run2_history_integrity_and_package_valid": true,
+  "missing_amendment": {
+    "run_id": "20261009T020854Z-a4ac74b37739",
+    "status": "blocked",
+    "publication_status": "blocked",
+    "internal_validation_valid": true,
+    "impact_states": "four unresolved rows, no supported legal conclusion",
+    "original_amendment_status": "unavailable",
+    "content_hash": null,
+    "local_reference": null,
+    "calendar_events": 0,
+    "sourced_actions_preserved": true
+  },
+  "independent_validation": "all seven current snapshots schema/sequence/run/predecessor/consumed checks pass; capture/diagnostic hashes, final request hashes, source-less failed attempts, unchanged original input hashes and RFC 5545 parsing checked from actual files",
+  "limitations": [
+    "No live web or native connectors were contacted. The source responses and all legal/company content are explicitly synthetic doubles.",
+    "The agent supplied legal/factual reasoning from cited raw fixture content. The engine is a preservation, rendering and integrity validator, not a legal classifier.",
+    "Named-skill runtime registration was not exercised; this delegated agent read the copied complete skill and orchestrated its workflow.",
+    "Entire CLI exists but is not set up in disposable repo; current session state is absent. No capture activation, transcript or checkpoint proof was fabricated.",
+    "Facilitator identity, setup and verified delivery/feedback channel are missing; no human feedback or requests were sent.",
+    "Offline test cannot prove native access, fresh live retrieval, legal correctness or reviewer usability."
+  ],
+  "evidence_paths": {
+    "summary": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/forward-test-summary.json",
+    "report": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/forward-test-report.md",
+    "damage": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/damage-receipt.json",
+    "damage_validation": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run1-damage-validation.json",
+    "damaged_bytes_copy": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run1-damaged-brief.md",
+    "run1_history_validation": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run1-history-validation.json",
+    "run2_history_validation": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run2-history-validation.json",
+    "run1_inspection": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run1-inspection.json",
+    "run2_inspection": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run2-inspection.json",
+    "run3_inspection": "/private/tmp/project-b-forward-test-y7puv1lz/test-observations/run3-inspection.json"
+  }
+}

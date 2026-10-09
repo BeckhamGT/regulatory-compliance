@@ -1,0 +1,60 @@
+{
+  "recovery_owner": "Workflow operator (Codex agent)",
+  "history_policy": "Actual prior files and captures are preserved without rewriting. Archive inventory validity and package validity are separate results.",
+  "observations": [
+    {
+      "run_id": "20261008T185408Z-0941a19cba08",
+      "affected_stage": "evidence-reconciliation / downstream analysis",
+      "affected_paths": [
+        "deliverables/analysis.json",
+        "deliverables/snapshots"
+      ],
+      "error": "Initial analysis preparation did not complete all impacts/actions or stages 05-07.",
+      "recovery_action": "Preserve incomplete actual run, correct analysis preparation and begin a new run with all ten routes freshly retrieved.",
+      "superseding_run_id": "20261008T190534Z-06cc0bb5395b"
+    },
+    {
+      "run_id": "20261008T190534Z-06cc0bb5395b",
+      "affected_stage": "source-capture",
+      "affected_paths": [
+        "deliverables/sources/manifest.json",
+        "deliverables/sources/SRC-CALENDAR-01.json"
+      ],
+      "error": "Concurrent receipt ingestion temporarily omitted CALENDAR from the manifest. The actual fresh native response and original times remained available.",
+      "recovery_action": "Restore the receipt only from actual current-run response bytes and request times before stage 03. Serialize subsequent ingestions. Engine now enforces POSIX locking, with a concurrent-receipt regression test.",
+      "result": "Actual completed partial package remains preserved and passes both archive integrity and package validation. Its captures are history, never current-run replacements."
+    },
+    {
+      "run_id": "20261008T191933Z-6261c45657ef",
+      "affected_stage": "source-capture / publication-validation",
+      "affected_paths": [
+        "deliverables/sources/manifest.json",
+        "deliverables/snapshots/02-source-capture.json"
+      ],
+      "error": "Source inspection reclassified a bot-check response and corrected request times after the capture boundary; stage 02 then differed from the manifest. Final validation rejected the package.",
+      "recovery_action": "Retain actual failed outputs and diagnostic receipts unchanged, then begin a new run. Inspect requested content and metadata before closing the capture boundary; retrieve all ten routes freshly.",
+      "superseding_run_id": "20261009T014449Z-9f88b7fc900e"
+    },
+    {
+      "run_id": "20261009T014449Z-9f88b7fc900e",
+      "affected_stage": "source-capture",
+      "affected_paths": [
+        "deliverables/sources/manifest.json",
+        "deliverables/failures/capture-classification-before-correction.json"
+      ],
+      "error": "POLICY receipt was ingested with non-schema source-role and authority labels; the helper accepted these values.",
+      "recovery_action": "Preserve the original receipt and open stage 02 state; correct only classification fields and regenerate the still-open stage 02 before stage 03. Source content and actual times did not change. Engine now rejects invalid classification values before any mutation, covered by a regression test.",
+      "result": "Package validates as blocked due to fresh EUR-Lex source failures, independently of this repaired classification error."
+    },
+    {
+      "run_id": "20261009T014449Z-9f88b7fc900e",
+      "affected_stage": "publication / brief rendering",
+      "affected_paths": [
+        "deliverables/compliance-brief.md"
+      ],
+      "error": "Actual inspected brief repeated identical statutory blocker and review-question text, and generic identity rendering overlooked the recorded Notion page_identity field.",
+      "recovery_action": "Preserve the actual validated blocked package. Improve the generic renderer to group repetition while retaining every finding/request identifier and subject; recognize native page identity. Begin a new final run and retrieve all ten routes again.",
+      "superseding_run_id": "20261009T020248Z-2ddbde23d51e"
+    }
+  ]
+}

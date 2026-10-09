@@ -1,0 +1,1505 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "20261008T190534Z-06cc0bb5395b:stage-06",
+  "run_id": "20261008T190534Z-06cc0bb5395b",
+  "stage": "actions-and-approvals",
+  "sequence": 6,
+  "created_at": "2026-10-08T19:13:23.036436Z",
+  "status": "partial",
+  "predecessor": {
+    "snapshot_id": "20261008T190534Z-06cc0bb5395b:stage-05",
+    "path": "deliverables/snapshots/05-impact-analysis.json",
+    "sha256": "sha256:6368d88c856915fafc2db9fd332cba14d845e3ad0dff62fa2918cf63d568f92f"
+  },
+  "consumed_record_ids": [
+    "FACT-AI-002",
+    "FACT-AI-003",
+    "FACT-AI-004",
+    "FACT-AI-005",
+    "FACT-AI-007",
+    "FACT-AI-008",
+    "FACT-MARKET-003-008",
+    "GAP-HISTORY",
+    "GAP-PROOF",
+    "GUIDE-FAQ-CONFLICT",
+    "IMP-AI-001-50-1",
+    "IMP-AI-001-50-2",
+    "IMP-AI-001-50-3",
+    "IMP-AI-001-50-4-MEDIA",
+    "IMP-AI-001-50-4-TEXT",
+    "IMP-AI-001-NOTICE",
+    "IMP-AI-002-50-1",
+    "IMP-AI-002-50-2",
+    "IMP-AI-002-50-3",
+    "IMP-AI-002-50-4-MEDIA",
+    "IMP-AI-002-50-4-TEXT",
+    "IMP-AI-003-50-1",
+    "IMP-AI-003-50-2",
+    "IMP-AI-003-50-3",
+    "IMP-AI-003-50-4-MEDIA",
+    "IMP-AI-003-50-4-TEXT",
+    "IMP-AI-003-SYNTHETIC",
+    "IMP-AI-004-50-1",
+    "IMP-AI-004-50-2",
+    "IMP-AI-004-50-3",
+    "IMP-AI-004-50-4-MEDIA",
+    "IMP-AI-004-50-4-TEXT",
+    "IMP-AI-004-NOTICE",
+    "IMP-AI-005-50-1",
+    "IMP-AI-005-50-2",
+    "IMP-AI-005-50-3",
+    "IMP-AI-005-50-4-MEDIA",
+    "IMP-AI-005-50-4-TEXT",
+    "IMP-AI-005-EVIDENCE",
+    "IMP-AI-006-50-1",
+    "IMP-AI-006-50-2",
+    "IMP-AI-006-50-3",
+    "IMP-AI-006-50-4-MEDIA",
+    "IMP-AI-006-50-4-TEXT",
+    "IMP-AI-007-50-1",
+    "IMP-AI-007-50-2",
+    "IMP-AI-007-50-3",
+    "IMP-AI-007-50-4-MEDIA",
+    "IMP-AI-007-50-4-TEXT",
+    "IMP-AI-007-NOTICE",
+    "IMP-AI-008-50-1",
+    "IMP-AI-008-50-2",
+    "IMP-AI-008-50-3",
+    "IMP-AI-008-50-4-MEDIA",
+    "IMP-AI-008-50-4-TEXT",
+    "IMP-AI-008-50-5",
+    "IMP-AI-008-EXCEPTION",
+    "IMP-AI-008-SYNTHETIC",
+    "POL-AUTHORITY",
+    "POL-DRAFT",
+    "POL-EXCEPTION",
+    "POL-NOTICE",
+    "POL-SYNTHETIC",
+    "REC-002",
+    "REC-003",
+    "REC-004",
+    "REC-005",
+    "REC-006",
+    "REC-008",
+    "REC-009",
+    "REC-010",
+    "RULE-50-1",
+    "RULE-50-4-TEXT",
+    "SRC-CALENDAR-01",
+    "SRC-EVIDENCE-01",
+    "SRC-POLICY-01",
+    "SRC-POLICY-02",
+    "SRC-POLICY-03",
+    "SRC-SYSTEMS-01",
+    "TIME-AMEND",
+    "TIME-CONSOLIDATION",
+    "TIME-MAIN",
+    "TIME-MARKING"
+  ],
+  "produced_record_ids": [
+    "ACT-001",
+    "ACT-002",
+    "ACT-003",
+    "ACT-004",
+    "ACT-005",
+    "ACT-006",
+    "ACT-007",
+    "ACT-008",
+    "DEC-ACTIONS",
+    "PROP-007-TEXT",
+    "REQ-ACT-001-OPS",
+    "REQ-ACT-002-OPS",
+    "REQ-ACT-003-LEGAL",
+    "REQ-ACT-003-OPS",
+    "REQ-ACT-004-OPS",
+    "REQ-ACT-005-LEGAL",
+    "REQ-ACT-005-OPS",
+    "REQ-ACT-006-OPS",
+    "REQ-ACT-007-LEGAL",
+    "REQ-ACT-007-OPS",
+    "REQ-ACT-008-OPS",
+    "REQ-AI-001-LEGAL",
+    "REQ-AI-002-LEGAL",
+    "REQ-AI-003-LEGAL",
+    "REQ-AI-004-LEGAL",
+    "REQ-AI-005-LEGAL",
+    "REQ-AI-006-LEGAL",
+    "REQ-AI-007-LEGAL",
+    "REQ-AI-008-LEGAL",
+    "REQ-PROP-007-TEXT-LEGAL",
+    "REQ-PROP-007-TEXT-OPS",
+    "REQ-TIMING-LEGAL"
+  ],
+  "state": {
+    "proposed_actions": [
+      {
+        "id": "ACT-001",
+        "summary": "Add and verify first-interaction AI notice; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-004-NOTICE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 2",
+            "quote": "Add and verify first-interaction AI notice"
+          }
+        ],
+        "action_id": "ACT-001",
+        "system_id": "AI-004",
+        "action": "Add and verify first-interaction AI notice",
+        "owner": "Learning Experience",
+        "due_date": "2026-09-04",
+        "status": "planned",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 2",
+        "impact_ids": [
+          "IMP-AI-004-NOTICE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-002",
+        "summary": "Resolve disclosure evidence conflict; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-007-NOTICE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 3",
+            "quote": "Resolve disclosure evidence conflict"
+          }
+        ],
+        "action_id": "ACT-002",
+        "system_id": "AI-007",
+        "action": "Resolve disclosure evidence conflict",
+        "owner": "Marketing",
+        "due_date": "2026-09-03",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 3",
+        "impact_ids": [
+          "IMP-AI-007-NOTICE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-003",
+        "summary": "Confirm recipient disclosure practice; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-002-50-4-TEXT"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 4",
+            "quote": "Confirm recipient disclosure practice"
+          }
+        ],
+        "action_id": "ACT-003",
+        "system_id": "AI-002",
+        "action": "Confirm recipient disclosure practice",
+        "owner": "Admissions",
+        "due_date": "2026-09-08",
+        "status": "open",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 4",
+        "impact_ids": [
+          "IMP-AI-002-50-4-TEXT"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-004",
+        "summary": "Verify machine-readable provenance after publishing; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-003-SYNTHETIC"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 5",
+            "quote": "Verify machine-readable provenance after publishing"
+          }
+        ],
+        "action_id": "ACT-004",
+        "system_id": "AI-003",
+        "action": "Verify machine-readable provenance after publishing",
+        "owner": "Communications",
+        "due_date": "2026-09-10",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 5",
+        "impact_ids": [
+          "IMP-AI-003-SYNTHETIC"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-005",
+        "summary": "Refresh provider-role and release evidence; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-005-50-1",
+          "IMP-AI-005-50-2",
+          "IMP-AI-005-50-3",
+          "IMP-AI-005-EVIDENCE"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 6",
+            "quote": "Refresh provider-role and release evidence"
+          }
+        ],
+        "action_id": "ACT-005",
+        "system_id": "AI-005",
+        "action": "Refresh provider-role and release evidence",
+        "owner": "Assessment Operations",
+        "due_date": "2026-09-12",
+        "status": "open",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 6",
+        "impact_ids": [
+          "IMP-AI-005-50-1",
+          "IMP-AI-005-50-2",
+          "IMP-AI-005-50-3",
+          "IMP-AI-005-EVIDENCE"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-006",
+        "summary": "Complete provenance test; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-008-50-4-MEDIA",
+          "IMP-AI-008-SYNTHETIC",
+          "IMP-AI-008-50-5"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 7",
+            "quote": "Complete provenance test"
+          }
+        ],
+        "action_id": "ACT-006",
+        "system_id": "AI-008",
+        "action": "Complete provenance test",
+        "owner": "Communications",
+        "due_date": "2026-09-09",
+        "status": "open",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 7",
+        "impact_ids": [
+          "IMP-AI-008-50-4-MEDIA",
+          "IMP-AI-008-SYNTHETIC",
+          "IMP-AI-008-50-5"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-007",
+        "summary": "Review exception request; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "IMP-AI-008-50-4-MEDIA",
+          "IMP-AI-008-EXCEPTION"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 8",
+            "quote": "Review exception request"
+          }
+        ],
+        "action_id": "ACT-007",
+        "system_id": "AI-008",
+        "action": "Review exception request",
+        "owner": "Legal",
+        "due_date": "2026-09-15",
+        "status": "blocked",
+        "approval_required": "legal",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 8",
+        "impact_ids": [
+          "IMP-AI-008-50-4-MEDIA",
+          "IMP-AI-008-EXCEPTION"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "ACT-008",
+        "summary": "Quarterly AI register evidence review; preserve the recorded proposal and source status, with authorization still pending.",
+        "evidence_ids": [
+          "SRC-CALENDAR-01",
+          "POL-AUTHORITY",
+          "GAP-HISTORY",
+          "GAP-PROOF"
+        ],
+        "citations": [
+          {
+            "source_id": "SRC-CALENDAR-01",
+            "locator": "Compliance Calendar!row 9",
+            "quote": "Quarterly AI register evidence review"
+          }
+        ],
+        "action_id": "ACT-008",
+        "system_id": "ALL",
+        "action": "Quarterly AI register evidence review",
+        "owner": "Operations",
+        "due_date": "2026-10-02",
+        "status": "scheduled",
+        "approval_required": "operations",
+        "source_version": "calendar-2026-08-26",
+        "_locator": "Compliance Calendar!row 9",
+        "impact_ids": [],
+        "approval_status": "pending",
+        "calendar_eligible": true,
+        "date_basis": "Existing calendar-2026-08-26 proposal; not an approved or newly activated deadline",
+        "actual_retrieval_limit": "Elapsed at October8 retrieval; retained for August26 retrospective review"
+      },
+      {
+        "id": "PROP-007-TEXT",
+        "summary": "Confirm whether website-generated text is published on public-interest matters and who has editorial responsibility; proposed date pending Operations.",
+        "evidence_ids": [
+          "IMP-AI-007-50-4-TEXT",
+          "FACT-AI-007",
+          "RULE-50-4-TEXT",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "action_id": "PROP-007-TEXT",
+        "system_id": "AI-007",
+        "action": "Confirm publication purpose and editorial responsibility",
+        "owner": "Marketing",
+        "due_date": null,
+        "status": "draft",
+        "approval_required": "legal",
+        "source_version": "RC-CONTEXT-2026-09-12-R1 plus current native register; see manifest",
+        "impact_ids": [
+          "IMP-AI-007-50-4-TEXT"
+        ],
+        "approval_status": "pending",
+        "calendar_eligible": false,
+        "date_basis": "No source-supported date; Operations must decide"
+      }
+    ],
+    "approval_requirements": [
+      {
+        "id": "REQ-AI-001-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-001.",
+        "evidence_ids": [
+          "IMP-AI-001-50-1",
+          "IMP-AI-001-50-2",
+          "IMP-AI-001-50-3",
+          "IMP-AI-001-50-4-MEDIA",
+          "IMP-AI-001-50-4-TEXT",
+          "IMP-AI-001-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-001-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-001",
+        "subject_impact": "IMP-AI-001-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-002-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-002.",
+        "evidence_ids": [
+          "IMP-AI-002-50-1",
+          "IMP-AI-002-50-2",
+          "IMP-AI-002-50-3",
+          "IMP-AI-002-50-4-MEDIA",
+          "IMP-AI-002-50-4-TEXT",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-002-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": "IMP-AI-002-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-003-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-003.",
+        "evidence_ids": [
+          "IMP-AI-003-50-1",
+          "IMP-AI-003-50-2",
+          "IMP-AI-003-50-3",
+          "IMP-AI-003-50-4-MEDIA",
+          "IMP-AI-003-50-4-TEXT",
+          "IMP-AI-003-SYNTHETIC",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-003-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-003",
+        "subject_impact": "IMP-AI-003-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-004-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-004.",
+        "evidence_ids": [
+          "IMP-AI-004-50-1",
+          "IMP-AI-004-50-2",
+          "IMP-AI-004-50-3",
+          "IMP-AI-004-50-4-MEDIA",
+          "IMP-AI-004-50-4-TEXT",
+          "IMP-AI-004-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-004-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-004",
+        "subject_impact": "IMP-AI-004-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-005-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-005.",
+        "evidence_ids": [
+          "IMP-AI-005-50-1",
+          "IMP-AI-005-50-2",
+          "IMP-AI-005-50-3",
+          "IMP-AI-005-50-4-MEDIA",
+          "IMP-AI-005-50-4-TEXT",
+          "IMP-AI-005-EVIDENCE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-005-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": "IMP-AI-005-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-006-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-006.",
+        "evidence_ids": [
+          "IMP-AI-006-50-1",
+          "IMP-AI-006-50-2",
+          "IMP-AI-006-50-3",
+          "IMP-AI-006-50-4-MEDIA",
+          "IMP-AI-006-50-4-TEXT",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-006-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-006",
+        "subject_impact": "IMP-AI-006-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-007-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-007.",
+        "evidence_ids": [
+          "IMP-AI-007-50-1",
+          "IMP-AI-007-50-2",
+          "IMP-AI-007-50-3",
+          "IMP-AI-007-50-4-MEDIA",
+          "IMP-AI-007-50-4-TEXT",
+          "IMP-AI-007-NOTICE",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-007-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": "IMP-AI-007-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-AI-008-LEGAL",
+        "summary": "Review all paragraph-specific proposed findings for AI-008.",
+        "evidence_ids": [
+          "IMP-AI-008-50-1",
+          "IMP-AI-008-50-2",
+          "IMP-AI-008-50-3",
+          "IMP-AI-008-50-4-MEDIA",
+          "IMP-AI-008-50-4-TEXT",
+          "IMP-AI-008-SYNTHETIC",
+          "IMP-AI-008-EXCEPTION",
+          "IMP-AI-008-50-5",
+          "GAP-HISTORY",
+          "GAP-PROOF",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-AI-008-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the applicable actor, statutory paragraphs, timing and exceptions for the reported August26 use. Review all listed impacts, historical limits and missing proof; provide conditions or required facts rather than infer approval.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": "IMP-AI-008-50-1",
+        "subject_action": null
+      },
+      {
+        "id": "REQ-ACT-001-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-001.",
+        "evidence_ids": [
+          "ACT-001",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-001-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-004",
+        "subject_impact": null,
+        "subject_action": "ACT-001"
+      },
+      {
+        "id": "REQ-ACT-002-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-002.",
+        "evidence_ids": [
+          "ACT-002",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-002-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": null,
+        "subject_action": "ACT-002"
+      },
+      {
+        "id": "REQ-ACT-003-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-003.",
+        "evidence_ids": [
+          "ACT-003",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-003-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": null,
+        "subject_action": "ACT-003"
+      },
+      {
+        "id": "REQ-ACT-003-LEGAL",
+        "summary": "Review the legal question or exception proposal for ACT-003.",
+        "evidence_ids": [
+          "ACT-003",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-003-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Review this action against the bound evidence and paragraph-specific impacts. For an exception, require rationale, owner, expiry and actual authorized approval; a draft request grants none.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-002",
+        "subject_impact": null,
+        "subject_action": "ACT-003"
+      },
+      {
+        "id": "REQ-ACT-004-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-004.",
+        "evidence_ids": [
+          "ACT-004",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-004-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-003",
+        "subject_impact": null,
+        "subject_action": "ACT-004"
+      },
+      {
+        "id": "REQ-ACT-005-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-005.",
+        "evidence_ids": [
+          "ACT-005",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-005-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": null,
+        "subject_action": "ACT-005"
+      },
+      {
+        "id": "REQ-ACT-005-LEGAL",
+        "summary": "Review the legal question or exception proposal for ACT-005.",
+        "evidence_ids": [
+          "ACT-005",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-005-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Review this action against the bound evidence and paragraph-specific impacts. For an exception, require rationale, owner, expiry and actual authorized approval; a draft request grants none.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-005",
+        "subject_impact": null,
+        "subject_action": "ACT-005"
+      },
+      {
+        "id": "REQ-ACT-006-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-006.",
+        "evidence_ids": [
+          "ACT-006",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-006-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-006"
+      },
+      {
+        "id": "REQ-ACT-007-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-007.",
+        "evidence_ids": [
+          "ACT-007",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-007-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-007"
+      },
+      {
+        "id": "REQ-ACT-007-LEGAL",
+        "summary": "Review the legal question or exception proposal for ACT-007.",
+        "evidence_ids": [
+          "ACT-007",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-007-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Review this action against the bound evidence and paragraph-specific impacts. For an exception, require rationale, owner, expiry and actual authorized approval; a draft request grants none.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-008",
+        "subject_impact": null,
+        "subject_action": "ACT-007"
+      },
+      {
+        "id": "REQ-ACT-008-OPS",
+        "summary": "Review operational ownership, source proposal and date for ACT-008.",
+        "evidence_ids": [
+          "ACT-008",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-ACT-008-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": "ACT-008"
+      },
+      {
+        "id": "REQ-PROP-007-TEXT-OPS",
+        "summary": "Review operational ownership, source proposal and date for PROP-007-TEXT.",
+        "evidence_ids": [
+          "PROP-007-TEXT",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-PROP-007-TEXT-OPS",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the owner and proposed date, or provide a supported alternative. Recorded statuses and elapsed dates are not authorization. Keep activation and incident closure separate, and identify the reviewed draft version.",
+        "required_reviewer": "Operations",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": null,
+        "subject_action": "PROP-007-TEXT"
+      },
+      {
+        "id": "REQ-PROP-007-TEXT-LEGAL",
+        "summary": "Review the legal question or exception proposal for PROP-007-TEXT.",
+        "evidence_ids": [
+          "PROP-007-TEXT",
+          "POL-EXCEPTION",
+          "POL-AUTHORITY"
+        ],
+        "citations": [],
+        "request_id": "REQ-PROP-007-TEXT-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Review this action against the bound evidence and paragraph-specific impacts. For an exception, require rationale, owner, expiry and actual authorized approval; a draft request grants none.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "AI-007",
+        "subject_impact": null,
+        "subject_action": "PROP-007-TEXT"
+      },
+      {
+        "id": "REQ-TIMING-LEGAL",
+        "summary": "Review July amendment, guidance conflict and supplier-only transition.",
+        "evidence_ids": [
+          "TIME-MAIN",
+          "TIME-AMEND",
+          "TIME-MARKING",
+          "TIME-CONSOLIDATION",
+          "GUIDE-FAQ-CONFLICT",
+          "FACT-MARKET-003-008"
+        ],
+        "citations": [],
+        "request_id": "REQ-TIMING-LEGAL",
+        "run_id": "20261008T190534Z-06cc0bb5395b",
+        "source_versions": {
+          "SRC-EVIDENCE-01": "sha256:bc7e817db52406ef2d2b7e5ac2a8fdabd77f5a6e606d9d262f25d89e8d0afaa9",
+          "SRC-SYSTEMS-01": "sha256:26a347547e5a4b3e11781f7e3b5cb04faa79dda05037e518274254b464c02eff",
+          "SRC-CALENDAR-01": "sha256:52d75580f565e3d743810e4ea3cf18c8e1a61744163cdb86b26a5c67c375ccc9",
+          "SRC-LAW-01": "sha256:bc5c6e002461f1f65a24ae22f3b6be8bd50d78f15d35beb1bc618085e3628d26",
+          "SRC-OJ-01": "sha256:de93980824330adc1d22949b184c4b981939400980c0ef1dcfaf9bbe1abb8fde",
+          "SRC-AMEND-01": "sha256:8d88adb539107fed2569bdd2a023b13c7f4dc7e24a9569fa200d01f463fc5459",
+          "SRC-CONSOLIDATED-01": "sha256:307fe5cc96700320529186362a2cc8b535019b152712ddaaecf8b22df17147fd",
+          "SRC-TIME-01": "sha256:47fb7bda2df285bf72bbca2610b2640419962ecb460e8ec8eb6c0695f0cb4167",
+          "SRC-FAQ-01": "sha256:97c94a045b2a9524a2b980585be5dc5bdc3f53de37d20ce77906a08f63d88d40",
+          "SRC-OJ-02": "sha256:a372410fdc94acec3e48d61bae1455bb744a6f8e0da2fc0c40c932b08ba5915b",
+          "SRC-AMEND-02": "sha256:c67c2c78f5e5d1bc5f7ceabd0b9a8af5f6b32073007ad22f159fd4034802c2bd",
+          "SRC-POLICY-03": "sha256:f5d4ec7fabf4c9c6399929cef14185ea575679f343123203f7ecb3a1289a7e24"
+        },
+        "question": "Confirm the July27 amendment basis, unchanged general Article50 August2 application, and limited Article50(2) provider December2 transition. Confirm June1 supplier entry only conditionally on release proof; do not postpone deployer disclosure or August policy.",
+        "required_reviewer": "Legal",
+        "status": "pending",
+        "delivery_status": "unsent",
+        "subject_system": "ALL",
+        "subject_impact": null,
+        "subject_action": null
+      }
+    ],
+    "escalations": [
+      {
+        "id": "GAP-HISTORY",
+        "summary": "The live Sheets were modified August 28 and expose no revision history. Their exact August 26 workbook versions remain unverified.",
+        "evidence_ids": [
+          "SRC-SYSTEMS-01",
+          "SRC-EVIDENCE-01",
+          "SRC-CALENDAR-01"
+        ],
+        "citations": [],
+        "owner": "Operations",
+        "resolution_need": "Operations must supply verified historical revisions or confirm dated rows as retrospective case facts."
+      },
+      {
+        "id": "GAP-005",
+        "summary": "Current provider role, development, branding, biometric processing and release timing are unknown. Human adjudication does not resolve those facts.",
+        "evidence_ids": [
+          "FACT-AI-005",
+          "REC-005",
+          "REC-006"
+        ],
+        "citations": [],
+        "owner": "Assessment Operations",
+        "resolution_need": "Assessment Operations must refresh current-release, provider-role, biometric and market-entry evidence for Legal.",
+        "system_id": "AI-005"
+      },
+      {
+        "id": "GAP-008-PROVENANCE",
+        "summary": "A visible label is reported, but machine-readable provenance is untested. Supplier market entry is owner-reported without the release notice.",
+        "evidence_ids": [
+          "FACT-AI-008",
+          "REC-009",
+          "FACT-MARKET-003-008",
+          "POL-SYNTHETIC"
+        ],
+        "citations": [],
+        "owner": "Communications",
+        "resolution_need": "Communications must test the published output and supply supplier release proof.",
+        "system_id": "AI-008"
+      },
+      {
+        "id": "GAP-008-EXCEPTION",
+        "summary": "REC-010 has no Legal approval or expiry. Translation and human review do not themselves establish a deepfake-media exception.",
+        "evidence_ids": [
+          "REC-010",
+          "POL-EXCEPTION",
+          "FACT-AI-008"
+        ],
+        "citations": [],
+        "owner": "Communications",
+        "resolution_need": "Communications must propose rationale and expiry for Legal to decide.",
+        "system_id": "AI-008"
+      },
+      {
+        "id": "GAP-002",
+        "summary": "Recipient disclosure evidence is missing. Private human-edited individual replies do not automatically establish direct applicant interaction or public-interest publication.",
+        "evidence_ids": [
+          "FACT-AI-002",
+          "REC-002",
+          "POL-DRAFT"
+        ],
+        "citations": [],
+        "owner": "Admissions",
+        "resolution_need": "Admissions must confirm recipient practice, editing and editorial responsibility.",
+        "system_id": "AI-002"
+      },
+      {
+        "id": "GAP-004",
+        "summary": "A missing first-interaction notice is reported. The actual onboarding screen and accessibility evidence were not independently captured.",
+        "evidence_ids": [
+          "FACT-AI-004",
+          "REC-004",
+          "POL-NOTICE"
+        ],
+        "citations": [],
+        "owner": "Learning Experience",
+        "resolution_need": "Learning Experience must verify notice or substantiate obviousness; Operations retains closure.",
+        "system_id": "AI-004"
+      },
+      {
+        "id": "GAP-PROOF",
+        "summary": "Register labels and owner reports do not independently prove screenshots, surviving provenance, release dates, exceptions or historical deployment.",
+        "evidence_ids": [
+          "SRC-EVIDENCE-01",
+          "SRC-POLICY-03"
+        ],
+        "citations": [],
+        "owner": "Operations",
+        "resolution_need": "Operations and system owners must provide the referenced proof before final findings."
+      },
+      {
+        "id": "GAP-NOTION",
+        "summary": "Both native connector reads returned 404. A separate fresh read of the original Notion page supplied evidence; connector workspace or page permission remains unresolved.",
+        "evidence_ids": [
+          "SRC-POLICY-01",
+          "SRC-POLICY-02",
+          "SRC-POLICY-03"
+        ],
+        "citations": [],
+        "owner": "Workflow operator",
+        "resolution_need": "Workflow operator must restore Notion integration access and preserve the failed attempts."
+      },
+      {
+        "id": "CONFLICT-003",
+        "summary": "SYSTEMS reports complete evidence and a visible label, while REC-003 reports conflicting published-copy provenance. Retain both records; a visible label does not prove metadata survived.",
+        "evidence_ids": [
+          "FACT-AI-003",
+          "REC-003",
+          "POL-SYNTHETIC"
+        ],
+        "citations": [],
+        "owner": "Communications",
+        "resolution_need": "Communications must inspect publication metadata and reconcile the complete/conflicting reports.",
+        "system_id": "AI-003"
+      },
+      {
+        "id": "CONFLICT-007",
+        "summary": "The register reports no notice. REC-008 reports an owner claim that a banner exists and a capture showing none. The fictional graphic alone does not establish that the conversation is obviously AI.",
+        "evidence_ids": [
+          "FACT-AI-007",
+          "REC-008",
+          "POL-NOTICE"
+        ],
+        "citations": [],
+        "owner": "Marketing",
+        "resolution_need": "Marketing must obtain actual first-interaction evidence and reconcile both accounts.",
+        "system_id": "AI-007"
+      },
+      {
+        "id": "CONFLICT-FAQ",
+        "summary": "The FAQ overview cites Article 50(2) for direct interaction, whereas the binding text and later FAQ answer use Article 50(1). Preserve the conflict and map the draft to binding text.",
+        "evidence_ids": [
+          "GUIDE-FAQ-CONFLICT",
+          "RULE-50-1"
+        ],
+        "citations": [],
+        "owner": "Legal",
+        "resolution_need": "Legal must confirm the statutory paragraph mapping while retaining the guidance error."
+      }
+    ]
+  },
+  "unresolved": [
+    {
+      "id": "GAP-HISTORY",
+      "summary": "The live Sheets were modified August 28 and expose no revision history. Their exact August 26 workbook versions remain unverified.",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-EVIDENCE-01",
+        "SRC-CALENDAR-01"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations must supply verified historical revisions or confirm dated rows as retrospective case facts."
+    },
+    {
+      "id": "GAP-005",
+      "summary": "Current provider role, development, branding, biometric processing and release timing are unknown. Human adjudication does not resolve those facts.",
+      "evidence_ids": [
+        "FACT-AI-005",
+        "REC-005",
+        "REC-006"
+      ],
+      "citations": [],
+      "owner": "Assessment Operations",
+      "resolution_need": "Assessment Operations must refresh current-release, provider-role, biometric and market-entry evidence for Legal.",
+      "system_id": "AI-005"
+    },
+    {
+      "id": "GAP-008-PROVENANCE",
+      "summary": "A visible label is reported, but machine-readable provenance is untested. Supplier market entry is owner-reported without the release notice.",
+      "evidence_ids": [
+        "FACT-AI-008",
+        "REC-009",
+        "FACT-MARKET-003-008",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must test the published output and supply supplier release proof.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-008-EXCEPTION",
+      "summary": "REC-010 has no Legal approval or expiry. Translation and human review do not themselves establish a deepfake-media exception.",
+      "evidence_ids": [
+        "REC-010",
+        "POL-EXCEPTION",
+        "FACT-AI-008"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must propose rationale and expiry for Legal to decide.",
+      "system_id": "AI-008"
+    },
+    {
+      "id": "GAP-002",
+      "summary": "Recipient disclosure evidence is missing. Private human-edited individual replies do not automatically establish direct applicant interaction or public-interest publication.",
+      "evidence_ids": [
+        "FACT-AI-002",
+        "REC-002",
+        "POL-DRAFT"
+      ],
+      "citations": [],
+      "owner": "Admissions",
+      "resolution_need": "Admissions must confirm recipient practice, editing and editorial responsibility.",
+      "system_id": "AI-002"
+    },
+    {
+      "id": "GAP-004",
+      "summary": "A missing first-interaction notice is reported. The actual onboarding screen and accessibility evidence were not independently captured.",
+      "evidence_ids": [
+        "FACT-AI-004",
+        "REC-004",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Learning Experience",
+      "resolution_need": "Learning Experience must verify notice or substantiate obviousness; Operations retains closure.",
+      "system_id": "AI-004"
+    },
+    {
+      "id": "GAP-PROOF",
+      "summary": "Register labels and owner reports do not independently prove screenshots, surviving provenance, release dates, exceptions or historical deployment.",
+      "evidence_ids": [
+        "SRC-EVIDENCE-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Operations",
+      "resolution_need": "Operations and system owners must provide the referenced proof before final findings."
+    },
+    {
+      "id": "GAP-NOTION",
+      "summary": "Both native connector reads returned 404. A separate fresh read of the original Notion page supplied evidence; connector workspace or page permission remains unresolved.",
+      "evidence_ids": [
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "owner": "Workflow operator",
+      "resolution_need": "Workflow operator must restore Notion integration access and preserve the failed attempts."
+    },
+    {
+      "id": "CONFLICT-003",
+      "summary": "SYSTEMS reports complete evidence and a visible label, while REC-003 reports conflicting published-copy provenance. Retain both records; a visible label does not prove metadata survived.",
+      "evidence_ids": [
+        "FACT-AI-003",
+        "REC-003",
+        "POL-SYNTHETIC"
+      ],
+      "citations": [],
+      "owner": "Communications",
+      "resolution_need": "Communications must inspect publication metadata and reconcile the complete/conflicting reports.",
+      "system_id": "AI-003"
+    },
+    {
+      "id": "CONFLICT-007",
+      "summary": "The register reports no notice. REC-008 reports an owner claim that a banner exists and a capture showing none. The fictional graphic alone does not establish that the conversation is obviously AI.",
+      "evidence_ids": [
+        "FACT-AI-007",
+        "REC-008",
+        "POL-NOTICE"
+      ],
+      "citations": [],
+      "owner": "Marketing",
+      "resolution_need": "Marketing must obtain actual first-interaction evidence and reconcile both accounts.",
+      "system_id": "AI-007"
+    },
+    {
+      "id": "CONFLICT-FAQ",
+      "summary": "The FAQ overview cites Article 50(2) for direct interaction, whereas the binding text and later FAQ answer use Article 50(1). Preserve the conflict and map the draft to binding text.",
+      "evidence_ids": [
+        "GUIDE-FAQ-CONFLICT",
+        "RULE-50-1"
+      ],
+      "citations": [],
+      "owner": "Legal",
+      "resolution_need": "Legal must confirm the statutory paragraph mapping while retaining the guidance error."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-ACTIONS",
+      "summary": "Preserve existing commitments and prepare version-bound pending review requests.",
+      "evidence_ids": [
+        "SRC-CALENDAR-01",
+        "POL-AUTHORITY",
+        "POL-EXCEPTION",
+        "GAP-HISTORY"
+      ],
+      "citations": [],
+      "stage": 6,
+      "concern": "How should proposal dates, unknown facts and reviewer authority be represented?",
+      "options": [
+        "Treat calendar statuses as approved",
+        "Replace elapsed dates with invented deadlines",
+        "Preserve recorded proposals and request explicit review"
+      ],
+      "chosen_behavior": "Retain all eight actions with source status and dates; add one undated factual clarification; mark every draft approval pending.",
+      "rationale": "The calendar supplies commitments, while policy reserves activation, date confirmation, exceptions and closure to humans.",
+      "tradeoffs": [
+        "Historical dates can look overdue at retrieval; explicitly separate August review from October access and avoid unapproved rescheduling."
+      ],
+      "downstream_effect": "Eight tentative all-day events; one undated action omitted with explanation. Requests remain unsent and bind exact final draft hashes."
+    }
+  ]
+}

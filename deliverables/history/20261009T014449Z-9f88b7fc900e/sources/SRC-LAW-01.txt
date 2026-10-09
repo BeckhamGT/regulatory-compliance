@@ -1,0 +1,132 @@
+Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk (https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50)
+citeturn37view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50","lineno":223}); Total lines: 280
+L0: Search[Input]
+L1: 
+L2: Search[Input][Input]
+L3: # AI Act Explorer
+L4: 
+L5: Search the AI Act [Input]
+L6: 
+L7: [Button: Search]
+L8: 
+L9: Recitals
+L10: cite0†1 cite1†2 cite2†3 cite3†4 cite4†5 cite5†6 cite6†7 cite7†8 cite8†9 cite9†10 cite10†11 cite11†12 cite12†13 cite13†14 cite14†15 cite15†16 cite16†17 cite17†18 cite18†19 cite19†20 cite20†21 cite21†22 cite22†23 cite23†24 cite24†25 cite25†26 cite26†27 cite27†28 cite28†29 cite29†30 cite30†31 cite31†32 cite32†33 cite33†34 cite34†35 cite35†36 cite36†37 cite37†38 cite38†39 cite39†40 cite40†41 cite41†42 cite42†43 cite43†44 cite44†45 cite45†46 cite46†47 cite47†48 cite48†49 cite49†50 cite50†51 cite51†52 cite52†53 cite53†54 cite54†55 cite55†56 cite56†57 cite57†58 cite58†59 cite59†60 cite60†61 cite61†62 cite62†63 cite63†64 cite64†65 cite65†66 cite66†67 cite67†68 cite68†69 cite69†70 cite70†71 cite71†72 cite72†73 cite73†74 cite74†75 cite75†76 cite76†77 cite77†78 cite78†79 cite79†80 cite80†81 cite81†82 cite82†83 cite83†84 cite84†85 cite85†86 cite86†87 cite87†88 cite88†89 cite89†90 cite90†91 cite91†92 cite92†93 cite93†94 cite94†95 cite95†96 cite96†97 cite97†98 cite98†99 cite99†100 cite100†101 cite101†102 cite102†103 cite103†104 cite104†105 cite105†106 cite106†107 cite107†108 cite108†109 cite109†110 cite110†111 cite111†112 cite112†113 cite113†114 cite114†115 cite115†116 cite116†117 cite117†118 cite118†119 cite119†120 cite120†121 cite121†122 cite122†123 cite123†124 cite124†125 cite125†126 cite126†127 cite127†128 cite128†129 cite129†130 cite130†131 cite131†132 cite132†133 cite133†134 cite134†135 cite135†136 cite136†137 cite137†138 cite138†139 cite139†140 cite140†141 cite141†142 cite142†143 cite143†144 cite144†145 cite145†146 cite146†147 cite147†148 cite148†149 cite149†150 cite150†151 cite151†152 cite152†153 cite153†154 cite154†155 cite155†156 cite156†157 cite157†158 cite158†159 cite159†160 cite160†161 cite161†162 cite162†163 cite163†164 cite164†165 cite165†166 cite166†167 cite167†168 cite168†169 cite169†170 cite170†171 cite171†172 cite172†173 cite173†174 cite174†175 cite175†176 cite176†177 cite177†178 cite178†179 cite179†180 L11: Chapter I: General Provisions
+L12: 
+L13:   * cite180†Article 1: Subject matter' L14:   * cite181†Article 2: Scope L15:   * cite182†Article 3: Definitions L16:   * cite183†Article 4: AI literacy L17:   * cite184†Article 4a: Processing of special categories of personal data for bias detection and correction L18: 
+L19: Chapter II: Prohibited AI Practices
+L20: 
+L21:   * cite185†Article 5: Prohibited AI practices L22: 
+L23: Chapter III: High-Risk AI Systems
+L24: 
+L25: Section 1: Classification of AI Systems as High-Risk
+L26:   * cite186†Article 6: Classification rules for high-risk AI systems L27:   * cite187†Article 7: Amendments to Annex III L28: 
+L29: Section 2: Requirements for High-Risk AI Systems
+L30:   * cite188†Article 8: Compliance with the requirements L31:   * cite189†Article 9: Risk management system L32:   * cite190†Article 10: Data and data governance L33:   * cite191†Article 11: Technical documentation L34:   * cite192†Article 12: Record-keeping L35:   * cite193†Article 13: Transparency and provision of information to deployers L36:   * cite194†Article 14: Human oversight L37:   * cite195†Article 15: Accuracy, robustness and cybersecurity L38: 
+L39: Section 3: Obligations of Providers and Deployers of High-Risk AI Systems and Other Parties
+L40:   * cite196†Article 16: Obligations of providers of high-risk AI systems L41:   * cite197†Article 17: Quality management system L42:   * cite198†Article 18: Documentation keeping L43:   * cite199†Article 19: Automatically generated logs L44:   * cite200†Article 20: Corrective actions and duty of information L45:   * cite201†Article 21: Cooperation with competent authorities L46:   * cite202†Article 22: Authorised representatives of providers of high-risk AI systems L47:   * cite203†Article 23: Obligations of importers L48:   * cite204†Article 24: Obligations of distributors L49:   * cite205†Article 25: Responsibilities along the AI value chain L50:   * cite206†Article 26: Obligations of deployers of high-risk AI systems L51:   * cite207†Article 27: Fundamental rights impact assessment for high-risk AI systems L52: Section 4: Notifying Authorities and Notified Bodies
+L53:   * cite208†Article 28: Notifying authorities L54:   * cite209†Article 29: Application of a conformity assessment body for notification L55:   * cite210†Article 30: Notification procedure L56:   * cite211†Article 31: Requirements relating to notified bodies L57:   * cite212†Article 32: Presumption of conformity with requirements relating to notified bodies L58:   * cite213†Article 33: Subsidiaries of notified bodies and subcontracting L59:   * cite214†Article 34: Operational obligations of notified bodies L60:   * cite215†Article 35: Identification numbers and lists of notified bodies L61:   * cite216†Article 36: Changes to notifications L62:   * cite217†Article 37: Challenge to the competence of notified bodies L63:   * cite218†Article 38: Coordination of notified bodies L64:   * cite219†Article 39: Conformity assessment bodies of third countries L65: Section 5: Standards, Conformity Assessment, Certificates, Registration
+L66:   * cite220†Article 40: Harmonised standards and standardisation deliverables L67:   * cite221†Article 41: Common specifications L68:   * cite222†Article 42: Presumption of conformity with certain requirements L69:   * cite223†Article 43: Conformity assessment L70:   * cite224†Article 44: Certificates L71:   * cite225†Article 45: Information obligations of notified bodies L72:   * cite226†Article 46: Derogation from conformity assessment procedure L73:   * cite227†Article 47: EU declaration of conformity L74:   * cite228†Article 48: CE marking L75:   * cite229†Article 49: Registration L76: Chapter IV: Transparency Obligations for Providers and Deployers of Certain AI Systems
+L77: 
+L78:   * cite230†Article 50: Transparency obligations for providers and deployers of certain AI systems L79: 
+L80: Chapter V: General-Purpose AI Models
+L81: 
+L82: Section 1: Classification Rules
+L83: 
+L84:   * cite231†Article 51: Classification of general-purpose AI models as general-purpose AI models with systemic risk L85:   * cite232†Article 52: Procedure L86: 
+L87: Section 2: Obligations for Providers of General-Purpose AI Models
+L88:   * cite233†Article 53: Obligations for providers of general-purpose AI models L89:   * cite234†Article 54: Authorised representatives of providers of general-purpose AI models L90: 
+L91: Section 3: Obligations of Providers of General-Purpose AI Models with Systemic Risk
+L92: 
+L93:   * cite235†Article 55: Obligations of providers of general-purpose AI models with systemic risk L94: 
+L95: Section 4: Codes of Practice
+L96: 
+L97:   * cite236†Article 56: Codes of practice L98: 
+L99: Chapter VI: Measures in Support of Innovation
+L100:   * cite237†Article 57: AI regulatory sandboxes L101:   * cite238†Article 58: Detailed arrangements for, and functioning of, AI regulatory sandboxes L102:   * cite239†Article 59: Further processing of personal data for developing certain AI systems in the public interest in the AI regulatory sandbox L103:   * cite240†Article 60: Testing of high-risk AI systems in real world conditions outside AI regulatory sandboxes L104:   * cite241†Article 60a: Testing of high-risk AI systems covered by Union harmonisation legislation listed in Section B of Annex I in real-world conditions outside AI regulatory sandboxes L105:   * cite242†Article 61: Informed consent to participate in testing in real world conditions outside AI regulatory sandboxes L106:   * cite243†Article 62: Measures for providers and deployers, in particular SMEs, including start-ups L107:   * cite244†Article 63: Derogations for specific operators L108: Chapter VII: Governance
+L109: 
+L110: Section 1: Governance at Union Level
+L111: 
+L112:   * cite245†Article 64: AI Office L113:   * cite246†Article 65: Establishment and structure of the European Artificial Intelligence Board L114:   * cite247†Article 66: Tasks of the Board L115:   * cite248†Article 67: Advisory forum L116:   * cite249†Article 68: Scientific panel of independent experts L117:   * cite250†Article 69: Access to the pool of experts by the Member States L118: 
+L119: Section 2: National competent authorities
+L120:   * cite251†Article 70: Designation of national competent authorities and single points of contact L121: 
+L122: Chapter VIII: EU Database for High-Risk AI Systems
+L123: 
+L124:   * cite252†Article 71: EU database for high-risk AI systems listed in Annex III L125: 
+L126: Chapter IX: Post-Market Monitoring, Information Sharing and Market Surveillance
+L127: 
+L128: Section 1: Post-Market Monitoring
+L129: 
+L130:   * cite253†Article 72: Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems L131: Section 2: Sharing of Information on Serious Incidents
+L132: 
+L133:   * cite254†Article 73: Reporting of serious incidents L134: 
+L135: Section 3: Enforcement
+L136:   * cite255†Article 74: Market surveillance and control of AI systems in the Union market L137:   * cite256†Article 75: Market surveillance and control of AI systems and mutual assistance L138:   * cite257†Article 75a: Supervisory and enforcement powers of the AI Office L139:   * cite258†Article 75b: Commitments L140:   * cite259†Article 75c: Non-compliance, fines and periodic penalty payments L141:   * cite260†Article 75d: Safeguards and further specification L142:   * cite261†Article 76: Supervision of testing in real world conditions by market surveillance authorities L143:   * cite262†Article 77: Powers of authorities protecting fundamental rights and cooperation with market surveillance authorities L144:   * cite263†Article 78: Confidentiality L145:   * cite264†Article 79: Procedure at national level for dealing with AI systems presenting a risk L146:   * cite265†Article 80: Procedure for dealing with AI systems classified by the provider as non-high-risk in application of Annex III L147:   * cite266†Article 81: Union safeguard procedure L148:   * cite267†Article 82: Compliant AI systems which present a risk L149:   * cite268†Article 83: Formal non-compliance L150:   * cite269†Article 84: Union AI testing support structures L151: Section 4: Remedies
+L152: 
+L153:   * cite270†Article 85: Right to lodge a complaint with a market surveillance authority L154:   * cite271†Article 86: Right to explanation of individual decision-making L155:   * cite272†Article 87: Reporting of infringements and protection of reporting persons L156: 
+L157: Section 5: Supervision, Investigation, Enforcement and Monitoring in Respect of Providers of General-Purpose AI Models
+L158:   * cite273†Article 88: Enforcement of the obligations of providers of general-purpose AI models L159:   * cite274†Article 89: Monitoring actions L160:   * cite275†Article 90: Alerts of systemic risks by the scientific panel L161:   * cite276†Article 91: Power to request documentation and information L162:   * cite277†Article 92: Power to conduct evaluations L163:   * cite278†Article 93: Power to request measures L164:   * cite279†Article 94: Procedural rights of economic operators of the general-purpose AI model L165: Chapter X: Codes of Conduct and Guidelines
+L166: 
+L167:   * cite280†Article 95: Codes of conduct for voluntary application of specific requirements L168:   * cite281†Article 96: Guidelines from the Commission on the implementation of this Regulation L169: 
+L170: Chapter XI: Delegation of Power and Committee Procedure
+L171: 
+L172:   * cite282†Article 97: Exercise of the delegation L173:   * cite283†Article 98: Committee procedure L174: 
+L175: Chapter XII: Penalties
+L176:   * cite284†Article 99: Penalties L177:   * cite285†Article 100: Administrative fines on Union institutions, bodies, offices and agencies L178:   * cite286†Article 101: Fines for providers of general-purpose AI models L179: 
+L180: Chapter XIII: Final Provisions
+L181:   * cite287†Article 102: Amendment to Regulation (EC) No 300/2008 L182:   * cite288†Article 103: Amendment to Regulation (EU) No 167/2013 L183:   * cite289†Article 104: Amendment to Regulation (EU) No 168/2013 L184:   * cite290†Article 105: Amendment to Directive 2014/90/EU L185:   * cite291†Article 106: Amendment to Directive (EU) 2016/797 L186:   * cite292†Article 107: Amendment to Regulation (EU) 2018/858 L187:   * cite293†Article 108: Amendments to Regulation (EU) 2018/1139 L188:   * cite294†Article 109: Amendment to Regulation (EU) 2019/2144 L189:   * cite295†Article 110: Amendment to Directive (EU) 2020/1828 L190:   * cite296†Article 111: AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked L191:   * cite297†Article 112: Evaluation and review L192:   * cite298†Article 113: Entry into force and application L193: Annexes
+L194: 
+L195: cite299†ANNEX I L196: 
+L197: cite300†ANNEX II L198: 
+L199: cite301†ANNEX III L200: 
+L201: cite302†ANNEX IV L202: 
+L203: cite303†ANNEX V L204: 
+L205: cite304†ANNEX VI L206: 
+L207: cite305†ANNEX VII L208: 
+L209: cite306†ANNEX VIII L210: 
+L211: cite307†ANNEX IX L212: 
+L213: cite308†ANNEX X L214: 
+L215: cite309†ANNEX XI L216: 
+L217: cite310†ANNEX XII L218: 
+L219: cite311†ANNEX XIII L220: 
+L221: cite312†ANNEX XIV L222: 
+L223: About this text:
+L224: The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' .
+L225: 
+L226:   * Chapter IV: Transparency Obligations for Providers and Deployers of Certain AI Systems
+L227: ## Article 50: Transparency obligations for providers and deployers of certain AI systems
+L228: 
+L229: Summary
+L230: Providers must inform users when they are interacting directly with an AI system. AI-generated or -manipulated content must be clearly marked and detectable as artificially generated. Deployers of emotion recognition or biometric categorisation systems must inform exposed person about the operation of the system. Deepfakes and AI-generated text must be disclosed as artificially generated.
+L231: An exemption from these transparency obligations applies in case the systems are authorised by law to detect, prevent, investigate or prosecute criminal offences. Other specific exceptions apply per transparency obligation. Information must be provided clearly, distinguishably and accessibly.
+L232: The summaries are meant to provide helpful explanation but are not legal binding.
+L233: 1.   Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use.
+L234: This obligation shall not apply to AI systems authorised by law to detect, prevent, investigate or prosecute criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, unless those systems are available for the public to report a criminal offence.
+L235: 2.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated.
+L236: Providers shall ensure their technical solutions are effective, interoperable, robust and reliable as far as this is technically feasible, taking into account the specificities and limitations of various types of content, the costs of implementation and the generally acknowledged state of the art, as may be reflected in relevant technical standards.
+L237: This obligation shall not apply to the extent the AI systems perform an assistive function for standard editing or do not substantially alter the input data provided by the deployer or the semantics thereof, or where authorised by law to detect, prevent, investigate or prosecute criminal offences.
+L238: 3.   Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with cite317†Regulations (EU) 2016/679†eur-lex.europa.eu and cite318†(EU) 2018/1725†eur-lex.europa.eu and cite319†Directive (EU) 2016/680†eur-lex.europa.eu , as applicable.
+L239: This obligation shall not apply to AI systems used for biometric categorisation and emotion recognition, which are permitted by law to detect, prevent or investigate criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, and in accordance with Union law.
+L240: 4.   Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offence.
+L241: Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work.
+L242: Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated.
+L243: This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content.
+L244: 5.   The information referred to in paragraphs 1 to 4 shall be provided to the natural persons concerned in a clear and distinguishable manner at the latest at the time of the first interaction or exposure. The information shall conform to the applicable accessibility requirements.
+L245: 
+L246: 6.   Paragraphs 1 to 4 shall not affect the requirements and obligations set out in Chapter III, and shall be without prejudice to other transparency obligations laid down in Union or national law for deployers of AI systems.
+L247: AMENDED
+L248: 7.   The Commission shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection, marking and labelling of artificially generated or manipulated content.
+L249: The Commission, taking utmost account of the opinion of the Board, shall assess whether adherence to those codes of practice is adequate to ensure compliance with the obligations laid down in paragraphs 2 and 4 of this Article, in accordance with the procedure laid down in Article 56(6).
+L250: If it deems the code of practice to be inadequate, the Commission may adopt an implementing act specifying common rules for the implementation of those obligations in accordance with the examination procedure laid down in Article 98(2).
+L251: Relevant recitals
+L252: 
+L253: 
+L254:   * cite131†Recital 132 L255:   * cite132†Recital 133 L256:   * cite133†Recital 134 L257:   * cite135†Recital 136 L258:   * cite136†Recital 137 L259: 
+L260: cite320†AI Act Service Desk L261: 
+L262: Contact us
+L263: 
+L264:   * Contact the AI Office (CNECT-AIOFFICE@ec.europa.eu)
+L265: 
+L266: About us
+L267: 
+L268:   * cite321†Copyright notice L269:   * cite322†Legal notice L270:   * cite323†Privacy statement L271:   * cite324†About Directorate-General CONNECT†commission.europa.eu L272: 
+L273:   * cite325†Contact us†commission.europa.eu L274:   * cite326†Report an IT vulnerability†commission.europa.eu L275:   * cite327†Languages on our websites†commission.europa.eu L276:   * cite328†Cookies†commission.europa.eu L277:   * cite329†Privacy policy†commission.europa.eu L278:   * cite330†Legal notice†commission.europa.eu L279:   * cite331†Accessibility 

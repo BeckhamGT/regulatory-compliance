@@ -1,0 +1,200 @@
+Regulation - EU - 2024/1689 - EN - EUR-Lex (https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+citeturn21view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng","lineno":1776}); Total lines: 3291
+L1741: 2.   The EU declaration of conformity shall state that the high-risk AI system concerned meets the requirements set out in Section 2. The EU declaration of conformity shall contain the information set out in Annex V, and shall be translated into a language that can be easily understood by the national competent authorities of the Member States in which the high-risk AI system is placed on the market or made available.
+L1742: 3.   Where high-risk AI systems are subject to other Union harmonisation legislation which also requires an EU declaration of conformity, a single EU declaration of conformity shall be drawn up in respect of all Union law applicable to the high-risk AI system. The declaration shall contain all the information required to identify the Union harmonisation legislation to which the declaration relates.
+L1743: 4.   By drawing up the EU declaration of conformity, the provider shall assume responsibility for compliance with the requirements set out in Section 2. The provider shall keep the EU declaration of conformity up-to-date as appropriate.
+L1744: 5.   The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex V by updating the content of the EU declaration of conformity set out in that Annex, in order to introduce elements that become necessary in light of technical progress.
+L1745: 
+L1746: Article 48
+L1747: 
+L1748: CE marking
+L1749: 
+L1750: 1.   The CE marking shall be subject to the general principles set out in Article 30 of Regulation (EC) No 765/2008.
+L1751: 2.   For high-risk AI systems provided digitally, a digital CE marking shall be used, only if it can easily be accessed via the interface from which that system is accessed or via an easily accessible machine-readable code or other electronic means.
+L1752: 3.   The CE marking shall be affixed visibly, legibly and indelibly for high-risk AI systems. Where that is not possible or not warranted on account of the nature of the high-risk AI system, it shall be affixed to the packaging or to the accompanying documentation, as appropriate.
+L1753: 4.   Where applicable, the CE marking shall be followed by the identification number of the notified body responsible for the conformity assessment procedures set out in Article 43. The identification number of the notified body shall be affixed by the body itself or, under its instructions, by the provider or by the provider’s authorised representative.
+L1754: The identification number shall also be indicated in any promotional material which mentions that the high-risk AI system fulfils the requirements for CE marking.
+L1755: 5.   Where high-risk AI systems are subject to other Union law which also provides for the affixing of the CE marking, the CE marking shall indicate that the high-risk AI system also fulfil the requirements of that other law.
+L1756: 
+L1757: Article 49
+L1758: 
+L1759: Registration
+L1760: 1.   Before placing on the market or putting into service a high-risk AI system listed in Annex III, with the exception of high-risk AI systems referred to in point 2 of Annex III, the provider or, where applicable, the authorised representative shall register themselves and their system in the EU database referred to in Article 71.
+L1761: 2.   Before placing on the market or putting into service an AI system for which the provider has concluded that it is not high-risk according to Article 6(3), that provider or, where applicable, the authorised representative shall register themselves and that system in the EU database referred to in Article 71.
+L1762: 3.   Before putting into service or using a high-risk AI system listed in Annex III, with the exception of high-risk AI systems listed in point 2 of Annex III, deployers that are public authorities, Union institutions, bodies, offices or agencies or persons acting on their behalf shall register themselves, select the system and register its use in the EU database referred to in Article 71.
+L1763: 4.   For high-risk AI systems referred to in points 1, 6 and 7 of Annex III, in the areas of law enforcement, migration, asylum and border control management, the registration referred to in paragraphs 1, 2 and 3 of this Article shall be in a secure non-public section of the EU database referred to in Article 71 and shall include only the following information, as applicable, referred to in:
+L1764: (a)  | Section A, points 1 to 10, of Annex VIII, with the exception of points 6, 8 and 9;
+L1765: (b)  | Section B, points 1 to 5, and points 8 and 9 of Annex VIII;
+L1766: (c)  | Section C, points 1 to 3, of Annex VIII;
+L1767: (d)  | points 1, 2, 3 and 5, of Annex IX.
+L1768: 
+L1769: Only the Commission and national authorities referred to in Article 74(8) shall have access to the respective restricted sections of the EU database listed in the first subparagraph of this paragraph.
+L1770: 5.   High-risk AI systems referred to in point 2 of Annex III shall be registered at national level.
+L1771: 
+L1772: CHAPTER IV
+L1773: 
+L1774: TRANSPARENCY OBLIGATIONS FOR PROVIDERS AND DEPLOYERS OF CERTAIN AI SYSTEMS
+L1775: 
+L1776: Article 50
+L1777: 
+L1778: Transparency obligations for providers and deployers of certain AI systems
+L1779: 1.   Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use.
+L1780: This obligation shall not apply to AI systems authorised by law to detect, prevent, investigate or prosecute criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, unless those systems are available for the public to report a criminal offence.
+L1781: 2.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated.
+L1782: Providers shall ensure their technical solutions are effective, interoperable, robust and reliable as far as this is technically feasible, taking into account the specificities and limitations of various types of content, the costs of implementation and the generally acknowledged state of the art, as may be reflected in relevant technical standards.
+L1783: This obligation shall not apply to the extent the AI systems perform an assistive function for standard editing or do not substantially alter the input data provided by the deployer or the semantics thereof, or where authorised by law to detect, prevent, investigate or prosecute criminal offences.
+L1784: 3.   Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable.
+L1785: This obligation shall not apply to AI systems used for biometric categorisation and emotion recognition, which are permitted by law to detect, prevent or investigate criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, and in accordance with Union law.
+L1786: 4.   Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offence.
+L1787: Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work.
+L1788: Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated.
+L1789: This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content.
+L1790: 5.   The information referred to in paragraphs 1 to 4 shall be provided to the natural persons concerned in a clear and distinguishable manner at the latest at the time of the first interaction or exposure. The information shall conform to the applicable accessibility requirements.
+L1791: 
+L1792: 6.   Paragraphs 1 to 4 shall not affect the requirements and obligations set out in Chapter III, and shall be without prejudice to other transparency obligations laid down in Union or national law for deployers of AI systems.
+L1793: 7.   The AI Office shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection and labelling of artificially generated or manipulated content. The Commission may adopt implementing acts to approve those codes of practice in accordance with the procedure laid down in Article 56 (6).
+L1794: If it deems the code is not adequate, the Commission may adopt an implementing act specifying common rules for the implementation of those obligations in accordance with the examination procedure laid down in Article 98(2).
+L1795: CHAPTER V
+L1796: 
+L1797: GENERAL-PURPOSE AI MODELS
+L1798: 
+L1799: SECTION 1
+L1800: 
+L1801: Classification rules
+L1802: 
+L1803: Article 51
+L1804: 
+L1805: Classification of general-purpose AI models as general-purpose AI models with systemic risk
+L1806: 
+L1807: 1.   A general-purpose AI model shall be classified as a general-purpose AI model with systemic risk if it meets any of the following conditions:
+L1808: (a)  | it has high impact capabilities evaluated on the basis of appropriate technical tools and methodologies, including indicators and benchmarks;
+L1809: (b)  | based on a decision of the Commission, ex officio or following a qualified alert from the scientific panel, it has capabilities or an impact equivalent to those set out in point (a) having regard to the criteria set out in Annex XIII.
+L1810: 2.   A general-purpose AI model shall be presumed to have high impact capabilities pursuant to paragraph 1, point (a), when the cumulative amount of computation used for its training measured in floating point operations is greater than 10 25.
+L1811: 3.   The Commission shall adopt delegated acts in accordance with Article 97 to amend the thresholds listed in paragraphs 1 and 2 of this Article, as well as to supplement benchmarks and indicators in light of evolving technological developments, such as algorithmic improvements or increased hardware efficiency, when necessary, for these thresholds to reflect the state of the art.
+L1812: 
+L1813: Article 52
+L1814: 
+L1815: Procedure
+L1816: 1.   Where a general-purpose AI model meets the condition referred to in Article 51(1), point (a), the relevant provider shall notify the Commission without delay and in any event within two weeks after that requirement is met or it becomes known that it will be met. That notification shall include the information necessary to demonstrate that the relevant requirement has been met.
+L1817: If the Commission becomes aware of a general-purpose AI model presenting systemic risks of which it has not been notified, it may decide to designate it as a model with systemic risk.
+L1818: 2.   The provider of a general-purpose AI model that meets the condition referred to in Article 51(1), point (a), may present, with its notification, sufficiently substantiated arguments to demonstrate that, exceptionally, although it meets that requirement, the general-purpose AI model does not present, due to its specific characteristics, systemic risks and therefore should not be classified as a general-purpose AI model with systemic risk.
+L1819: 3.   Where the Commission concludes that the arguments submitted pursuant to paragraph 2 are not sufficiently substantiated and the relevant provider was not able to demonstrate that the general-purpose AI model does not present, due to its specific characteristics, systemic risks, it shall reject those arguments, and the general-purpose AI model shall be considered to be a general-purpose AI model with systemic risk.
+L1820: 4.   The Commission may designate a general-purpose AI model as presenting systemic risks, ex officio or following a qualified alert from the scientific panel pursuant to Article 90(1), point (a), on the basis of criteria set out in Annex XIII.
+L1821: 
+L1822: The Commission is empowered to adopt delegated acts in accordance with Article 97 in order to amend Annex XIII by specifying and updating the criteria set out in that Annex.
+L1823: 5.   Upon a reasoned request of a provider whose model has been designated as a general-purpose AI model with systemic risk pursuant to paragraph 4, the Commission shall take the request into account and may decide to reassess whether the general-purpose AI model can still be considered to present systemic risks on the basis of the criteria set out in Annex XIII. Such a request shall contain objective, detailed and new reasons that have arisen since the designation decision.
+L1824: Providers may request reassessment at the earliest six months after the designation decision. Where the Commission, following its reassessment, decides to maintain the designation as a general-purpose AI model with systemic risk, providers may request reassessment at the earliest six months after that decision.
+L1825: 6.   The Commission shall ensure that a list of general-purpose AI models with systemic risk is published and shall keep that list up to date, without prejudice to the need to observe and protect intellectual property rights and confidential business information or trade secrets in accordance with Union and national law.
+L1826: 
+L1827: SECTION 2
+L1828: 
+L1829: Obligations for providers of general-purpose AI models
+L1830: 
+L1831: Article 53
+L1832: 
+L1833: Obligations for providers of general-purpose AI models
+L1834: 
+L1835: 1.   Providers of general-purpose AI models shall:
+L1836: (a)  | draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation, which shall contain, at a minimum, the information set out in Annex XI for the purpose of providing it, upon request, to the AI Office and the national competent authorities;
+--------------------------------------------------------------------------------
+Regulation - EU - 2024/1689 - EN - EUR-Lex (https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+citeturn21view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng","lineno":2753}); Total lines: 3291
+L2732: 3.   By 2 August 2029 and every four years thereafter, the Commission shall submit a report on the evaluation and review of this Regulation to the European Parliament and to the Council. The report shall include an assessment with regard to the structure of enforcement and the possible need for a Union agency to resolve any identified shortcomings. On the basis of the findings, that report shall, where appropriate, be accompanied by a proposal for amendment of this Regulation.
+L2733: The reports shall be made public.
+L2734: 4.   The reports referred to in paragraph 2 shall pay specific attention to the following:
+L2735: (a)  | the status of the financial, technical and human resources of the national competent authorities in order to effectively perform the tasks assigned to them under this Regulation;
+L2736: (b)  | the state of penalties, in particular administrative fines as referred to in Article 99(1), applied by Member States for infringements of this Regulation;
+L2737: (c)  | adopted harmonised standards and common specifications developed to support this Regulation;
+L2738: (d)  | the number of undertakings that enter the market after the entry into application of this Regulation, and how many of them are SMEs.
+L2739: 5.   By 2 August 2028, the Commission shall evaluate the functioning of the AI Office, whether the AI Office has been given sufficient powers and competences to fulfil its tasks, and whether it would be relevant and needed for the proper implementation and enforcement of this Regulation to upgrade the AI Office and its enforcement competences and to increase its resources. The Commission shall submit a report on its evaluation to the European Parliament and to the Council.
+L2740: 6.   By 2 August 2028 and every four years thereafter, the Commission shall submit a report on the review of the progress on the development of standardisation deliverables on the energy-efficient development of general-purpose AI models, and asses the need for further measures or actions, including binding measures or actions. The report shall be submitted to the European Parliament and to the Council, and it shall be made public.
+L2741: 7.   By 2 August 2028 and every three years thereafter, the Commission shall evaluate the impact and effectiveness of voluntary codes of conduct to foster the application of the requirements set out in Chapter III, Section 2 for AI systems other than high-risk AI systems and possibly other additional requirements for AI systems other than high-risk AI systems, including as regards environmental sustainability.
+L2742: 8.   For the purposes of paragraphs 1 to 7, the Board, the Member States and national competent authorities shall provide the Commission with information upon its request and without undue delay.
+L2743: 
+L2744: 9.   In carrying out the evaluations and reviews referred to in paragraphs 1 to 7, the Commission shall take into account the positions and findings of the Board, of the European Parliament, of the Council, and of other relevant bodies or sources.
+L2745: 10.   The Commission shall, if necessary, submit appropriate proposals to amend this Regulation, in particular taking into account developments in technology, the effect of AI systems on health and safety, and on fundamental rights, and in light of the state of progress in the information society.
+L2746: 11.   To guide the evaluations and reviews referred to in paragraphs 1 to 7 of this Article, the AI Office shall undertake to develop an objective and participative methodology for the evaluation of risk levels based on the criteria outlined in the relevant Articles and the inclusion of new systems in:
+L2747: (a)  | the list set out in Annex III, including the extension of existing area headings or the addition of new area headings in that Annex;
+L2748: (b)  | the list of prohibited practices set out in Article 5; and
+L2749: (c)  | the list of AI systems requiring additional transparency measures pursuant to Article 50.
+L2750: 12.   Any amendment to this Regulation pursuant to paragraph 10, or relevant delegated or implementing acts, which concerns sectoral Union harmonisation legislation listed in Section B of Annex I shall take into account the regulatory specificities of each sector, and the existing governance, conformity assessment and enforcement mechanisms and authorities established therein.
+L2751: 13.   By 2 August 2031, the Commission shall carry out an assessment of the enforcement of this Regulation and shall report on it to the European Parliament, the Council and the European Economic and Social Committee, taking into account the first years of application of this Regulation.
+L2752: On the basis of the findings, that report shall, where appropriate, be accompanied by a proposal for amendment of this Regulation with regard to the structure of enforcement and the need for a Union agency to resolve any identified shortcomings.
+L2753: Article 113
+L2754: 
+L2755: Entry into force and application
+L2756: 
+L2757: This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+L2758: 
+L2759: It shall apply from 2 August 2026.
+L2760: 
+L2761: However:
+L2762: (a)  | Chapters I and II shall apply from 2 February 2025;
+L2763: (b)  | Chapter III Section 4, Chapter V, Chapter VII and Chapter XII and Article 78 shall apply from 2 August 2025, with the exception of Article 101;
+L2764: (c)  | Article 6(1) and the corresponding obligations in this Regulation shall apply from 2 August 2027.
+L2765: 
+L2766: This Regulation shall be binding in its entirety and directly applicable in all Member States.
+L2767: 
+L2768: Done at Brussels, 13 June 2024.
+L2769: 
+L2770: For the European Parliament
+L2771: 
+L2772: The President
+L2773: 
+L2774: R. METSOLA
+L2775: For the Council
+L2776: 
+L2777: The President
+L2778: 
+L2779: M. MICHEL
+L2780: 
+L2781: * * *
+L2782: 
+L2783: cite226†(1) cite227†OJ C 517, 22.12.2021, p. 56 .
+L2784: 
+L2785: cite228†(2) cite229†OJ C 115, 11.3.2022, p. 5 .
+L2786: 
+L2787: cite230†(3) cite231†OJ C 97, 28.2.2022, p. 60 .
+L2788: 
+L2789: cite232†(4) Position of the European Parliament of 13 March 2024 (not yet published in the Official Journal) and decision of the Council of 21 May 2024.
+L2790: 
+L2791: cite233†(5) European Council, Special meeting of the European Council (1 and 2 October 2020) — Conclusions, EUCO 13/20, 2020, p. 6.
+L2792: cite234†(6) European Parliament resolution of 20 October 2020 with recommendations to the Commission on a framework of ethical aspects of artificial intelligence, robotics and related technologies, 2020/2012(INL).
+L2793: 
+L2794: cite235†(7) Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and repealing Regulation (EEC) No 339/93 (cite236†OJ L 218, 13.8.2008, p. 30 ).
+L2795: cite237†(8) Decision No 768/2008/EC of the European Parliament and of the Council of 9 July 2008 on a common framework for the marketing of products, and repealing Council Decision 93/465/EEC (cite236†OJ L 218, 13.8.2008, p. 82 ).
+L2796: 
+L2797: cite238†(9) Regulation (EU) 2019/1020 of the European Parliament and of the Council of 20 June 2019 on market surveillance and compliance of products and amending Directive 2004/42/EC and Regulations (EC) No 765/2008 and (EU) No 305/2011 (cite239†OJ L 169, 25.6.2019, p. 1 ).
+L2798: cite240†(10) Council Directive 85/374/EEC of 25 July 1985 on the approximation of the laws, regulations and administrative provisions of the Member States concerning liability for defective products (cite241†OJ L 210, 7.8.1985, p. 29 ).
+L2799: cite242†(11) Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (cite243†OJ L 119, 4.5.2016, p. 1 ).
+L2800: cite244†(12) Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (cite245†OJ L 295, 21.11.2018, p. 39 ).
+L2801: cite246†(13) Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and on the free movement of such data, and repealing Council Framework Decision 2008/977/JHA (cite243†OJ L 119, 4.5.2016, p. 89 ).
+L2802: cite247†(14) Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (cite248†OJ L 201, 31.7.2002, p. 37 ).
+L2803: cite249†(15) Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services and amending Directive 2000/31/EC (Digital Services Act) (cite250†OJ L 277, 27.10.2022, p. 1 ).
+L2804: 
+L2805: cite251†(16) Directive (EU) 2019/882 of the European Parliament and of the Council of 17 April 2019 on the accessibility requirements for products and services (cite252†OJ L 151, 7.6.2019, p. 70 ).
+L2806: cite253†(17) Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market and amending Council Directive 84/450/EEC, Directives 97/7/EC, 98/27/EC and 2002/65/EC of the European Parliament and of the Council and Regulation (EC) No 2006/2004 of the European Parliament and of the Council (‘Unfair Commercial Practices Directive’) (cite254†OJ L 149, 11.6.2005, p. 22 ).
+L2807: cite255†(18) Council Framework Decision 2002/584/JHA of 13 June 2002 on the European arrest warrant and the surrender procedures between Member States (cite256†OJ L 190, 18.7.2002, p. 1 ).
+L2808: 
+L2809: cite257†(19) Directive (EU) 2022/2557 of the European Parliament and of the Council of 14 December 2022 on the resilience of critical entities and repealing Council Directive 2008/114/EC (cite258†OJ L 333, 27.12.2022, p. 164 ).
+L2810: 
+L2811: cite259†(20) cite260†OJ C 247, 29.6.2022, p. 1 .
+L2812: cite261†(21) Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (cite262†OJ L 117, 5.5.2017, p. 1 ).
+L2813: cite263†(22) Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on in vitro diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU (cite262†OJ L 117, 5.5.2017, p. 176 ).
+L2814: 
+L2815: cite264†(23) Directive 2006/42/EC of the European Parliament and of the Council of 17 May 2006 on machinery, and amending Directive 95/16/EC (cite265†OJ L 157, 9.6.2006, p. 24 ).
+L2816: cite266†(24) Regulation (EC) No 300/2008 of the European Parliament and of the Council of 11 March 2008 on common rules in the field of civil aviation security and repealing Regulation (EC) No 2320/2002 (cite267†OJ L 97, 9.4.2008, p. 72 ).
+L2817: 
+L2818: cite268†(25) Regulation (EU) No 167/2013 of the European Parliament and of the Council of 5 February 2013 on the approval and market surveillance of agricultural and forestry vehicles (cite269†OJ L 60, 2.3.2013, p. 1 ).
+L2819: cite270†(26) Regulation (EU) No 168/2013 of the European Parliament and of the Council of 15 January 2013 on the approval and market surveillance of two- or three-wheel vehicles and quadricycles (cite269†OJ L 60, 2.3.2013, p. 52 ).
+L2820: 
+L2821: cite271†(27) Directive 2014/90/EU of the European Parliament and of the Council of 23 July 2014 on marine equipment and repealing Council Directive 96/98/EC (cite272†OJ L 257, 28.8.2014, p. 146 ).
+L2822: cite273†(28) Directive (EU) 2016/797 of the European Parliament and of the Council of 11 May 2016 on the interoperability of the rail system within the European Union (cite274†OJ L 138, 26.5.2016, p. 44 ).
+L2823: cite275†(29) Regulation (EU) 2018/858 of the European Parliament and of the Council of 30 May 2018 on the approval and market surveillance of motor vehicles and their trailers, and of systems, components and separate technical units intended for such vehicles, amending Regulations (EC) No 715/2007 and (EC) No 595/2009 and repealing Directive 2007/46/EC (cite276†OJ L 151, 14.6.2018, p. 1 ).
+L2824: cite277†(30) Regulation (EU) 2018/1139 of the European Parliament and of the Council of 4 July 2018 on common rules in the field of civil aviation and establishing a European Union Aviation Safety Agency, and amending Regulations (EC) No 2111/2005, (EC) No 1008/2008, (EU) No 996/2010, (EU) No 376/2014 and Directives 2014/30/EU and 2014/53/EU of the European Parliament and of the Council, and repealing Regulations (EC) No 552/2004 and (EC) No 216/2008 of the European Parliament and of the Council and Council Regulation (EEC) No 3922/91 (cite278†OJ L 212, 22.8.2018, p. 1 ).
+L2825: cite279†(31) Regulation (EU) 2019/2144 of the European Parliament and of the Council of 27 November 2019 on type-approval requirements for motor vehicles and their trailers, and systems, components and separate technical units intended for such vehicles, as regards their general safety and the protection of vehicle occupants and vulnerable road users, amending Regulation (EU) 2018/858 of the European Parliament and of the Council and repealing Regulations (EC) No 78/2009, (EC) No 79/2009 and (EC) No 661/2009 of the European Parliament and of the Council and Commission Regulations (EC) No 631/2009, (EU) No 406/2010, (EU) No 672/2010, (EU) No 1003/2010, (EU) No 1005/2010, (EU) No 1008/2010, (EU) No 1009/2010, (EU) No 19/2011, (EU) No 109/2011, (EU) No 458/2011, (EU) No 65/2012, (EU) No 130/2012, (EU) No 347/2012, (EU) No 351/2012, (EU) No 1230/2012 and (EU) 2015/166 (cite280†OJ L 325, 16.12.2019, p. 1 ).
+L2826: cite281†(32) Regulation (EC) No 810/2009 of the European Parliament and of the Council of 13 July 2009 establishing a Community Code on Visas (Visa Code) (cite282†OJ L 243, 15.9.2009, p. 1 ).
+L2827: 
+L2828: cite283†(33) Directive 2013/32/EU of the European Parliament and of the Council of 26 June 2013 on common procedures for granting and withdrawing international protection (cite284†OJ L 180, 29.6.2013, p. 60 ).
+L2829: cite285†(34) Regulation (EU) 2024/900 of the European parliament and of the Council of 13 March 2024 on the transparency and targeting of political advertising (cite286†OJ L, 2024/900, 20.3.2024, ELI: http://data.europa.eu/eli/reg/2024/900/oj†data.europa.eu ).
+

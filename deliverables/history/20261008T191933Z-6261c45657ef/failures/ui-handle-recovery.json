@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-08T19:22:51.357Z",
+  "affected_stage": "source-capture",
+  "affected_source": "POLICY",
+  "affected_output": "browser binding",
+  "error": "policyFreshIAB2 is not defined after context restoration; reload request did not execute",
+  "recovery_action": "Reacquired original published policy tab through documented native browser API, then freshly reloaded and captured it",
+  "recovery_owner": "Workflow operator",
+  "requested_content_received": false
+}

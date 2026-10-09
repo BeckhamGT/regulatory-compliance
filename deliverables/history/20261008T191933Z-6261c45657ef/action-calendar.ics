@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Regulatory Change Impact Brief//Draft review//EN
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-001: Add and verify first-interaction AI notice
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+DTSTAMP:20261008T191933Z
+UID:ACT-001@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-001\nSystem: A
+ I-004\nOwner/role: Learning Experience\nRequired reviewer: operations\nEvi
+ dence/source-decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-004-NO
+ TICE\nSource version: calendar-2026-08-26\nApproval: pending\; dates remai
+ n proposals.\nSource status: planned
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-002: Resolve disclosure evidence conflict
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DTSTAMP:20261008T191933Z
+UID:ACT-002@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-002\nSystem: A
+ I-007\nOwner/role: Marketing\nRequired reviewer: operations\nEvidence/sour
+ ce-decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-007-NOTICE\nSour
+ ce version: calendar-2026-08-26\nApproval: pending\; dates remain proposal
+ s.\nSource status: open
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-003: Confirm recipient disclosure practice
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+DTSTAMP:20261008T191933Z
+UID:ACT-003@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-003\nSystem: A
+ I-002\nOwner/role: Admissions\nRequired reviewer: legal\nEvidence/source-d
+ ecision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-002-50-4-TEXT\nSourc
+ e version: calendar-2026-08-26\nApproval: pending\; dates remain proposals
+ .\nSource status: open
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-004: Verify machine-readable provenance after publishing
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+DTSTAMP:20261008T191933Z
+UID:ACT-004@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-004\nSystem: A
+ I-003\nOwner/role: Communications\nRequired reviewer: operations\nEvidence
+ /source-decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-003-SYNTHET
+ IC\nSource version: calendar-2026-08-26\nApproval: pending\; dates remain 
+ proposals.\nSource status: open
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-005: Refresh provider-role and release evidence
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+DTSTAMP:20261008T191933Z
+UID:ACT-005@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-005\nSystem: A
+ I-005\nOwner/role: Assessment Operations\nRequired reviewer: legal\nEviden
+ ce/source-decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-005-50-1\
+ ;IMP-AI-005-50-2\;IMP-AI-005-50-3\;IMP-AI-005-EVIDENCE\nSource version: ca
+ lendar-2026-08-26\nApproval: pending\; dates remain proposals.\nSource sta
+ tus: open
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-006: Complete provenance test
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+DTSTAMP:20261008T191933Z
+UID:ACT-006@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-006\nSystem: A
+ I-008\nOwner/role: Communications\nRequired reviewer: operations\nEvidence
+ /source-decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-008-50-4-ME
+ DIA\;IMP-AI-008-SYNTHETIC\;IMP-AI-008-50-5\nSource version: calendar-2026-
+ 08-26\nApproval: pending\; dates remain proposals.\nSource status: open
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-007: Review exception request
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+DTSTAMP:20261008T191933Z
+UID:ACT-007@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-007\nSystem: A
+ I-008\nOwner/role: Legal\nRequired reviewer: legal\nEvidence/source-decisi
+ on basis: SRC-CALENDAR-01\;POL-AUTHORITY\;IMP-AI-008-50-4-MEDIA\;IMP-AI-00
+ 8-EXCEPTION\nSource version: calendar-2026-08-26\nApproval: pending\; date
+ s remain proposals.\nSource status: blocked
+STATUS:TENTATIVE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRAFT ACT-008: Quarterly AI register evidence review
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DTSTAMP:20261008T191933Z
+UID:ACT-008@regulatory-change-impact-brief
+DESCRIPTION:Run: 20261008T191933Z-6261c45657ef\nAction: ACT-008\nSystem: A
+ LL\nOwner/role: Operations\nRequired reviewer: operations\nEvidence/source
+ -decision basis: SRC-CALENDAR-01\;POL-AUTHORITY\;GAP-HISTORY\;GAP-PROOF\nS
+ ource version: calendar-2026-08-26\nApproval: pending\; dates remain propo
+ sals.\nSource status: scheduled
+STATUS:TENTATIVE
+END:VEVENT
+END:VCALENDAR

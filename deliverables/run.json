@@ -1,0 +1,28 @@
+{
+  "run_id": "20261009T020248Z-2ddbde23d51e",
+  "nonce": "4017b78cd80b41c89a545dda722208fb",
+  "created_at": "2026-10-09T02:02:48.181773Z",
+  "review_date": "2026-08-26",
+  "as_of": "2026-08-26T23:59:59+01:00",
+  "interview": "interviews/project-b-regulatory-compliance-20261008-1603.md",
+  "interview_sha256": "sha256:02a8e16ff1f8492fdb9ae5a9bbf7e5728e80aff621cd96a4697f472b1e12d4e2",
+  "routes": {
+    "POLICY": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "SYSTEMS": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+    "EVIDENCE": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+    "CALENDAR": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+    "LAW": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+    "OJ": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "AMEND": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "CONSOLIDATED": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "TIME": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+    "FAQ": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+  },
+  "schema_sha256": "sha256:8de9874ded18fa97294e83012796e4c386aa60ccfd30f8eca89cabdf2a267ac3",
+  "status": "blocked",
+  "supersedes_run_id": "20261009T014449Z-9f88b7fc900e",
+  "supersedes_archive_metadata": "deliverables/history/20261009T014449Z-9f88b7fc900e/archive-manifest.json",
+  "supersession_reason": "Preserve validated blocked fourth run; repair repetitive brief and native page identity rendering, then freshly retrieve every route for final publication",
+  "recovery_notes": [],
+  "renderer_version": 3
+}

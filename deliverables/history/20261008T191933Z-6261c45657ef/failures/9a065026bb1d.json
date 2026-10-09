@@ -1,0 +1,7 @@
+{
+  "failed_at": "2026-10-09T01:43:52.288609Z",
+  "command": "build",
+  "error": "Rendered package failed validation: Stage02 source records differ from capture manifest",
+  "recovery_owner": "Workflow operator",
+  "required_recovery": "Preserve current files, repair the cause, begin a new run, retrieve all ten routes freshly, then rebuild."
+}

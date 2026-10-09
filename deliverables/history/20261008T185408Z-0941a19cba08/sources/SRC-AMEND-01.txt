@@ -1,0 +1,3 @@
+Regulation - EU - 2026/1744 - EN - EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744)
+citeturn3view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744","lineno":null}); Redirected to URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744; Total lines: 956
+--------------------------------------------------------------------------------

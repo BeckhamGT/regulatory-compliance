@@ -1,0 +1,3 @@
+EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727)
+citeturn3view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727","lineno":null}); Redirected to URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727; Total lines: 5976
+--------------------------------------------------------------------------------

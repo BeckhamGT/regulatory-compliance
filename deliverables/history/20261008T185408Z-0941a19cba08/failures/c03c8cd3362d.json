@@ -1,0 +1,11 @@
+{
+  "failed_at": "2026-10-08T19:05:34.393768Z",
+  "command": "validate",
+  "affected_stage": "publication-validation",
+  "affected_output": "actual current package",
+  "error": [
+    "Scoped systems missing from impact/unaffected results: ['AI-001', 'AI-002', 'AI-003', 'AI-004', 'AI-005', 'AI-006', 'AI-007', 'AI-008']\nExisting calendar commitment omitted: ACT-001\nExisting calendar commitment omitted: ACT-002\nExisting calendar commitment omitted: ACT-003\nExisting calendar commitment omitted: ACT-004\nExisting calendar commitment omitted: ACT-005\nExisting calendar commitment omitted: ACT-006\nExisting calendar commitment omitted: ACT-007\nExisting calendar commitment omitted: ACT-008"
+  ],
+  "recovery_owner": "Workflow operator",
+  "required_recovery": "Preserve damaged output, begin a new run, retrieve all ten routes freshly, then rebuild."
+}

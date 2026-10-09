@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-09T01:42:57.188868Z",
+  "affected_stage": "publication-validation",
+  "affected_output": "deliverables/analysis.json",
+  "error": "The overwrite guard incorrectly treated the documented analysis input as an existing published output and rejected before publication started.",
+  "recovery_action": "Limit the overwrite guard to publication attempts and final artifacts, retain this rejection, test the documented input path, and retry the first publication from the same unchanged stage boundaries. No final artifact had been written or replaced.",
+  "recovery_owner": "Workflow operator"
+}

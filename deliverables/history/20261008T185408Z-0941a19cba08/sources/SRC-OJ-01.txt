@@ -1,0 +1,75 @@
+Regulation - EU - 2024/1689 - EN - EUR-Lex (https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng)
+citeturn3view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng","lineno":null}); Total lines: 3291
+L0: [Input] [Input]
+L1: 
+L2: cite0†Skip to main content L3: 
+L4: cite1†My EUR-Lex L5: 
+L6: cite1†English L7: 
+L8: Select your language
+L9: 
+L10: * * *
+L11: 
+L12: Official EU languages:
+L13: 
+L14: [Input]
+L15:   * cite1†bgбългарски L16:   * cite1†esEspañol L17:   * cite1†csČeština L18:   * cite1†daDansk L19:   * cite1†deDeutsch L20:   * cite1†etEesti keel L21:   * cite1†elΕλληνικά L22:   * cite1†enEnglish L23:   * cite1†frFrançais L24:   * cite1†gaGaeilge L25:   * cite1†hrHrvatski L26:   * cite1†itItaliano L27:   * cite1†lvLatviešu valoda L28:   * cite1†ltLietuvių kalba L29:   * cite1†huMagyar L30:   * cite1†mtMalti L31:   * cite1†nlNederlands L32:   * cite1†plPolski L33:   * cite1†ptPortuguês L34:   * cite1†roRomână L35:   * cite1†skSlovenčina L36:   * cite1†slSlovenščina L37:   * cite1†fiSuomi L38:   * cite1†svSvenska L39: [Input]
+L40: 
+L41: cite2†EUR-Lex L42: 
+L43: Access to European Union law
+L44: [Input] [Input]
+L45: 
+L46: cite1†<a href="https://eur-lex.europa.eu/content/help/eurlex-content/experimental-features.html" target="_blank">More about the experimental features corner</a> [Input]
+L47: 
+L48: [Input]
+L49: 
+L50: [Input] [Input]
+L51: ##### Choose the experimental features you want to try
+L52: 
+L53: * * *
+L54: 
+L55: Do you want to help improving EUR-Lex ? This is a list of experimental features that you can enable. These features are still under development; they are not fully tested, and might reduce EUR-Lex stability. Don't forget to give your feedback!
+L56:   *     * [Input][Input] Replacement of CELEX identifiers by short titles - experimental feature. It replaces clickable CELEX identifiers of treaties and case-law by short titles.
+L57:     * [Input][Input] Visualisation of document relationships. It displays a dynamic graph with relations between the act and related documents. It is currently only available for legal acts.
+L58:   *     * [Input][Input] Deep linking. It enables links to other legal acts referred to within the documents. It is currently only available for documents smaller than 900 KB.
+L59: [Button: Apply ]
+L60: 
+L61: [Input]
+L62: 
+L63: cite3†Image L64: 
+L65: EUR-Lex
+L66: 
+L67: Access to European Union law
+L68: 
+L69: This document is an excerpt from the EUR-Lex website
+L70: 
+L71: EU law
+L72:   * cite1†Treaties L73:     * cite4†Treaties currently in force L74:     * cite5†Founding Treaties L75:     * cite6†Accession Treaties L76:     * cite7†Other treaties and protocols L77:     * cite8†Chronological overview L78:   * cite9†Legal acts L79:   * cite10†Consolidated texts L80:   * cite11†International agreements L81:   * cite12†Preparatory documents L82:   * cite13†EFTA documents L83:   * cite14†Lawmaking procedures L84:   * cite15†Summaries of EU legislation L85:   * cite1†Browse by EU institutions L86:     * cite16†European Parliament L87:     * cite17†European Council L88:     * cite18†Council of the European Union L89:     * cite19†European Commission L90:     * cite20†Court of Justice of the European Union L91:     * cite21†European Central Bank L92:     * cite22†European Court of Auditors L93:     * cite23†European Economic and Social Committee L94:     * cite24†European Committee of the Regions L95:   * cite25†Browse by EuroVoc L96: EU case-law
+L97: 
+L98:   * cite26†Case-law L99:   * cite27†Reports of cases L100:   * cite28†Directory of case-law L101: 
+L102: Official Journal
+L103: 
+L104:   * cite29†Access to the Official Journal L105:   * cite30†Official Journal L series daily view L106:   * cite31†Official Journal C series daily view L107:   * cite32†Browse the Official Journal L108:   * cite33†Legally binding printed editions L109:   * cite34†Special edition L110: 
+L111: National law and case-law
+L112: 
+L113:   * cite35†National transposition L114:   * cite36†National case-law L115:   * cite37†JURE case-law L116: 
+L117: Information
+L118:   * cite38†Themes in focus L119:   * cite39†EUR-Lex developments L120:   * cite40†Statistics L121:   * cite1†ELI register L122:     * cite41†What is ELI? L123:     * cite42†ELI background L124:     * cite43†Why implement ELI? L125:     * cite44†Countries implementing ELI L126:     * cite45†Testimonials L127:     * cite46†How to implement ELI L128:     * cite47†Glossary L129:   * cite48†EU budget online L130: 
+L131: [Input]
+L132: 
+L133: Quick search
+L134: 
+L135: [Input]
+L136: Use quotation marks to search for an "exact phrase". Append an asterisk (* (Asterisk)) to a search term to find variations of it (transp* (Asterisk), 32019R* (Asterisk)). Use a question mark (? (Question mark)) instead of a single character in your search term to find variations of it (ca? (Question mark)e finds case, cane, care).
+L137: 
+L138: cite1†  Search tips L139: 
+L140: Need more search options? Use the cite49†Advanced search L141: 
+L142: Document 32024R1689
+L143:   *   * cite50†Text [Input]
+L144:   * cite51†Document information [Input]
+L145:   * cite52†Procedure [Input]
+L146: 
+L147:   * cite53†Up-to-date link†data.europa.eu L148:   *   * cite54†Download notice L149:   * cite55†Save to My items L150:   * cite56†Create an email alert L151:   * cite57†Create an RSS alert L152: 
+L153: cite58†Access current version (27/07/2026) L154: 
+L155:  Hide consolidated versions
+L156: 
+L157:   * cite58†27/07/2026 --------------------------------------------------------------------------------

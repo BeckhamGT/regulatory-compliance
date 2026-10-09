@@ -1,0 +1,63 @@
+Timeline for the Implementation of the EU AI Act | AI Act Service Desk (https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
+citeturn38view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline","lineno":0}); Total lines: 72
+L0: Search[Input]
+L1: 
+L2: Search[Input][Input]
+L3: # Timeline for the Implementation of the EU AI Act
+L4: 
+L5: The EU’s AI Act legislation applies progressively, with a full roll-out of the main application milestones foreseen by 2 August 2028. The timeline takes into account the AI Act amendments introduced by Digital Omnibus on AI.
+L6: 
+L7: 
+L8: 
+L9:   1. 01 Aug 2024
+L10: 
+L11: Entry into force
+L12: 
+L13:   2. 02 Feb 2025
+L14: 
+L15: General provisions (definitions & AI literacy) and prohibitions apply
+L16: 
+L17:   3. 02 Aug 2025
+L18: 
+L19: Rules for general-purpose AI apply and governance must be in place
+L20:      * AI Act obligations for providers of general-purpose AI models enter into application.
+L21: 
+L22:      * Member States need to designate national competent authorities and adopt national laws on penalties.
+L23: 
+L24:      * EU-level governance (AI Board, Scientific Panel, Advisory Forum) must be set up.
+L25: 
+L26:   4. 02 Aug 2026
+L27: 
+L28: The majority of rules of the AI Act come into force and enforcement starts for applicable rules
+L29:      * Transparency rules (Article 50) start to apply.
+L30:      * Measures in support of innovation start apply.
+L31:      * Enforcement of the AI Act starts at national and EU-level concerning general-purpose AI models, prohibitions, transparency rules and AI literacy.
+L32: 
+L33:   5. 02 Dec 2026
+L34: 
+L35: New prohibitions + Article 50(2) transition apply **
+L36:      * Prohibitions, for AI systems generating non-consensual sexual deepfakes and child sexual abuse material, start to apply.
+L37:      * Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2).
+L38: 
+L39:   6. 02 Aug 2027
+L40: 
+L41: Member States should have at least one AI regulatory sandbox per country operational
+L42: 
+L43:   7. 02 Dec 2027
+L44: Rules for high-risk AI systems in Annex III apply **
+L45: 
+L46:   8. 02 Aug 2028
+L47: 
+L48: Rules for high-risk AI embedded in regulated products covered by Annex I apply **
+L49: 
+L50: ** Following the Digital Omnibus on AI, certain provisions of the AI Act have been amended. For more information, refer to cite0†the FAQ section under 'Digital Omnibus .
+L51: 
+L52: cite1†AI Act Service Desk L53: 
+L54: Contact us
+L55: 
+L56:   * Contact the AI Office (CNECT-AIOFFICE@ec.europa.eu)
+L57: 
+L58: About us
+L59:   * cite2†Copyright notice L60:   * cite3†Legal notice L61:   * cite4†Privacy statement L62:   * cite5†About Directorate-General CONNECT†commission.europa.eu L63: 
+L64:   * cite6†Contact us†commission.europa.eu L65: 
+L66:   * cite7†Report an IT vulnerability†commission.europa.eu L67:   * cite8†Languages on our websites†commission.europa.eu L68:   * cite9†Cookies†commission.europa.eu L69:   * cite10†Privacy policy†commission.europa.eu L70:   * cite11†Legal notice†commission.europa.eu L71:   * cite12†Accessibility 

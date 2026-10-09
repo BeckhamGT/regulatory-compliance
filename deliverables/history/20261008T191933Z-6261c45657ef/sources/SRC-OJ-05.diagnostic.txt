@@ -1,0 +1,5 @@
+Requested original route: https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+Observed redirect: https://eur-lex.europa.eu/TodayOJ/index.html
+Observed native page title: EUR-Lex - Official Journal of the European Union
+Visible service notice: EUR-Lex is temporarily not fully available. You can however access recent OJs. In addition, you can consult EU law here.
+Requested Regulation 2024/1689 and Article 3(60) content was not returned. Current OJ list is not substitute evidence.

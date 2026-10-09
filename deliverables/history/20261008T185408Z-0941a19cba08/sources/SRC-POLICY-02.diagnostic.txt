@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"APIResponseError\",\"code\":\"object_not_found\",\"status\":404,\"headers\":{},\"body\":\"{\\\"object\\\":\\\"error\\\",\\\"status\\\":404,\\\"code\\\":\\\"object_not_found\\\",\\\"message\\\":\\\"Could not find page with ID: 3ba0b700-541e-81f0-9998-d48f3b1c2856. Check that you have access and that you're authenticated to the correct workspace.\\\",\\\"additional_data\\\":{\\\"integration_id\\\":\\\"1f8d872b-594c-80a4-b2f4-00370af2b13f\\\"},\\\"request_id\\\":\\\"3c957d10-cf00-417f-815b-0a3e499cb5d8\\\"}\",\"additional_data\":{\"integration_id\":\"1f8d872b-594c-80a4-b2f4-00370af2b13f\"},\"request_id\":\"3c957d10-cf00-417f-815b-0a3e499cb5d8\",\"message\":\"Could not find page with ID: 3ba0b700-541e-81f0-9998-d48f3b1c2856. Check that you have access and that you're authenticated to the correct workspace.\"}"
+    }
+  ],
+  "structuredContent": {
+    "error_code": "NOT_FOUND"
+  },
+  "isError": true
+}

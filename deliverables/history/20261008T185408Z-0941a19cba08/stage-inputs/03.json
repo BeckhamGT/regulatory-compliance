@@ -1,0 +1,428 @@
+{
+  "run_id": "20261008T185408Z-0941a19cba08",
+  "manifest_sha256": "sha256:8d0df6788194f84676191a5150355db04fab403c596792901d196c439da46e10",
+  "status": "partial",
+  "scope": {
+    "systems_in_scope": [],
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "approval_gates": [
+      "Legal interpretation and exceptions",
+      "Operations activation, dates and closure"
+    ],
+    "review_type": "Article 50 retrospective draft review"
+  },
+  "binding_rules": [
+    {
+      "id": "RULE-SCOPE",
+      "summary": "Article2(1)(b) includes Union-established deployers; Article2 exclusions must be assessed against actual professional use.",
+      "evidence_ids": [
+        "SRC-OJ-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-03",
+          "locator": "Article2(1)(b)",
+          "quote": "(b)  | deployers of AI systems that have their place of establishment or are located within the Union;"
+        }
+      ],
+      "legal_ref": "Article2(1)(b)",
+      "actor": "Union deployer"
+    },
+    {
+      "id": "RULE-ROLE",
+      "summary": "Provider requires development/commissioning and market/service under own name; an inventory label alone is insufficient. Deployer is use under own authority except personal non-professional use.",
+      "evidence_ids": [
+        "SRC-OJ-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-03",
+          "locator": "Article3(3)-(4)",
+          "quote": "(3)  | ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge;"
+        }
+      ],
+      "legal_ref": "Article3(3)-(4)",
+      "deployer_citation": {
+        "source_id": "SRC-OJ-03",
+        "locator": "Article3(4)",
+        "quote": "(4)  | ‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity;"
+      }
+    },
+    {
+      "id": "RULE-50-1",
+      "summary": "Provider duty for direct AI interaction; context-dependent obviousness exception is not assumed from an avatar graphic. Criminal-use exception does not match reported professional education uses.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(1)",
+          "quote": "1.   Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use."
+        }
+      ],
+      "legal_ref": "Article50(1)",
+      "actor": "provider",
+      "condition": "AI intended to interact directly with natural persons",
+      "exceptions": [
+        "obvious to reasonably well-informed observant circumspect person in context",
+        "specified lawful criminal-use exception"
+      ]
+    },
+    {
+      "id": "RULE-50-2",
+      "summary": "Provider duty for machine-readable detectable synthetic outputs; technical feasibility matters. Standard editing/no substantial alteration exception is conditional, not inferred from a visible label.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(2)",
+          "quote": "2.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated."
+        }
+      ],
+      "legal_ref": "Article50(2)",
+      "actor": "provider",
+      "condition": "synthetic audio/image/video/text generation",
+      "exceptions": [
+        "standard editing or no substantial alteration of input/semantics",
+        "specified lawful criminal-use exception"
+      ]
+    },
+    {
+      "id": "RULE-50-3",
+      "summary": "Deployer notice duty for emotion recognition or biometric categorisation requires actual biometric/emotion/category facts; human adjudication does not settle applicability.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(3)",
+          "quote": "3.   Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable."
+        }
+      ],
+      "legal_ref": "Article50(3)",
+      "actor": "deployer",
+      "condition": "emotion recognition or biometric categorisation"
+    },
+    {
+      "id": "RULE-DEEPFAKE",
+      "summary": "Deepfake requires resemblance to existing persons/objects/places/entities/events and false apparent authenticity or truthfulness. Synthetic media is not automatically a deepfake.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article3(60)",
+          "quote": "citeturn14view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn3view1\",\"pattern\":\"‘deep fake’ means\"}); Total lines: 3291"
+        }
+      ],
+      "legal_ref": "Article3(60)",
+      "condition": "existing-entity resemblance and misleading authenticity"
+    },
+    {
+      "id": "RULE-50-4-MEDIA",
+      "summary": "Deployer must disclose generated/manipulated deepfake media. Evidently artistic/creative/satirical/fictional work receives an adapted manner of disclosure, not blanket approval.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(4), first subparagraph",
+          "quote": "4.   Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offence."
+        }
+      ],
+      "legal_ref": "Article50(4), first subparagraph",
+      "actor": "deployer",
+      "condition": "deepfake image/audio/video",
+      "adapted_disclosure": {
+        "source_id": "SRC-OJ-04",
+        "locator": "Article50(4), artistic-work clause",
+        "quote": "Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work."
+      }
+    },
+    {
+      "id": "RULE-50-4-TEXT",
+      "summary": "Deployer disclosure duty applies to generated/manipulated text published to inform public on public-interest matters. Human/editorial review exception also requires editorial responsibility; individual administrative replies differ from public-interest publication.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(4), second subparagraph",
+          "quote": "Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated."
+        }
+      ],
+      "legal_ref": "Article50(4), second subparagraph",
+      "actor": "deployer",
+      "condition": "public-interest publication",
+      "editorial_exception": {
+        "source_id": "SRC-OJ-04",
+        "locator": "Article50(4), text exception",
+        "quote": "This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content."
+      }
+    },
+    {
+      "id": "RULE-50-5",
+      "summary": "Applicable information must be clear/distinguishable and accessible by first interaction or exposure; visible-label report alone does not establish format/accessibility.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(5)",
+          "quote": "5.   The information referred to in paragraphs 1 to 4 shall be provided to the natural persons concerned in a clear and distinguishable manner at the latest at the time of the first interaction or exposure. The information shall conform to the applicable accessibility requirements."
+        }
+      ],
+      "legal_ref": "Article50(5)"
+    },
+    {
+      "id": "RULE-50-6",
+      "summary": "Article50 does not extinguish ChapterIII or other national/Union transparency requirements. This draft does not decide all AI Act duties.",
+      "evidence_ids": [
+        "SRC-OJ-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-04",
+          "locator": "Article50(6)",
+          "quote": "6.   Paragraphs 1 to 4 shall not affect the requirements and obligations set out in Chapter III, and shall be without prejudice to other transparency obligations laid down in Union or national law for deployers of AI systems."
+        }
+      ],
+      "legal_ref": "Article50(6)"
+    },
+    {
+      "id": "RULE-50-7",
+      "summary": "July amendment replaces Article50(7) code-assessment mechanism; original wording retained as predecessor, not treated as current approval.",
+      "evidence_ids": [
+        "SRC-AMEND-04"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-04",
+          "locator": "AMEND Article1(20), replacing Article50(7)",
+          "quote": "(20)  | in Article 50, paragraph 7 is replaced by the following: ‘7.   The Commission shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection, marking and labelling of artificially generated or manipulated content."
+        }
+      ],
+      "legal_ref": "AMEND Article1(20), replacing Article50(7)"
+    }
+  ],
+  "timing_rules": [
+    {
+      "id": "TIME-MAIN",
+      "summary": "Original Article113 general application is August2,2026; July amendment changes specified ChapterIII exceptions, not all Article50 duties. Reviewdate remains August26.",
+      "evidence_ids": [
+        "SRC-OJ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-OJ-02",
+          "locator": "OJ Article113",
+          "quote": "It shall apply from 2 August 2026."
+        }
+      ],
+      "legal_ref": "OJ Article113",
+      "application_date": "2026-08-02",
+      "review_date": "2026-08-26"
+    },
+    {
+      "id": "TIME-AMEND",
+      "summary": "Amendment published July24,2026; Article4 third-day rule yields July27, before reviewdate.",
+      "evidence_ids": [
+        "SRC-AMEND-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-02",
+          "locator": "AMEND Article4",
+          "quote": "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union."
+        }
+      ],
+      "legal_ref": "AMEND Article4",
+      "publication_date": "2026-07-24",
+      "effective_date": "2026-07-27",
+      "derivation": "July24 + three calendar days",
+      "publication_citation": {
+        "source_id": "SRC-AMEND-02",
+        "locator": "OJ header",
+        "quote": "OJ L, 2026/1744, 24.7.2026, ELI: cite58†http://data.europa.eu/eli/reg/2026/1744/oj†data.europa.eu (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV)"
+      }
+    },
+    {
+      "id": "TIME-MARKING",
+      "summary": "Added Article111(4) provides December2,2026 compliance date only for Article50(2) providers whose relevant system was placed on market before August2,2026; not a deployer50(4) or internal-policy postponement.",
+      "evidence_ids": [
+        "SRC-AMEND-03"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-AMEND-03",
+          "locator": "AMEND Article1(39)(b), Article111(4)",
+          "quote": "(b) the following paragraph is added: ‘4.   Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.’ ;"
+        }
+      ],
+      "legal_ref": "AMEND Article1(39)(b), Article111(4)",
+      "application_date": "2026-12-02",
+      "market_entry_cutoff": "2026-08-02",
+      "actor": "provider"
+    },
+    {
+      "id": "TIME-CONSOLIDATION",
+      "summary": "Dated July27 consolidation includes M1; its documentary-only disclaimer means original OJ plus amendment remain binding basis.",
+      "evidence_ids": [
+        "SRC-CONSOLIDATED-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-CONSOLIDATED-02",
+          "locator": "CONSOLIDATED disclaimer and version header",
+          "quote": "This text is meant purely as a documentation tool and has no legal effect. The Union's institutions do not assume any liability for its contents. The authentic versions of the relevant acts, including their preambles, are those published in the Official Journal of the European Union and available in EUR-Lex. Those official texts are directly accessible through the links embedded in this document"
+        }
+      ],
+      "legal_ref": "CONSOLIDATED disclaimer and version header",
+      "version": "27.07.2026 — 001.001",
+      "authority": "documentary-no-legal-effect"
+    }
+  ],
+  "guidance_context": [
+    {
+      "id": "GUIDE-LAW",
+      "summary": "Service Desk paragraph reference explicitly uses July27 consolidation; its summary is nonbinding and is narrower/less precise than full conditional paragraphs.",
+      "evidence_ids": [
+        "SRC-LAW-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-LAW-02",
+          "locator": "Article50 Summary disclaimer",
+          "quote": "The summaries are meant to provide helpful explanation but are not legal binding."
+        },
+        {
+          "source_id": "SRC-LAW-02",
+          "locator": "About this text",
+          "quote": "The text displayed here is based on the cite313†EUR-Lex consolidated version of the AI Act as at 27 July 2026†eur-lex.europa.eu . Where shown, “NEW” and “AMENDED” identify passages containing additions or amendments to the cite314†original AI Act†eur-lex.europa.eu made by the cite315†Digital Omnibus on AI†eur-lex.europa.eu . For more information, refer to cite316†the FAQ section under 'Digital Omnibus' ."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-CONFLICT",
+      "summary": "FAQ overview attributes direct-interaction duty to50(2); its later interaction answer and binding OJ50(1) disagree with that reference. Retain error and use binding paragraph for draft mapping.",
+      "evidence_ids": [
+        "RULE-50-1",
+        "SRC-FAQ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-02",
+          "locator": "FAQ provider overview",
+          "quote": "According to Article 50(2) of the AI Act, providers must design and develop AI systems that interact directly with natural persons — such as chatbots, AI agents, and avatars — to ensure that people are informed they are interacting with AI. Providers must also ensure that the outputs of their generative AI systems are marked with effective, reliable, robust and interoperable machine-readable marks that enable the outputs to be detected as generated or manipulated by AI systems."
+        },
+        {
+          "source_id": "SRC-FAQ-02",
+          "locator": "FAQ interaction section",
+          "quote": "When do providers of AI systems have to inform people they are interacting with an AI system?"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-TIME",
+      "summary": "Current undated timeline agrees with generalAugust2 and limitedDecember2 transition; exact historical page state unknown. Advisory, not binding timing evidence.",
+      "evidence_ids": [
+        "SRC-TIME-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-TIME-02",
+          "locator": "Timeline August2 milestone",
+          "quote": "     * Transparency rules (Article 50) start to apply."
+        },
+        {
+          "source_id": "SRC-TIME-02",
+          "locator": "Timeline December2 milestone",
+          "quote": "     * Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2)."
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-FAQ-DATE",
+      "summary": "FAQ displays lastupdate July24,2026, but remains current retrieved guidance with an overview paragraph error and no independently retrieved historical revision.",
+      "evidence_ids": [
+        "SRC-FAQ-02"
+      ],
+      "citations": [
+        {
+          "source_id": "SRC-FAQ-02",
+          "locator": "FAQ Last update",
+          "quote": "24 July 2026"
+        }
+      ]
+    }
+  ],
+  "authority_blockers": [],
+  "decisions": [
+    {
+      "id": "DEC-RUNTIME",
+      "summary": "Native authentication is available in connected agent but not inherited by shell",
+      "evidence_ids": [
+        "SRC-SYSTEMS-01",
+        "SRC-POLICY-03"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Native authentication is available in connected agent but not inherited by shell",
+      "options": [
+        "agent-native reads plus deterministicPython",
+        "shell-only collector with separatelyprovisioned APIs"
+      ],
+      "chosen_behavior": "agent-native reads plus Python schema/calendar/hash validation",
+      "rationale": "Preserves required native routes and explicit human authority without credential plumbing",
+      "tradeoffs": [
+        "Requires connected Agent Skills host; helperalone not freshcollector"
+      ],
+      "downstream_effect": "Portable skill documents honest one-command agentinvocation and localhelpers."
+    },
+    {
+      "id": "DEC-AUTHORITY",
+      "summary": "Original law differs from Julyamendment and advisoryoverview",
+      "evidence_ids": [
+        "RULE-50-7",
+        "TIME-AMEND",
+        "TIME-CONSOLIDATION",
+        "GUIDE-FAQ-CONFLICT"
+      ],
+      "citations": [],
+      "stage": 3,
+      "concern": "Original law differs from Julyamendment and advisoryoverview",
+      "options": [
+        "useoriginalonly",
+        "trustguidance",
+        "reconcilebindingactswithdatedreference"
+      ],
+      "chosen_behavior": "originalOJ plus AMEND, consolidation asdocumentarycrosscheck",
+      "rationale": "Bindingacts precedereview and resolve applicable paragraph/timing basis",
+      "tradeoffs": [
+        "More captures; preserveoriginal and amendedversions"
+      ],
+      "downstream_effect": "No broadDecember2 postponement; correctprovider/deployer paragraphmapping."
+    }
+  ],
+  "limitations": [
+    "Draft only: Legal owns statutory interpretations and exceptions; Operations owns activation, approved deadlines and closure. No requests sent or feedback supplied.",
+    "Current Notion connector URL and UUID reads failed404. A separate fresh native Notion UI read supplied actual page content, not pasted policy text.",
+    "August AI-POL-2026-08-15 is distinct from September12-authored RC-CONTEXT-2026-09-12-R1 reporting August26 observations; owner-supplied retrospective context is not contemporaneous proof.",
+    "Native Sheets were modified August28 and expose no revision history. Date-labeled rows support bounded retrospective proposals, not verified exact August26 workbook versions.",
+    "Underlying screenshots, publication metadata, release notices and exception records referenced by registers were not disclosed as live routes; their source reports do not replace proof.",
+    "The undated current timeline cannot be independently established as the exact August26 page version; binding timing is separately available.",
+    "Facilitator pre-work identity/interview/capture/runtime/destination verification is not supplied; Entire stale exitedprocess metadata is retained though real transcript grows.",
+    "Proposed source calendar dates were future to August26 but are elapsed at actual October8 retrieval; they are preserved as retrospective proposals, not silently rescheduled."
+  ]
+}

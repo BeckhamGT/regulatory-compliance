@@ -1,0 +1,7 @@
+{
+  "failed_at": "2026-10-08T19:01:52.481851Z",
+  "command": "stage",
+  "error": "[Errno 2] No such file or directory: 'deliverables/analysis.json'",
+  "recovery_owner": "Workflow operator",
+  "required_recovery": "Preserve current files, repair the cause, begin a new run, retrieve all ten routes freshly, then rebuild."
+}

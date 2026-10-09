@@ -1,0 +1,349 @@
+{
+  "run3_id": "20261009T020854Z-a4ac74b37739",
+  "status": "blocked",
+  "publication_status": "blocked",
+  "structural_validation_valid": true,
+  "independent_schema_chain_hash_binding_checks": "pass",
+  "unchanged_schema_and_interview": "pass",
+  "source_attempts": 12,
+  "required_amendment": {
+    "status": "unavailable",
+    "content_hash": null,
+    "path": null
+  },
+  "impact_states": [
+    {
+      "impact_id": "IMP-FIX-001-NOTICE",
+      "state": "unresolved"
+    },
+    {
+      "impact_id": "IMP-FIX-001-AUDIO",
+      "state": "unresolved"
+    },
+    {
+      "impact_id": "IMP-FIX-002-NOTICE",
+      "state": "unresolved"
+    },
+    {
+      "impact_id": "IMP-FIX-002-AUDIO",
+      "state": "unresolved"
+    }
+  ],
+  "calendar_events": 0,
+  "retained_actions": [
+    [
+      "FIX-ACT-002",
+      ""
+    ],
+    [
+      "FIX-ACT-001",
+      "2026-09-03"
+    ]
+  ],
+  "request_count": 4,
+  "request_status": "pending-unsent",
+  "run2_history": {
+    "run_id": "20261009T020824Z-fa43818d72b8",
+    "archive_integrity_valid": true,
+    "archive_integrity_errors": [],
+    "package_validation": {
+      "valid": true,
+      "checked_at": "2026-10-09T02:09:50.617960Z",
+      "errors": [],
+      "checks": [
+        "stage-01: schema and chain checked",
+        "stage-02: schema and chain checked",
+        "stage-03: schema and chain checked",
+        "stage-04: schema and chain checked",
+        "stage-05: schema and chain checked",
+        "stage-06: schema and chain checked",
+        "stage-07: schema and chain checked",
+        "ten fresh source routes and capture hashes checked",
+        "exact captured citations checked",
+        "CSV/brief/calendar agree with bound analysis",
+        "RFC5545 pending events checked",
+        "detached review-request hashes checked"
+      ],
+      "approval_status": "pending"
+    },
+    "pre_archive_validation": {
+      "valid": true,
+      "checked_at": "2026-10-09T02:08:54.592659Z",
+      "errors": [],
+      "checks": [
+        "stage-01: schema and chain checked",
+        "stage-02: schema and chain checked",
+        "stage-03: schema and chain checked",
+        "stage-04: schema and chain checked",
+        "stage-05: schema and chain checked",
+        "stage-06: schema and chain checked",
+        "stage-07: schema and chain checked",
+        "ten fresh source routes and capture hashes checked",
+        "exact captured citations checked",
+        "CSV/brief/calendar agree with bound analysis",
+        "RFC5545 pending events checked",
+        "detached review-request hashes checked"
+      ],
+      "approval_status": "pending"
+    },
+    "original_bytes_preserved": true
+  },
+  "snapshots": [
+    {
+      "path": "deliverables/snapshots/01-scope.json",
+      "schema_valid": true,
+      "sequence": 1,
+      "status": "partial",
+      "consumed": [],
+      "produced": [
+        "SCOPE"
+      ],
+      "state_keys": [
+        "as_of",
+        "review_type",
+        "systems_in_scope",
+        "audiences",
+        "approval_gates",
+        "supersedes_run_id",
+        "supersession_reason",
+        "scope_record"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/02-source-capture.json",
+      "schema_valid": true,
+      "sequence": 2,
+      "status": "partial",
+      "consumed": [
+        "SCOPE"
+      ],
+      "produced": [
+        "BASIS-02",
+        "SRC-AMEND-01",
+        "SRC-CALENDAR-01",
+        "SRC-CONSOLIDATED-01",
+        "SRC-EVIDENCE-01",
+        "SRC-FAQ-01",
+        "SRC-LAW-01",
+        "SRC-OJ-01",
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03",
+        "SRC-SYSTEMS-01",
+        "SRC-TIME-01"
+      ],
+      "state_keys": [
+        "sources",
+        "manifest_sha256",
+        "carry_forward_basis"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/03-authority-and-timing.json",
+      "schema_valid": true,
+      "sequence": 3,
+      "status": "blocked",
+      "consumed": [
+        "SRC-AMEND-01",
+        "SRC-CONSOLIDATED-01",
+        "SRC-FAQ-01",
+        "SRC-LAW-01",
+        "SRC-OJ-01",
+        "SRC-TIME-01"
+      ],
+      "produced": [
+        "BLOCK-AMEND",
+        "DEC-AUTHORITY",
+        "GUIDANCE-FAQ",
+        "GUIDANCE-LAW",
+        "GUIDANCE-TIME",
+        "RULE-AUDIO",
+        "RULE-NOTICE",
+        "TIME-CONSOLIDATION",
+        "TIME-ORIGINAL"
+      ],
+      "state_keys": [
+        "binding_rules",
+        "timing_rules",
+        "guidance_context",
+        "authority_blockers"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/04-evidence-reconciliation.json",
+      "schema_valid": true,
+      "sequence": 4,
+      "status": "blocked",
+      "consumed": [
+        "GUIDANCE-LAW",
+        "RULE-AUDIO",
+        "SRC-CALENDAR-01",
+        "SRC-EVIDENCE-01",
+        "SRC-FAQ-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03",
+        "SRC-SYSTEMS-01"
+      ],
+      "produced": [
+        "CONFLICT-FAQ",
+        "CONFLICT-FIX-001",
+        "CONFLICT-FIX-002",
+        "CTX-AUG-REPORT",
+        "DEC-REPORTS",
+        "EVID-FIX-REC-001",
+        "EVID-FIX-REC-002",
+        "EVID-FIX-REC-003",
+        "FACT-FIX-001",
+        "FACT-FIX-002",
+        "GAP-FIX-002",
+        "GAP-HISTORY",
+        "POL-NOTICE"
+      ],
+      "state_keys": [
+        "system_facts",
+        "policy_controls",
+        "incident_evidence",
+        "conflicts",
+        "evidence_gaps"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/05-impact-analysis.json",
+      "schema_valid": true,
+      "sequence": 5,
+      "status": "blocked",
+      "consumed": [
+        "BLOCK-AMEND",
+        "CONFLICT-FIX-001",
+        "CONFLICT-FIX-002",
+        "CTX-AUG-REPORT",
+        "EVID-FIX-REC-001",
+        "EVID-FIX-REC-002",
+        "FACT-FIX-001",
+        "FACT-FIX-002",
+        "GAP-FIX-002",
+        "GUIDANCE-LAW",
+        "RULE-AUDIO",
+        "RULE-NOTICE",
+        "SRC-FAQ-01"
+      ],
+      "produced": [
+        "DEC-IMPACTS",
+        "IMP-FIX-001-AUDIO",
+        "IMP-FIX-001-NOTICE",
+        "IMP-FIX-002-AUDIO",
+        "IMP-FIX-002-NOTICE",
+        "PENDING-PROOF"
+      ],
+      "state_keys": [
+        "impacts",
+        "unaffected_items",
+        "conflicts",
+        "unresolved_items"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/06-actions-and-approvals.json",
+      "schema_valid": true,
+      "sequence": 6,
+      "status": "blocked",
+      "consumed": [
+        "GAP-HISTORY",
+        "GUIDANCE-FAQ",
+        "IMP-FIX-001-AUDIO",
+        "IMP-FIX-001-NOTICE",
+        "IMP-FIX-002-AUDIO",
+        "IMP-FIX-002-NOTICE",
+        "POL-NOTICE",
+        "SRC-CALENDAR-01"
+      ],
+      "produced": [
+        "DEC-CALENDAR",
+        "ESC-CHANNEL",
+        "FIX-ACT-001",
+        "FIX-ACT-002",
+        "REQREC-LEGAL-FIX-001",
+        "REQREC-LEGAL-FIX-002",
+        "REQREC-OPS-FIX-001",
+        "REQREC-OPS-FIX-002"
+      ],
+      "state_keys": [
+        "proposed_actions",
+        "approval_requirements",
+        "escalations"
+      ]
+    },
+    {
+      "path": "deliverables/snapshots/07-publication-validation.json",
+      "schema_valid": true,
+      "sequence": 7,
+      "status": "blocked",
+      "consumed": [
+        "BASIS-02",
+        "BLOCK-AMEND",
+        "CONFLICT-FAQ",
+        "CONFLICT-FIX-001",
+        "CONFLICT-FIX-002",
+        "CTX-AUG-REPORT",
+        "DEC-AUTHORITY",
+        "DEC-CALENDAR",
+        "DEC-IMPACTS",
+        "DEC-REPORTS",
+        "ESC-CHANNEL",
+        "EVID-FIX-REC-001",
+        "EVID-FIX-REC-002",
+        "EVID-FIX-REC-003",
+        "FACT-FIX-001",
+        "FACT-FIX-002",
+        "FIX-ACT-001",
+        "FIX-ACT-002",
+        "GAP-FIX-002",
+        "GAP-HISTORY",
+        "GUIDANCE-FAQ",
+        "GUIDANCE-LAW",
+        "GUIDANCE-TIME",
+        "IMP-FIX-001-AUDIO",
+        "IMP-FIX-001-NOTICE",
+        "IMP-FIX-002-AUDIO",
+        "IMP-FIX-002-NOTICE",
+        "PENDING-PROOF",
+        "POL-NOTICE",
+        "REQREC-LEGAL-FIX-001",
+        "REQREC-LEGAL-FIX-002",
+        "REQREC-OPS-FIX-001",
+        "REQREC-OPS-FIX-002",
+        "RULE-AUDIO",
+        "RULE-NOTICE",
+        "SCOPE",
+        "SRC-AMEND-01",
+        "SRC-CALENDAR-01",
+        "SRC-CONSOLIDATED-01",
+        "SRC-EVIDENCE-01",
+        "SRC-FAQ-01",
+        "SRC-LAW-01",
+        "SRC-OJ-01",
+        "SRC-POLICY-01",
+        "SRC-POLICY-02",
+        "SRC-POLICY-03",
+        "SRC-SYSTEMS-01",
+        "SRC-TIME-01",
+        "TIME-CONSOLIDATION",
+        "TIME-ORIGINAL"
+      ],
+      "produced": [
+        "ART-action-calendar",
+        "ART-compliance-brief",
+        "ART-impact-register",
+        "ART-review-request-bindings",
+        "CHECK-DRAFT"
+      ],
+      "state_keys": [
+        "artifacts",
+        "validation_checks",
+        "publication_status",
+        "approval_status",
+        "binding_path"
+      ]
+    }
+  ]
+}

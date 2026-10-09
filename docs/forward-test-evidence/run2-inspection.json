@@ -1,0 +1,25 @@
+{
+  "run2_id": "20261009T020824Z-fa43818d72b8",
+  "supersedes": "20261009T020744Z-1a2f25b47e64",
+  "damaged_archive_exact_byte_match": true,
+  "archive_integrity_valid": true,
+  "old_package_valid": false,
+  "history_errors": [
+    "Final compliance-brief.md disagrees with bound stage06/analysis",
+    "Review request bound hash no longer matches: REQ-LEGAL-FIX-001",
+    "Review request bound hash no longer matches: REQ-OPS-FIX-001",
+    "Review request bound hash no longer matches: REQ-LEGAL-FIX-002",
+    "Review request bound hash no longer matches: REQ-OPS-FIX-002",
+    "Publication artifact mismatch: ART-compliance-brief"
+  ],
+  "semantic_ids_stable": true,
+  "changes": [
+    {
+      "impact_id": "IMP-FIX-002-NOTICE",
+      "old_state": "supported-impact",
+      "new_state": "conflicting"
+    }
+  ],
+  "calendar_event_count": 1,
+  "new_source_capture_hash": "sha256:02f95def8bd1862ac1278c64d84a6aeae4770d4bb2d8ebc003ba78e50d9c42ef"
+}
