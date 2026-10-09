@@ -1,0 +1,39 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M4F6Y8YNJB4E38V14RMKYCJG",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "files_touched": [
+    ".gitignore",
+    "docs/runtime-verification.md",
+    "regulatory-change-impact-brief/SKILL.md",
+    "regulatory-change-impact-brief/eval/baseline-input.md",
+    "regulatory-change-impact-brief/eval/baseline-output.md",
+    "regulatory-change-impact-brief/references/gotchas.md",
+    "regulatory-change-impact-brief/references/live-source-capture.md",
+    "regulatory-change-impact-brief/references/reasoning-and-outputs.md",
+    "regulatory-change-impact-brief/references/setup-and-invocation.md",
+    "regulatory-change-impact-brief/references/validation-and-recovery.md",
+    "regulatory-change-impact-brief/scripts/engine.py",
+    "regulatory-change-impact-brief/scripts/requirements.txt",
+    "regulatory-change-impact-brief/scripts/test_engine.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 1028396,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 23426048,
+    "output_tokens": 93740,
+    "api_call_count": 214,
+    "subagent_tokens_complete": false
+  }
+}
